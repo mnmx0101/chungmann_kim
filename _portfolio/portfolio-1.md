@@ -1,7 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan"
+excerpt: "Does humanitarian aid meet urgent needs?<br/><img src='/images/event_study_entirefund.png'>"
 collection: portfolio
 ---
-
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This study sheds light on a critical challenge for global humanitarian efforts: delivering timely, targeted aid to regions facing acute food insecurity. As hunger intensifies worldwide, the Integrated Food Security Phase Classification (IPC) system plays a pivotal role, alerting the world to regions in crisis and directing billions in relief aid to those in dire need. Yet, a fundamental question remains—does the IPC mobilize aid with the speed and precision necessary to meet escalating needs? Focusing on Afghanistan, a priority IPC country, this study introduces a novel dataset that aligns humanitarian funding flows with IPC regional classifications. Utilizing a staggered Difference-in-Differences approach, I investigate how IPC phase escalations impact immediate aid responses. The findings reveal a significant but insufficient increase in funding following transitions to IPC Phase 4, underscoring the gap between current aid allocations and the critical needs of populations facing severe food insecurity. This research offers a first-of-its-kind subnational analysis of IPC-driven aid allocation, providing policymakers with essential insights to strengthen future humanitarian response efforts. The study highlights the importance of more effective aid allocation and improved communication strategies to ensure that humanitarian assistance reaches those in need swiftly and accurately.
