@@ -25,7 +25,7 @@ author:
   name             : "Chungmann Kim"
   pronouns         : # example: "she/her"  
   bio              : "Applied Development Economist & Data Scientist Studying Global Food Security"
-  location         : "Earth"
+  location         : "Champaign, Illinois"
   employer         : "Ag & Applied Economics Dept., University of Illinois Urbana Champaign"
   uri              : # URL
   email            : "ck24@illinois.edu" 
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
