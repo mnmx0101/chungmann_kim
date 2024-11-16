@@ -7,11 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-🌍 I am a Ph.D. Candidate in applied economics at the University of Illinois Urbana-Champaign, specializing in food security and nutrition in low- and middle-income countries. My research addresses one of the world’s most urgent challenges: ensuring vulnerable populations have access to adequate, safe, and nutritious food.
-
-## Research Focus
-
-My work is driven by three key research agendas:
+🌍 I am a Ph.D. Candidate in applied economics at the University of Illinois Urbana-Champaign, specializing in food security and nutrition in low- and middle-income countries. My research tackles one of the world’s most pressing challenges: ensuring vulnerable populations have reliable access to sufficient, safe, and nutritious food. Specifically, my work centers on three key research agendas:
 
 1. **Examining Economic and Environmental Drivers**  
    I study how economic conditions, environmental factors, and agricultural practices influence food insecurity and nutritional outcomes.
