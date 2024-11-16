@@ -9,7 +9,7 @@ main:
     url: https://uofi.box.com/s/xmdfdy2fa8sxqqk3qpy8oip01z9zunvc
   
   - title: "Research"
-    url: ../portfolio-combined.md 
+    url: /portfolio/ 
 
   - title: "Publications"
     url: https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en
