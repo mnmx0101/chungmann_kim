@@ -24,11 +24,10 @@ author:
   avatar           : "manny_profile2.jpg"
   name             : "Chungmann (Manny) Kim"
   pronouns         : # example: "she/her"  
-  bio              : |
-    Global Food Security\
-    Humanitrian Aid\
-    Causal Inference\
-    Data Science
+  bio              : "Global Food Security \n
+    Humanitrian Aid \n
+    Causal Inference \n
+    Data Science"
   location         : "Champaign, Illinois"
   employer         : "University of Illinois Urbana Champaign"
   uri              : # URL
