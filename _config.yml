@@ -23,11 +23,10 @@ author:
   # Biographic information
   avatar           : "manny_profile2.jpg"
   name             : "Chungmann (Manny) Kim"
-  pronouns         : # example: "she/her"  
-  bio              : "Global Food Security
-    Humanitrian Aid |
-    Causal Inference,
-    Data Science"
+  pronouns         : # example: "she/her"
+  bio              : |
+    Research Agenda: Food Security, Nutrition, Humanitarian Aid
+    Research Methods: Causal Inference, Data Science, Machine Learning
   location         : "Champaign, Illinois"
   employer         : "University of Illinois Urbana Champaign"
   uri              : # URL

@@ -18,15 +18,16 @@ redirect_from:
 3. **Understanding Humanitarian Responses to Acute Hunger**  
    I investigate global humanitarian responses to acute hunger, assessing the effectiveness of aid mechanisms in addressing urgent food crises.
 
-Leveraging causal inference, machine learning, and big data analytics, I work with diverse data sources—including household surveys, remote sensing products, and unstructured text data—to uncover the causes and consequences of food insecurity. My findings aim to inform targeted interventions and strategic policymaking. 📊🌾
+Leveraging causal inference, machine learning, and big data analytics, I work with diverse data sources—including household surveys, remote sensing products, and unstructured text data—to uncover the causes and consequences of food insecurity. My findings aim to inform targeted interventions and strategic policymaking.
 
 ## Professional Engagements
 
 Beyond academia, I currently contribute as a consultant to two international institutions:
 
-- **Data Scientist and Modeling Specialist** at the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** Unit of the UN's Food and Agriculture Organization (FAO), where I develop tools and models to enhance food security early warning systems.
-- **Impact Assessment Specialist** at the **[International Fund for Agricultural Development (IFAD)](http://ifad.org/en)**, providing evidence-based insights to strengthen global food security initiatives.
+- **Data Scientist and Modeling Specialist** with the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** Unit at the UN's Food and Agriculture Organization (FAO), focusing on developing advanced tools and models to strengthen food security early warning systems.  
+- **Impact Assessment Specialist** with the **[International Fund for Agricultural Development (IFAD)](http://ifad.org/en)**, providing expertise to support impact assessment initiatives.
+
 
 ---
 
-Through my work, I aim to bridge data-driven research with actionable policy solutions, fostering resilience and improving health outcomes for vulnerable communities worldwide. 🌟
+Through my work, I aim to bridge data-driven research with actionable policy solutions, fostering resilience and improving health outcomes for vulnerable communities worldwide.

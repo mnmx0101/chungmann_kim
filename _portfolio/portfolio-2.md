@@ -1,5 +1,5 @@
 ---
-title: "Global Population of Acutely Hungry is Underestimated by ¼, with E. Lentz, H. Michelson, and K. Baylis (Under Review)"
+title: "Global Population of Acutely Hungry is Underestimated by ¼, with E. Lentz, H. Michelson, and K. Baylis (Currently under peer review at *Nature Food*)"
 excerpt: "Is the current global acute hunger measurement system (IPC) accurate?<br/><img src='../images/bunching_paper.png'>"
 collection: portfolio
 ---
