@@ -25,8 +25,10 @@ author:
   name             : "Chungmann (Manny) Kim"
   pronouns         : # example: "she/her"
   bio              : |
-    **Research Agenda**: Food Security, Nutrition, Humanitarian Aid<br>
-    **Research Methods**: Causal Inference, Data Science, Machine Learning
+    Key Research Agendas:<br> 
+    Food Security, Nutrition, Humanitarian Aid<br>
+    Research Methods:<br>
+    Causal Inference, Data Science, Machine Learning<br>
   location         : "Champaign, Illinois"
   employer         : "University of Illinois Urbana Champaign"
   uri              : # URL
