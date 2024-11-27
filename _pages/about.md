@@ -27,7 +27,6 @@ Beyond academia, I currently contribute as a consultant to two international ins
 - **Data Scientist and Modeling Specialist** with the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** Unit at the UN's Food and Agriculture Organization (FAO), focusing on developing advanced tools and models to strengthen food security early warning systems.  
 - **Impact Assessment Specialist** with the **[International Fund for Agricultural Development (IFAD)](http://ifad.org/en)**, providing expertise to support impact assessment initiatives.
 
-
 ---
 
 Through my work, I aim to bridge data-driven research with actionable policy solutions, fostering resilience and improving health outcomes for vulnerable communities worldwide.
