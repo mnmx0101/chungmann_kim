@@ -21,14 +21,13 @@ repository               : "mnmx0101/chungmann_kim"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "manny_profile2.jpg"
+  avatar           : "manny_profile.jpg"
   name             : "Chungmann (Manny) Kim"
   pronouns         : # example: "she/her"
   bio              : |
-    Key Research Agendas:<br> 
-    Food Security, Nutrition, Humanitarian Aid<br>
-    Research Methods:<br>
-    Causal Inference, Data Science, Machine Learning<br>
+    Food Security<br>
+    Nutrition<br>
+    Humanitarian Aid<br>
   location         : "Champaign, Illinois"
   employer         : "University of Illinois Urbana Champaign"
   uri              : # URL
