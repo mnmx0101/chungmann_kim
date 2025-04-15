@@ -7,20 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Publications</h2>
-{% assign publications = site.portfolio | where: "category", "publication" %}
-{% for post in publications %}
-  {% include archive-single.html %}
-{% endfor %}
 
-<h2>Working Papers</h2>
-{% assign working_papers = site.portfolio | where: "category", "working-paper" %}
-{% for post in working_papers %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2>Ongoing Projects</h2>
-{% assign projects = site.portfolio | where: "category", "project" %}
-{% for post in projects %}
+{% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
