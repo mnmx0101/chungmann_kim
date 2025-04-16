@@ -11,5 +11,8 @@ main:
   - title: "Research"
     url: /portfolio/
 
+  - title: "New Research"
+    url: /research/
+
   - title: "Publications"
     url: https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en
