@@ -1,5 +1,5 @@
 ---
-title: "New_Research"
+title: "Research2"
 excerpt: "Is the current global acute hunger measurement system (IPC) accurate?<br/><img src='../images/bunching_paper.png'>"
 collection: teaching
 ---
