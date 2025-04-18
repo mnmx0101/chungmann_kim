@@ -6,25 +6,45 @@ author_profile: true
 ---
 
 ## 📘 Publications
-
 ### **Machine Learning for Food Security: Principles for Transparency and Usability**  
 *2022 — Applied Economic Perspectives and Policy*  
-*DOI:* [https://doi.org/10.1002/aepp.13214](https://doi.org/10.1002/aepp.13214)  
-*Abstract:* Machine learning (ML) holds potential to predict hunger crises before they occur. Yet, ML models embed crucial choices that affect their utility. We develop a prototype model to predict food insecurity across three countries in sub-Saharan Africa. Readily available data on prices, assets, and weather all influence our model predictions. Our model obtains 55%–84% accuracy, substantially outperforming both a logit and ML models using only time and location. We highlight key principles for transparency and demonstrate how modeling choices between recall and accuracy can be tailored to policy-maker needs. Our work provides a path for future modeling efforts in this area.
+*Authors:* Y. Zhou, E. Lentz, H. Michelson, **_C. Kim_**, K. Baylis  
+*DOI:* [https://doi.org/10.1002/aepp.13214](https://doi.org/10.1002/aepp.13214)
+
+<details>
+<summary>Click to view abstract</summary>
+
+Machine learning (ML) holds potential to predict hunger crises before they occur. Yet, ML models embed crucial choices that affect their utility. We develop a prototype model to predict food insecurity across three countries in sub-Saharan Africa. Readily available data on prices, assets, and weather all influence our model predictions. Our model obtains 55%–84% accuracy, substantially outperforming both a logit and ML models using only time and location. We highlight key principles for transparency and demonstrate how modeling choices between recall and accuracy can be tailored to policy-maker needs. Our work provides a path for future modeling efforts in this area.
+
+</details>
 
 ---
 
 ### **Exploring Agricultural Systems and Diets in Vietnam**  
 *2022 — Food Security*  
-*DOI:* [https://10.1007/s12571-022-01276-x](https://link.springer.com/article/10.1007/s12571-022-01276-x)  
-*Abstract:* The government of Viet Nam promotes an integrated and diversified production system that focuses on the symbiotic relationship of livestock, aquaculture, and fruits and vegetables (F&V), locally known as Vuon Ao Chuong (VAC). The expectation is that this system can prevent soil degradation, while improving dietary quality and income. This study examines the correlation between VAC production systems and diets using cross-sectional data from the 2016 round of the Viet Nam Household Living Standards Survey (VHLSS). Using ordinary least squares, we model four continuous outcome variables related to quantity consumed of fruits and vegetables, fiber, animal protein, and dietary energy; while using logistical regression, we model three indicator variables related to whether diets are balanced in terms of intake of dietary energy derived from carbohydrates, proteins, and fats. While individual components of VAC, such as aquaculture or F&V production, show a positive correlation with one or more dietary indicators, adoption of the full VAC system is found to be positively correlated only with dietary fiber consumption, making it challenging to establish a causal link between system adoption and improved dietary quality. However, we find that several socioeconomic variables, such as access to markets, household wealth, education of the household members, and household size are positively associated with one or more dietary indicators. Further research is needed to establish strong and causal relationships, or lack thereof, between VAC system and diets by exploiting the panel structure of VHLSS to examine the role of VAC in improving nutritional outcomes in Viet Nam.
+*Authors:* A. Bandyopadhyay, C. Azzarri, B. Haile, **_C. Kim_**, C. Alvarez, A. Moltedo, A. Sattar, W. Bell, B. Rogers  
+*DOI:* [https://10.1007/s12571-022-01276-x](https://link.springer.com/article/10.1007/s12571-022-01276-x)
+
+<details>
+<summary>Click to view abstract</summary>
+
+The government of Viet Nam promotes an integrated and diversified production system that focuses on the symbiotic relationship of livestock, aquaculture, and fruits and vegetables (F&V), locally known as Vuon Ao Chuong (VAC). The expectation is that this system can prevent soil degradation, while improving dietary quality and income. This study examines the correlation between VAC production systems and diets using cross-sectional data from the 2016 round of the Viet Nam Household Living Standards Survey (VHLSS). Using ordinary least squares, we model four continuous outcome variables related to quantity consumed of fruits and vegetables, fiber, animal protein, and dietary energy; while using logistical regression, we model three indicator variables related to whether diets are balanced in terms of intake of dietary energy derived from carbohydrates, proteins, and fats. While individual components of VAC, such as aquaculture or F&V production, show a positive correlation with one or more dietary indicators, adoption of the full VAC system is found to be positively correlated only with dietary fiber consumption, making it challenging to establish a causal link between system adoption and improved dietary quality. However, we find that several socioeconomic variables, such as access to markets, household wealth, education of the household members, and household size are positively associated with one or more dietary indicators. Further research is needed to establish strong and causal relationships, or lack thereof, between VAC system and diets by exploiting the panel structure of VHLSS to examine the role of VAC in improving nutritional outcomes in Viet Nam.
+
+</details>
+
 ---
 
 ### **The Economics of Soy Kit as a Household Food Technology**  
 *2021 — Food and Nutrition Bulletin*  
-*DOI:* [https://doi.org/10.1177/0379572120981183](https://doi.org/10.1177/0379572120981183)  
-*Abstract:* The ability for women to operate as food entrepreneurs presents opportunities to leverage at-home production technologies that not only support family nutrition but also generate income. To these ends, the Feed the Future Malawi Agriculture Diversification Activity recently launched a development project involving a new technology, the Soy Kit. The Activity, a USAID (United States Agency for International Development) funded effort, sought to improve nutrition utilizing an underutilized local and highly nutritious feedstuff, soybean, through a woman’s entrepreneurship scheme.
+*Authors:* **_C. Kim_**, P. Goldsmith  
+*DOI:* [https://doi.org/10.1177/0379572120981183](https://doi.org/10.1177/0379572120981183)
 
+<details>
+<summary>Click to view abstract</summary>
+
+The ability for women to operate as food entrepreneurs presents opportunities to leverage at-home production technologies that not only support family nutrition but also generate income. To these ends, the Feed the Future Malawi Agriculture Diversification Activity recently launched a development project involving a new technology, the Soy Kit. The Activity, a USAID (United States Agency for International Development) funded effort, sought to improve nutrition utilizing an underutilized local and highly nutritious feedstuff, soybean, through a woman’s entrepreneurship scheme.
+
+</details>
 ---
 
 ## 🧾 Working Papers

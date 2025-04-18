@@ -19,7 +19,7 @@ My doctoral research focuses on three key areas:
 
 Beyond academia, I have worked with several international organizations, including the **Food and Agriculture Organization (FAO)**, the **International Fund for Agricultural Development (IFAD)**, the **International Food Policy Research Institute (IFPRI)**, and the **European Commission’s Joint Research Centre (EC-JRC)**. These have involved leading policy reports, conducting impact assessments, integrating diverse data sources, and developing predictive models to support real-time food security monitoring and early warning systems. I have worked closely with interdisciplinary teams across these institutions to ensure that technical outputs align with operational needs and policy priorities.
 
-Currently, I serve as a **Data Scientist and Modeling Specialist** with the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** unit at FAO. In this role, I contribute to the development of a real-time risk monitoring system designed to enhance early detection of food crises and support timely humanitarian response. This work plays a critical role in strengthening the global food security architecture in fragile and crisis-affected settings.
+Currently, I work as a **Data Scientist and Modeling Specialist** with the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** unit at FAO. In this role, I contribute to the development of a real-time risk monitoring system designed to enhance early detection of food crises and support timely humanitarian response. 
 
 ---
 ![Fieldwork in Kilosa District, Tanzania (2017)](images\tanzania.png)

@@ -11,8 +11,8 @@ main:
   - title: "Research"
     url: /portfolio/
 
-  - title: "Research2"
-    url: /teaching/research.md
+  - title: "Policy Report"
+    url: /teaching/
   
   - title: "Publications"
     url: https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en
