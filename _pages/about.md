@@ -22,6 +22,8 @@ Beyond academia, I have worked with several international organizations, includi
 Currently, I serve as a **Data Scientist and Modeling Specialist** with the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** unit at FAO. In this role, I contribute to the development of a real-time risk monitoring system designed to enhance early detection of food crises and support timely humanitarian response. This work plays a critical role in strengthening the global food security architecture in fragile and crisis-affected settings.
 
 ---
-Equally important is my field experience as a community development practitioner. Before beginning my doctoral studies, I spent three years in Tanzania leading agricultural development initiatives with a Korean NGO. During this time, I secured grants, carried out field-based research, and worked closely with smallholder farmers to identify needs and implement climate-resilient solutions. These experiences gave me a grounded understanding of grassroots development and reinforced my commitment to inclusive, locally informed approaches that actively engage community stakeholders.
-
 ![Fieldwork in Kilosa District, Tanzania (2017)](images\tanzania.png)
+
+My field experience as a community development practitioner has been a vital complement to my academic training. Before beginning my doctoral studies, I was actively involved in an agricultural development project in Tanzania, where I led fieldwork and provided technical support over the course of more than ten visits. Working with a Korean NGO, I helped secure funding, conducted field-based research, and collaborated with smallholder farmers to assess needs and implement climate-resilient interventions. These experiences provided valuable insight into grassroots development and deepened my commitment to inclusive, locally driven approaches that prioritize community engagement and context-specific solutions.
+
+
