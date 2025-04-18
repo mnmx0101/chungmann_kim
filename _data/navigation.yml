@@ -9,10 +9,10 @@ main:
     url: /files/CV_Kim_2025.pdf
   
   - title: "Research"
-    url: /portfolio/
+    url: /research/research.md
 
-  - title: "Research2"
+  - title: "Policy Report"
     url: /teaching/research.md
-
-  - title: "Publications"
-    url: https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en
+  
+  - title: "Media Coverage"
+    url: /teaching/research.md
