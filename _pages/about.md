@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Global Food Security: Bridging Research to Impact"
+title: "Global Food Security: Bridging Research to Policy"
 author_profile: true
 redirect_from: 
   - /about/
@@ -24,6 +24,6 @@ Currently, I serve as a **Data Scientist and Modeling Specialist** with the **[I
 ---
 ![Fieldwork in Kilosa District, Tanzania (2017)](images\tanzania.png)
 
-My field experience as a community development practitioner has been a vital complement to my academic training. Before beginning my doctoral studies, I was actively involved in an agricultural development project in Tanzania, where I led fieldwork and provided technical support over the course of more than ten visits. Working with a Korean NGO, I helped secure funding, conducted field-based research, and collaborated with smallholder farmers to assess needs and implement climate-resilient interventions. These experiences provided valuable insight into grassroots development and deepened my commitment to inclusive, locally driven approaches that prioritize community engagement and context-specific solutions.
+My field experience as a community development practitioner has been a vital complement to my academic training. Before beginning my doctoral studies, I was actively involved in an agricultural development project in Tanzania, where I led fieldwork and provided technical support for three years. Working with a Korean NGO, I helped secure funding, conducted field-based research, and closely worked with smallholder farmers to assess needs and implement climate-resilient interventions.
 
 
