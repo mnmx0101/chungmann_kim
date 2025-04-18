@@ -9,7 +9,7 @@ main:
     url: /files/CV_Kim_2025.pdf
   
   - title: "Research"
-    url: /research/research.md
+    url: /portfolio/
 
   - title: "Research2"
     url: /teaching/research.md
