@@ -1,7 +1,7 @@
 ---
 title: "New_Research"
-permalink: /research/
-author_profile: true
+excerpt: "Is the current global acute hunger measurement system (IPC) accurate?<br/><img src='../images/bunching_paper.png'>"
+collection: research
 ---
 
 ## 📘 Publications
