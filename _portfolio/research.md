@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-## 📘 Publications
+<h2 style="text-align: center;">📘 Publications</h2>
 
 ### **Machine Learning for Food Security: Principles for Transparency and Usability**  
 *Applied Economic Perspectives and Policy, 2022*  
@@ -55,9 +55,8 @@ Fresh Korean ginseng needs more credibility in the Vietnam market since fresh gi
 
 </details>
 
----
 
-## 🧾 Working Papers
+<h2 style="text-align: center;">🧾 Working Papers</h2>
 
 ### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan**  
 *Job Market Paper (Solo-Authored)* 
@@ -98,9 +97,8 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 
 </details>
 
----
 
-## 🔬 Work-In-Progress
+<h2 style="text-align: center;">🔬 Work-In-Progress</h2>
 
 ### **Assets, Shocks, and Food Security Dynamics in Sub-Saharan Africa**  
 ![LSMS Assets](../images/FI_inconsistency (1).png)
