@@ -1,6 +1,6 @@
 ---
 permalink: /portfolio/
-title: ""
+title: "Research"
 layout: single
 author_profile: true
 ---
@@ -103,9 +103,9 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 
 ### **Multidimensional Food Security Dynamics in Sub-Saharan Africa**  
 <iframe src="../images/multi_fi_malawi.html" 
-        width="100%" 
+        width="150%" 
         height="600" 
-        frameborder="0">
+        frameborder="0.5">
 </iframe>
 
 <details>
