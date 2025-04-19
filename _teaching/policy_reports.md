@@ -6,9 +6,9 @@ author_profile: true
 ---
 
 ### **IPC Accuracy Study: Analyzing the Internal Consistency of IPC AFI and AMN Analyses**  
-*2024 — IPC Global Support Unit*  
+*IPC Global Support Unit, 2021*  
 *Authors:* E. Lentz, K. Baylis, H. Michelson, **_C. Kim_**  
-*Report:* [View Report](https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Accuracy_Study.pdf)
+[View Report](https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Accuracy_Study.pdf)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -20,9 +20,9 @@ This report evaluates the internal consistency of IPC Acute Food Insecurity (AFI
 ---
 
 ### **Production, Consumption, and Food Security in Viet Nam: Diagnostic Overview**  
-*2021 — International Food Policy Research Institute (IFPRI)*  
+*International Food Policy Research Institute (IFPRI), 2021*  
 *Authors:* **_C. Kim_**, C. Alvarez, A. Sattar, A. Bandyopadhyay, C. Azzarri, A. Moltedo, B. Haile  
-*Report:* [View Report](https://inddex.nutrition.tufts.edu/sites/default/files/Vietnam%20Diagnostic%20Overview%20Sept%2023%5B1%5D.pdf)
+[View Report](https://inddex.nutrition.tufts.edu/sites/default/files/Vietnam%20Diagnostic%20Overview%20Sept%2023%5B1%5D.pdf)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -34,9 +34,9 @@ This diagnostic report provides an overview of the linkages between agricultural
 ---
 
 ### **Mapping of Poultry Hotspots in Tanzania**  
-*2018 — IFPRI Technical Note*  
+*IFPRI Technical Note, 2018*  
 *Authors:* J. Koo, **_C. Kim_**  
-*Report:* [View Report](https://cgspace.cgiar.org/server/api/core/bitstreams/a30ccaad-7abb-4ca7-be7e-37ca9d158e82/content)
+[View Report](https://cgspace.cgiar.org/server/api/core/bitstreams/a30ccaad-7abb-4ca7-be7e-37ca9d158e82/content)
 
 <details>
 <summary>Click to view abstract</summary>
