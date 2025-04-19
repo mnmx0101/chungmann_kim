@@ -13,7 +13,7 @@ author_profile: true
 <details>
 <summary>Click to view abstract</summary>
 
-*Placeholder abstract:* This report evaluates the internal consistency of IPC Acute Food Insecurity (AFI) and Acute Malnutrition (AMN) classifications across multiple country contexts. It highlights key methodological and operational issues affecting classification accuracy and offers recommendations for strengthening the reliability of IPC assessments.
+This report evaluates the internal consistency of IPC Acute Food Insecurity (AFI) and Acute Malnutrition (AMN) classifications across multiple country contexts. It highlights key methodological and operational issues affecting classification accuracy and offers recommendations for strengthening the reliability of IPC assessments.
 
 </details>
 
@@ -27,7 +27,7 @@ author_profile: true
 <details>
 <summary>Click to view abstract</summary>
 
-*Placeholder abstract:* This diagnostic report provides an overview of the linkages between agricultural production, food consumption, and food security in Vietnam. It synthesizes key indicators and challenges to inform evidence-based interventions and strategic planning by policymakers and development partners.
+This diagnostic report provides an overview of the linkages between agricultural production, food consumption, and food security in Vietnam. It synthesizes key food security and nutrition indicators and challenges to inform evidence-based interventions and strategic planning by policymakers and development partners.
 
 </details>
 
@@ -41,7 +41,7 @@ author_profile: true
 <details>
 <summary>Click to view abstract</summary>
 
-*Placeholder abstract:* This technical note maps spatial hotspots for poultry production in Tanzania. Using geospatial and market data, it identifies key regions for scaling poultry-related development programs and highlights constraints in infrastructure, disease control, and access to inputs.
+This technical note maps spatial hotspots for poultry production in Tanzania. Using geospatial and market data, it identifies key regions for scaling poultry-related development programs and highlights constraints in infrastructure, disease control, and access to inputs.
 
 </details>
 ---
