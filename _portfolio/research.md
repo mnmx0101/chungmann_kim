@@ -1,6 +1,6 @@
 ---
 permalink: /portfolio/
-title: "Research"
+title: ""
 layout: single
 author_profile: true
 ---
@@ -44,8 +44,8 @@ The ability for women to operate as food entrepreneurs presents opportunities to
 </details>
 
 ### **Vietnamese Preferences for Fresh Korean Ginseng with Labels of Certification, Nationality, Private Brands, and Shopping Places** 
-*Korean Agricultural Economics Associatio, 2021* 
-*Authors:* Y. Joo, T. Kim, DK. Nguyen, **C. Kim**
+*Korean Agricultural Economics Associatio, 2021* <br>
+*Authors:* Y. Joo, T. Kim, DK. Nguyen, **C. Kim** <br>
 *DOI:* [https://doi.org/10.24997/KJAE.2021.62.3.177](https://doi.org/10.24997/KJAE.2021.62.3.177)
 
 <details>
@@ -61,7 +61,7 @@ Fresh Korean ginseng needs more credibility in the Vietnam market since fresh gi
 ### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan**  
 *Job Market Paper (Solo-Authored)* 
 ![Aid Flow Analysis](../images/aid_main_fig (1).png)  
-[*Link to draft:*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t)
+[*Link to draft*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -71,10 +71,11 @@ This study sheds light on a critical challenge for global humanitarian efforts: 
 </details>
 
 ### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼**  
-**with E. Lentz, H. Michelson, K. Baylis**
 *Revise & Resubmit, Nature Food, 2025*
+*with E. Lentz, H. Michelson, K. Baylis*
+
 ![Global IPC Gap](../images/bunching (1).png)  
-[*Link to draft*](https://uofi.app.box.com/file/1688331946836?s=v2tylljea7plookmep4im18tm4c77clh), [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
+[*Link to draft*](https://uofi.app.box.com/file/1688331946836?s=v2tylljea7plookmep4im18tm4c77clh) | [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -88,7 +89,7 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
 *Selected Presentation at the **American Agricultural Economics Association 2022**, **European Association of Agricultural Economists 2023**, **Tata-Cornell Institute for Agriculture and Nutrition 2023***
 
-[*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s), [*Link to Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
+[*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s) | [*Link to Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -100,20 +101,32 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 
 <h2 style="text-align: center;">🔬 Work-In-Progress</h2>
 
-### **Assets, Shocks, and Food Security Dynamics in Sub-Saharan Africa**  
-![LSMS Assets](../images/FI_inconsistency (1).png)
+### **Multidimensional Food Security Dynamics in Sub-Saharan Africa**  
+<iframe src="../images/multi_fi_malawi.html" 
+        width="100%" 
+        height="600" 
+        frameborder="0">
+</iframe>
 
 <details>
 <summary>Click to view abstract</summary>
 
-This study presents a comprehensive review of modeling approaches for Acute Food Insecurity (AFI), bridging the gap between food security experts and the machine learning community. We evaluate several machine learning approaches for forecasting food crises up to three months in advance and for identifying historical drivers behind AFI conditions used in IPC/CH and FEWS NET systems. We introduce a benchmark dataset that is global, frequently updated, and disaggregated to monthly and admin-2 levels. This dataset enables institutional collaboration, supports reproducible research, and facilitates model development focused on both accuracy and explainability.
+This study investigates how commonly used food security indicators—such as the Food Consumption Score (FCS), the Reduced Coping Strategies Index (rCSI), and an asset index—diverge in identifying food-insecure households. Using household survey data, we analyze the extent of overlap and discordance across these measures and examine the demographic and economic factors associated with each classification. Our findings highlight the multidimensional nature of food insecurity and underscore the importance of indicator choice for targeting, policy design, and program effectiveness.
 
 </details>
 
----
+### **When Is a Crisis a Crisis? Assessing Internal Consistency in IPC Classifications**  
+*with E. Lentz, H. Michelson, K. Baylis*
+![IPC Threshold Consistency](../images/inconsistent_ipc.png)
+
+<details>
+<summary>Click to view abstract</summary>
+
+The world relies on assessments by the United Nations-facilitated Integrated Food Security Phase Classification (IPC) to identify where populations are most food insecure and to quantify the severity of these situations. IPC sub-national assessments are designed to be comparable over space and time in the 30 countries in which they operate. Humanitarian agencies appear to treat these assessments as authoritative and comparable, relying on IPC classifications to allocate more than six billion dollars of aid globally and annuallyper year. In this paper, we study whether IPC food insecurity classifications are indeed consistent and comparable across time and space. Analyzing 1,881 IPC classifications from fifteen countries between 2019 and 2023, we show that the IPC technical working groups who make IPC assessments face recurring and significant challenges related to data and food security measurement, resulting from often discordant underlying food security data. These data and measurement challenges make achieving consistency challenging, underscoring both the fundamental difficulty of food security classifications and the value of the IPC process, which is based on achieving consensus among trained experts based on available data and contextual information. We find that the vast majority of classifications are consistent with IPC technical guidance, but that this guidance allows for a wide range of classifications . We also find evidence that IPC technical working groups differ in the way that they rely on available food security data, often weighing food security indicators differently in different locations. Though variation in the way in which how the food security indicators are used to make assessments can reflect different sets of evidence and contexts, we also find that working groups even weigh indicators differently across time for the same location. Further, TWGs do not treat closely correlated food security indicators as substitutes, suggesting some inconsistency in the treatment of food security indicators across assessments. We discuss implications of these findings for policy and for the use of IPC assessments in research.
+
+</details>
 
 ### **Operational and actionable Acute Food Insecurity modelling**  
-![AFI Modeling](../images/afi_model_review.png)  
 *w/* M. Ronco (JRC.E1), M. Machefer (JRC.D5), A. Matano (VU Amsterdam), D. Piovani (WFP), M. Meroni, J. M. Veiga Lopez-Pena (JRC.D5), C. Corbane (JRC.E1), F. Rembold (JRC.D5)​ 
 
 <details>
@@ -122,11 +135,3 @@ This study presents a comprehensive review of modeling approaches for Acute Food
 This study presents a comprehensive review of modeling approaches for Acute Food Insecurity (AFI), bridging the gap between food security experts and the machine learning community. We evaluate several machine learning approaches for forecasting food crises up to three months in advance and for identifying historical drivers behind AFI conditions used in IPC/CH and FEWS NET systems. We introduce a benchmark dataset that is global, frequently updated, and disaggregated to monthly and admin-2 levels. This dataset enables institutional collaboration, supports reproducible research, and facilitates model development focused on both accuracy and explainability.
 
 </details>
-
----
-
-### **When Is a Crisis a Crisis? Assessing Internal Consistency in IPC Classifications**  
-![IPC Threshold Consistency](../images/inconsistent_ipc.png)
-*w/* E. Lentz, H. Michelson, K. Baylis 
----
-
