@@ -6,8 +6,9 @@ author_profile: true
 ---
 
 ## 📘 Publications
+
 ### **Machine Learning for Food Security: Principles for Transparency and Usability**  
-*2022 — Applied Economic Perspectives and Policy*  
+*Applied Economic Perspectives and Policy, 2022*  
 *Authors:* Y. Zhou, E. Lentz, H. Michelson, **_C. Kim_**, K. Baylis  
 *DOI:* [https://doi.org/10.1002/aepp.13214](https://doi.org/10.1002/aepp.13214)
 
@@ -18,10 +19,8 @@ Machine learning (ML) holds potential to predict hunger crises before they occur
 
 </details>
 
----
-
 ### **Exploring the Association between Agricultural Production Systems and Household Diets in Viet Nam**  
-*2022 — Food Security*  
+*Food Security, 2022*  
 *Authors:* A. Bandyopadhyay, C. Azzarri, B. Haile, **_C. Kim_**, C. Alvarez, A. Moltedo, A. Sattar, W. Bell, B. Rogers  
 *DOI:* [https://10.1007/s12571-022-01276-x](https://link.springer.com/article/10.1007/s12571-022-01276-x)
 
@@ -32,10 +31,8 @@ The government of Viet Nam promotes an integrated and diversified production sys
 
 </details>
 
----
-
 ### **The Economics of the Soy Kit as an Appropriate Household Technology for Food Entrepreneurs**  
-*2021 — Food and Nutrition Bulletin*  
+*Food and Nutrition Bulletin, 2021*  
 *Authors:* **_C. Kim_**, P. Goldsmith  
 *DOI:* [https://doi.org/10.1177/0379572120981183](https://doi.org/10.1177/0379572120981183)
 
@@ -45,12 +42,26 @@ The government of Viet Nam promotes an integrated and diversified production sys
 The ability for women to operate as food entrepreneurs presents opportunities to leverage at-home production technologies that not only support family nutrition but also generate income. To these ends, the Feed the Future Malawi Agriculture Diversification Activity recently launched a development project involving a new technology, the Soy Kit. The Activity, a USAID (United States Agency for International Development) funded effort, sought to improve nutrition utilizing an underutilized local and highly nutritious feedstuff, soybean, through a woman’s entrepreneurship scheme.
 
 </details>
+
+### **Vietnamese Preferences for Fresh Korean Ginseng with Labels of Certification, Nationality, Private Brands, and Shopping Places** 
+*Korean Agricultural Economics Associatio, 2021* 
+*Authors:* Y. Joo, T. Kim, DK. Nguyen, **C. Kim**
+*DOI:* [https://doi.org/10.24997/KJAE.2021.62.3.177](https://doi.org/10.24997/KJAE.2021.62.3.177)
+
+<details>
+<summary>Click to view abstract</summary>
+
+Fresh Korean ginseng needs more credibility in the Vietnam market since fresh ginseng imported from China is increasing, and the Vietnam government promotes its national Ngoc Linh ginseng brand. Therefore, this study determines factors of three shopping places (the department store, supermarket, and ginseng specialty store), the certification label of good agriculture products (Viet GAP), Korean nationality, and three famous private brands of CheongKwanJang, HanSamIn, and Geumhong affecting Vietnamese consumers fresh ginseng choices based on 897 respondents from Hanoi and Hochiminh City in January 2018. Conditional and random parameter logits are used to find differences in the independent assumptions relaxation among irrelevant alternatives. Hausman test for IIA assumptions holds for the choice of the department store, ginseng specialty store, and None. Overall results show that shopping places, the Korean national flag, and the existence of VietGap positively affect Vietnam consumers choices. However, none of the Korean private brands could significantly affect Vietnamese choice for fresh ginseng products. The shopping place of ginseng specialty stores gets the highest WTP, followed by supermarkets and department stores. Korean national flag also shows a high WTP, which is higher than Vietgap, a certificate from Vietnam agricultural products. Female consumers tend to pay more WTP than males. Hochiminh consumers are willing to pay more than Hanoi consumers on average. Of course, the high-income consumers tend to pay more WTP than the low-income group. However, the low-income groups still demand fresh ginseng at a significant price. Understanding different price effects by consumer groups seem helpful for small and medium enterprises to market their ginseng products into Vietnam by further considering the origin of Korean nationality.
+
+</details>
+
 ---
+
 ## 🧾 Working Papers
 
 ### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan**  
+*Job Market Paper (Solo-Authored)* 
 ![Aid Flow Analysis](../images/aid_main_fig (1).png)  
-*2025 — Job Market Paper (Solo-Authored)*  
 [*Link to draft:*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t)
 
 <details>
@@ -60,14 +71,11 @@ This study sheds light on a critical challenge for global humanitarian efforts: 
 
 </details>
 
----
-
 ### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼**  
+**with E. Lentz, H. Michelson, K. Baylis**
+*Revise & Resubmit, Nature Food, 2025*
 ![Global IPC Gap](../images/bunching (1).png)  
-*w/* E. Lentz, H. Michelson, K. Baylis 
-*2025 — Revise & Resubmit, Nature Food*  
-[*Link to draft:*](https://uofi.app.box.com/file/1688331946836?s=v2tylljea7plookmep4im18tm4c77clh)  
-[*Replication Code:*](https://github.com/mnmx0101/IPC_Paper)
+[*Link to draft*](https://uofi.app.box.com/file/1688331946836?s=v2tylljea7plookmep4im18tm4c77clh), [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -76,15 +84,12 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 
 </details>
 
----
-
-### **Early-Year Milk Prices and Child Stunting in Zambia**  
+### **Early-Year Milk Prices and Child Stunting in Zambia** 
+**with K. Baylis** 
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
-*w/* K. Baylis   
-*Selected Presentation at the American Agricultural Economics Association 2022, European Association of Agricultural Economists 2023, Tata-Cornell Institute for Agriculture and Nutrition 2023*
+*Selected Presentation at the **American Agricultural Economics Association 2022**, **European Association of Agricultural Economists 2023**, **Tata-Cornell Institute for Agriculture and Nutrition 2023***
 
-[*Link to draft:*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s)  
-[*Link to Presentation Slides:*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
+[*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s), [*Link to Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -98,12 +103,27 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 ## 🔬 Work-In-Progress
 
 ### **Assets, Shocks, and Food Security Dynamics in Sub-Saharan Africa**  
-![LSMS Assets](../images/FI_inconsistency (1).png)  
+![LSMS Assets](../images/FI_inconsistency (1).png)
+
+<details>
+<summary>Click to view abstract</summary>
+
+This study presents a comprehensive review of modeling approaches for Acute Food Insecurity (AFI), bridging the gap between food security experts and the machine learning community. We evaluate several machine learning approaches for forecasting food crises up to three months in advance and for identifying historical drivers behind AFI conditions used in IPC/CH and FEWS NET systems. We introduce a benchmark dataset that is global, frequently updated, and disaggregated to monthly and admin-2 levels. This dataset enables institutional collaboration, supports reproducible research, and facilitates model development focused on both accuracy and explainability.
+
+</details>
+
 ---
 
 ### **Operational and actionable Acute Food Insecurity modelling**  
 ![AFI Modeling](../images/afi_model_review.png)  
 *w/* M. Ronco (JRC.E1), M. Machefer (JRC.D5), A. Matano (VU Amsterdam), D. Piovani (WFP), M. Meroni, J. M. Veiga Lopez-Pena (JRC.D5), C. Corbane (JRC.E1), F. Rembold (JRC.D5)​ 
+
+<details>
+<summary>Click to view abstract</summary>
+
+This study presents a comprehensive review of modeling approaches for Acute Food Insecurity (AFI), bridging the gap between food security experts and the machine learning community. We evaluate several machine learning approaches for forecasting food crises up to three months in advance and for identifying historical drivers behind AFI conditions used in IPC/CH and FEWS NET systems. We introduce a benchmark dataset that is global, frequently updated, and disaggregated to monthly and admin-2 levels. This dataset enables institutional collaboration, supports reproducible research, and facilitates model development focused on both accuracy and explainability.
+
+</details>
 
 ---
 
