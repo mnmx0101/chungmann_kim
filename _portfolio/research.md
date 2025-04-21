@@ -1,11 +1,11 @@
 ---
 permalink: /portfolio/
-title: "Research"
+title: "[Research](https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en&oi=ao)"
 layout: single
 author_profile: true
 ---
 
-<h2 style="text-align: center;">📘 Publications</h2>
+<h2 style="text-align: center;">📘 Publications (Peer-Reviewed)</h2>
 
 ### **Machine Learning for Food Security: Principles for Transparency and Usability**  
 *Applied Economic Perspectives and Policy, 2022*  
