@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Global Food Security: Bridging Research to Policy"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 🌍 Hi, I am a Ph.D. Candidate in Applied Economics at the University of Illinois Urbana-Champaign. <br>  
-I am an applied economist and data scientist focusing on global food security and agricultural development in low- and middle-income countries. I work with a wide range of data sources—including household surveys, satellite imagery, and unstructured text—and apply methods such as natural language processing, causal inference, and machine learning to construct novel datasets, investigate the drivers of food insecurity, and assess the impacts of related policies.
+I am an **applied economist** and **data scientist** focusing on global food security and agricultural development in low- and middle-income countries. I work with a wide range of data sources—including household surveys, satellite imagery, and unstructured text—and apply methods such as natural language processing, causal inference, and machine learning to construct novel datasets, investigate the drivers of food insecurity, and assess the impacts of related policies.
 
 My doctoral research focuses on three key areas:  
 1. **Agricultural Systems and Nutrition** – Examining how agricultural production and market dynamics shape nutrition outcomes.  
@@ -17,7 +17,7 @@ My doctoral research focuses on three key areas:
 
 ## Non-Academic Engagements
 
-Beyond academia, I have worked with several international organizations, including the **Food and Agriculture Organization (FAO)**, the **International Fund for Agricultural Development (IFAD)**, and the **International Food Policy Research Institute (IFPRI)**. These have involved leading policy reports, conducting impact assessments, integrating diverse data sources, and developing predictive models to support real-time food security monitoring and early warning systems. I have worked closely with interdisciplinary teams across these institutions to ensure that technical outputs align with operational needs and policy priorities.
+Beyond academia, I have worked with several international organizations, including the **Food and Agriculture Organization (FAO)**, the **International Fund for Agricultural Development (IFAD)**, and the **International Food Policy Research Institute (IFPRI)**. These have involved leading technical report, conducting impact assessments, integrating diverse data sources, and developing predictive models to support real-time food security monitoring and early warning systems. I have worked closely with interdisciplinary teams across these institutions to ensure that technical outputs align with operational needs and policy priorities.
 
 Currently, I work as a **Data Scientist and Modeling Specialist** with the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** unit at FAO. In this role, I contribute to the development of a real-time risk monitoring system designed to enhance early detection of food crises and support timely humanitarian response. 
 

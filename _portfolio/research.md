@@ -87,9 +87,9 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 ### **Early-Year Milk Prices and Child Stunting in Zambia** 
 **with K. Baylis** 
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
-*Selected Presentation at the **American Agricultural Economics Association 2022**, **European Association of Agricultural Economists 2023**, **Tata-Cornell Institute for Agriculture and Nutrition 2023***
+*Selected Presentation at the American Agricultural Economics Association 2022**, **European Association of Agricultural Economists 2023**, **Tata-Cornell Institute for Agriculture and Nutrition 2023*
 
-[*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s) | [*Link to Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
+[*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s) | [*Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
 
 <details>
 <summary>Click to view abstract</summary>
