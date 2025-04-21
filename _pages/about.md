@@ -15,7 +15,7 @@ My doctoral research focuses on three key areas:
 2. **Predictive Modeling for Early Warning** – Using machine learning to improve early warning systems and targeting for food security interventions.  
 3. **Humanitarian Aid and Crisis Response** – Analyzing how humanitarian assistance is allocated in response to economic shocks and food insecurity.
 
-## Non-Academic Engagements
+## Professional Engagements
 
 Beyond academia, I have worked with several international organizations, including the **Food and Agriculture Organization (FAO)**, the **International Fund for Agricultural Development (IFAD)**, and the **International Food Policy Research Institute (IFPRI)**. These have involved leading technical report, conducting impact assessments, integrating diverse data sources, and developing predictive models to support real-time food security monitoring and early warning systems. I have worked closely with interdisciplinary teams across these institutions to ensure that technical outputs align with operational needs and policy priorities.
 
