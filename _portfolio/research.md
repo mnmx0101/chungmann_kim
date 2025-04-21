@@ -1,6 +1,6 @@
 ---
 permalink: /portfolio/
-title: "[Research](https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en&oi=ao)"
+title: "Research[Google Scholar](https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en&oi=ao)"
 layout: single
 author_profile: true
 ---
