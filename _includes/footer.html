@@ -19,7 +19,22 @@
 </div>
 {% endif %}
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Oc6EIG4QMfHcJsLa7QlGagTS6097qhVG5RO_fkQivcs&cl=ffffff&w=a"></script>
+<script>
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+      const myIP = data.ip;
+      const allowedIP = "192.241.58.154"; // Replace with your actual IP
+
+      if (myIP === allowedIP) {
+        const script = document.createElement("script");
+        script.src = "//clustrmaps.com/map_v2.js?d=Oc6EIG4QMfHcJsLa7QlGagTS6097qhVG5RO_fkQivcs&cl=ffffff&w=a";
+        script.type = "text/javascript";
+        script.id = "clustrmaps";
+        document.body.appendChild(script);
+      }
+    });
+</script>
 
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
