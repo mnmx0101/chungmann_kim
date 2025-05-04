@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### **IPC Accuracy Study: Analyzing the Internal Consistency of IPC AFI and AMN Analyses**  
-*IPC Global Support Unit, 2021*  
+*IPC Global Support Unit, 2024*  
 *Authors:* E. Lentz, K. Baylis, H. Michelson, **_C. Kim_**  
 [View Report](https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Accuracy_Study.pdf)
 
