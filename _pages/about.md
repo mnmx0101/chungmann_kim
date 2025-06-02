@@ -7,13 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-🌍 Hi, I am a Ph.D. Candidate in Applied Economics at the University of Illinois Urbana-Champaign. <br>  
-I am an **applied economist** and **data scientist** focusing on global food security and agricultural development in low- and middle-income countries. I work with a wide range of data sources—including household surveys, satellite imagery, and unstructured text—and apply methods such as natural language processing, causal inference, and machine learning to construct novel datasets, investigate the drivers of food insecurity, and assess the impacts of related policies.
+**Hi — I’m a Ph.D. candidate in Applied Economics at the University of Illinois Urbana‑Champaign.**  
+As an applied economist and data scientist, I work at the nexus of food systems, crisis response, and predictive analytics in low‑ and middle‑income countries. Drawing on household surveys, satellite imagery, and unstructured text, I apply natural‑language processing, causal‑inference techniques, and machine‑learning models to build novel datasets, uncover the drivers of food insecurity, and assess policy impacts.
 
-My doctoral research focuses on three key areas:  
-1. **Agricultural Systems and Nutrition** – Examining how agricultural production and market dynamics shape nutrition outcomes.  
-2. **Predictive Modeling for Early Warning** – Using machine learning to improve early warning systems and targeting for food security interventions.  
-3. **Humanitarian Aid and Crisis Response** – Analyzing how humanitarian assistance is allocated in response to economic shocks and food insecurity.
+### Research Focus
+
+- **Agricultural Systems & Nutrition** — Studying how agricultural production, environmental change, political instability, and market dynamics affect food security and nutritional outcomes.  
+- **Predictive Analytics for Early Warning** — Leveraging machine learning models to improve the timeliness and accuracy of food crisis early warning systems and to inform targeted interventions.  
+- **Humanitarian Aid & Crisis Response** — Analyzing the allocation and responsiveness of humanitarian assistance in the face of economic, environmental, and conflict-related shocks.    
 
 ## Professional Engagements
 
