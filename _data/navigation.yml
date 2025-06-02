@@ -6,12 +6,12 @@
 
 main:
   - title: "CV"
-    url: /files/CV_Kim_2025.pdf
+    url: /files/cv.pdf
   
   - title: "Research"
     url: /portfolio/
 
-  - title: "Policy Report"
+  - title: "Policy Work"
     url: /teaching/
   
   - title: "Publications"
