@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-**Hi — I’m a Ph.D. candidate in Applied Economics at the University of Illinois Urbana‑Champaign.**  
+**Hi, I’m a Ph.D. candidate in Applied Economics at the University of Illinois Urbana‑Champaign.**  
 As an applied economist and data scientist, I work at the nexus of food systems, crisis response, and predictive analytics in low‑ and middle‑income countries. Drawing on household surveys, satellite imagery, and unstructured text, I apply natural‑language processing, causal‑inference techniques, and machine‑learning models to build novel datasets, uncover the drivers of food insecurity, and assess policy impacts.
 
 ### Research Focus

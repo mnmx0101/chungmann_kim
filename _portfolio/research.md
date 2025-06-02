@@ -7,20 +7,7 @@ author_profile: true
 
 <h2 style="text-align: center;">🧾 Working Papers</h2>
 
-### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan**  
-*Job Market Paper (Solo-Authored)* 
-![Aid Flow Analysis](../images/aid_main_fig (1).png)  
-[*Link to draft*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t) | [*Link to slides*](https://github.com/mnmx0101/chungmann_kim/files/ipc_aid_slides.pdf)
-
-<details>
-<summary>Click to view abstract</summary>
-
-This study sheds light on a critical challenge for global humanitarian efforts: delivering timely, targeted aid to regions facing acute food insecurity. As hunger intensifies worldwide, the Integrated Food Security Phase Classification (IPC) system plays a pivotal role, alerting the world to regions in crisis and directing billions in relief aid to those in dire need. Yet, a fundamental question remains—does the IPC mobilize aid with the speed and precision necessary to meet escalating needs? Focusing on Afghanistan, a priority IPC country, this study introduces a novel dataset that aligns humanitarian funding flows with IPC regional classifications. Utilizing a staggered Difference-in-Differences approach, I investigate how IPC phase escalations impact immediate aid responses. The findings reveal a significant but insufficient increase in funding following transitions to IPC Phase 4, underscoring the gap between current aid allocations and the critical needs of populations facing severe food insecurity. This research offers a first-of-its-kind subnational analysis of IPC-driven aid allocation, providing policymakers with essential insights to strengthen future humanitarian response efforts.
-
-</details>
-
-### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼**  
-*Revise & Resubmit, Nature Food, 2025*
+### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼ (Revise & Resubmitted, Nature Food)**  
 *with E. Lentz, H. Michelson, K. Baylis*
 
 ![Global IPC Gap](../images/bunching (1).png)  
@@ -33,10 +20,32 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 
 </details>
 
-### **Early-Year Milk Prices and Child Stunting in Zambia** 
+### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan (Job Market Paper)**  
+![Aid Flow Analysis](../images/aid_main_fig (1).png)  
+[*Link to draft*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t) | [*Link to slides*](https://github.com/mnmx0101/chungmann_kim/files/ipc_aid_slides.pdf)
+
+<details>
+<summary>Click to view abstract</summary>
+
+This study sheds light on a critical challenge for global humanitarian efforts: delivering timely, targeted aid to regions facing acute food insecurity. As hunger intensifies worldwide, the Integrated Food Security Phase Classification (IPC) system plays a pivotal role, alerting the world to regions in crisis and directing billions in relief aid to those in dire need. Yet, a fundamental question remains—does the IPC mobilize aid with the speed and precision necessary to meet escalating needs? Focusing on Afghanistan, a priority IPC country, this study introduces a novel dataset that aligns humanitarian funding flows with IPC regional classifications. Utilizing a staggered Difference-in-Differences approach, I investigate how IPC phase escalations impact immediate aid responses. The findings reveal a significant but insufficient increase in funding following transitions to IPC Phase 4, underscoring the gap between current aid allocations and the critical needs of populations facing severe food insecurity. This research offers a first-of-its-kind subnational analysis of IPC-driven aid allocation, providing policymakers with essential insights to strengthen future humanitarian response efforts.
+
+</details>
+
+### **When Is a Crisis a Crisis? Assessing Internal Consistency in IPC Classifications (Submitted)**  
+*with E. Lentz, H. Michelson, K. Baylis*
+![IPC Threshold Consistency](../images/inconsistent_ipc.png)
+
+<details>
+<summary>Click to view abstract</summary>
+
+The world relies on assessments by the United Nations-facilitated Integrated Food Security Phase Classification (IPC) to identify where populations are most food insecure and to quantify the severity of these situations. IPC sub-national assessments are designed to be comparable over space and time in the 30 countries in which they operate. Humanitarian agencies appear to treat these assessments as authoritative and comparable, relying on IPC classifications to allocate more than six billion dollars of aid globally and annuallyper year. In this paper, we study whether IPC food insecurity classifications are indeed consistent and comparable across time and space. Analyzing 1,881 IPC classifications from fifteen countries between 2019 and 2023, we show that the IPC technical working groups who make IPC assessments face recurring and significant challenges related to data and food security measurement, resulting from often discordant underlying food security data. These data and measurement challenges make achieving consistency challenging, underscoring both the fundamental difficulty of food security classifications and the value of the IPC process, which is based on achieving consensus among trained experts based on available data and contextual information. We find that the vast majority of classifications are consistent with IPC technical guidance, but that this guidance allows for a wide range of classifications . We also find evidence that IPC technical working groups differ in the way that they rely on available food security data, often weighing food security indicators differently in different locations. Though variation in the way in which how the food security indicators are used to make assessments can reflect different sets of evidence and contexts, we also find that working groups even weigh indicators differently across time for the same location. Further, TWGs do not treat closely correlated food security indicators as substitutes, suggesting some inconsistency in the treatment of food security indicators across assessments. We discuss implications of these findings for policy and for the use of IPC assessments in research.
+
+</details>
+
+### **Early-Year Milk Prices and Child Stunting in Zambia (Ready for Submission)** 
 **with K. Baylis** 
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
-*Selected Presentation at the American Agricultural Economics Association 2022**, **European Association of Agricultural Economists 2023**, **Tata-Cornell Institute for Agriculture and Nutrition 2023*
+**Selected Presentation** at the American Agricultural Economics Association 2022, European Association of Agricultural Economists 2023, Tata-Cornell Institute for Agriculture and Nutrition 2023
 
 [*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s) | [*Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
 
@@ -111,17 +120,6 @@ Fresh Korean ginseng needs more credibility in the Vietnam market since fresh gi
 <summary>Click to view abstract</summary>
 
 This study investigates how commonly used food security indicators—such as the Food Consumption Score (FCS), the Reduced Coping Strategies Index (rCSI), and an asset index—diverge in identifying food-insecure households. Using household survey data, we analyze the extent of overlap and discordance across these measures and examine the demographic and economic factors associated with each classification. Our findings highlight the multidimensional nature of food insecurity and underscore the importance of indicator choice for targeting, policy design, and program effectiveness.
-
-</details>
-
-### **When Is a Crisis a Crisis? Assessing Internal Consistency in IPC Classifications**  
-*with E. Lentz, H. Michelson, K. Baylis*
-![IPC Threshold Consistency](../images/inconsistent_ipc.png)
-
-<details>
-<summary>Click to view abstract</summary>
-
-The world relies on assessments by the United Nations-facilitated Integrated Food Security Phase Classification (IPC) to identify where populations are most food insecure and to quantify the severity of these situations. IPC sub-national assessments are designed to be comparable over space and time in the 30 countries in which they operate. Humanitarian agencies appear to treat these assessments as authoritative and comparable, relying on IPC classifications to allocate more than six billion dollars of aid globally and annuallyper year. In this paper, we study whether IPC food insecurity classifications are indeed consistent and comparable across time and space. Analyzing 1,881 IPC classifications from fifteen countries between 2019 and 2023, we show that the IPC technical working groups who make IPC assessments face recurring and significant challenges related to data and food security measurement, resulting from often discordant underlying food security data. These data and measurement challenges make achieving consistency challenging, underscoring both the fundamental difficulty of food security classifications and the value of the IPC process, which is based on achieving consensus among trained experts based on available data and contextual information. We find that the vast majority of classifications are consistent with IPC technical guidance, but that this guidance allows for a wide range of classifications . We also find evidence that IPC technical working groups differ in the way that they rely on available food security data, often weighing food security indicators differently in different locations. Though variation in the way in which how the food security indicators are used to make assessments can reflect different sets of evidence and contexts, we also find that working groups even weigh indicators differently across time for the same location. Further, TWGs do not treat closely correlated food security indicators as substitutes, suggesting some inconsistency in the treatment of food security indicators across assessments. We discuss implications of these findings for policy and for the use of IPC assessments in research.
 
 </details>
 
