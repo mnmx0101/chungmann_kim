@@ -1,6 +1,6 @@
 ---
 permalink: /teaching/
-title: "Policy Report"
+title: Policy Work
 layout: single
 author_profile: true
 ---
