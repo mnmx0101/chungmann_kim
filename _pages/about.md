@@ -7,24 +7,26 @@ redirect_from:
   - /about.html
 ---
 
-**Hi, I’m a Ph.D. candidate in Ag \& Applied Economics at the University of Illinois Urbana‑Champaign.**  
-As an applied economist and data scientist, I work at the nexus of food systems, crisis response, and predictive analytics in low‑ and middle‑income countries. Drawing on household surveys, satellite imagery, and unstructured text, I apply natural‑language processing, causal‑inference techniques, and machine‑learning models to build novel datasets, uncover the drivers of food insecurity, and assess policy impacts.
+**Hi 🌍, and thanks for visiting my website!**  
+I'm an applied development economist and data scientist specializing in food and environmental systems, global food security, humanitarian response, and development challenges in low- and middle-income countries. My research brings together diverse data sources—including household surveys, satellite imagery, and unstructured text—and applies methods such as natural language processing, causal inference, and machine learning to construct novel datasets, analyze the dynamics of food insecurity, anticipate emerging risks, and evaluate the effectiveness of policy and humanitarian interventions.
 
 ### Research Focus
 
-- **Agricultural Systems & Nutrition:** Studying how agricultural production, environmental change, political instability, and market dynamics affect food security and nutritional outcomes.  
-- **Predictive Analytics for Early Warning:** Leveraging machine learning models to improve the timeliness and accuracy of food crisis early warning systems and to inform targeted interventions.  
-- **Humanitarian Aid & Crisis Response:** Analyzing the allocation and responsiveness of humanitarian assistance in the face of economic, environmental, and conflict-related shocks.    
+- **Agricultural Systems & Nutrition:** Studying how agricultural production, environmental change, political instability, and market dynamics influence food security and nutritional outcomes.  
+- **Predictive Analytics for Early Warning:** Leveraging machine learning to improve the accuracy and timeliness of food crisis early warning systems and to guide targeted interventions.  
+- **Humanitarian Aid & Crisis Response:** Analyzing how humanitarian assistance is allocated and how effectively it responds to economic, environmental, and conflict-related shocks.  
 
 ## Professional Engagements
 
-Beyond academia, I have worked with several international organizations, including the **Food and Agriculture Organization (FAO)**, the **International Fund for Agricultural Development (IFAD)**, and the **International Food Policy Research Institute (IFPRI)**. These have involved leading technical report, conducting impact assessments, integrating diverse data sources, and developing predictive models to support real-time food security monitoring and early warning systems. I have worked closely with interdisciplinary teams across these institutions to ensure that technical outputs align with operational needs and policy priorities.
+Beyond academic research, I have worked with several international organizations on both operational and research projects, including the **Food and Agriculture Organization (FAO)**, the **International Fund for Agricultural Development (IFAD)**, and the **International Food Policy Research Institute (IFPRI)**. These have involved leading technical reports, conducting impact assessments, integrating diverse data sources, and developing predictive models to support real-time food security monitoring and early warning systems. I’ve worked closely with interdisciplinary teams to ensure that analytical outputs are aligned with institutional priorities and inform decision-making in complex environments.
 
-Currently, I work as a **Data Scientist and Modeling Specialist** with the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** unit at FAO. In this role, I contribute to the development of a real-time risk monitoring system designed to enhance early detection of food crises and support timely humanitarian response. 
+Currently, I serve as a **Data Scientist and Modeling Specialist** with the **[Integrated Food Security Phase Classification (IPC)](https://www.ipcinfo.org/)** initiative at FAO. In this role, I contribute to the development of a real-time risk monitoring system designed to enhance early detection of food crises and enable more timely humanitarian responses. My work includes 1) developing an evaluation framework to assess the reliability and operational readiness of AI and statistical models, 2) applying data-driven methods to identify and mask relevant signals for food crisis alerts, and 3) building a pipeline that scrapes, geo-tags, and applies topic modeling to news articles for real-time contextual insights.
 
 ---
-![Fieldwork in Kilosa District, Tanzania (2017)](images\tanzania.png)
 
-My field experience as a community development practitioner has been a vital complement to my academic training. Before beginning my doctoral studies, I was actively involved in an agricultural development project in Tanzania, where I led fieldwork and provided technical support for three years. Working with a Korean NGO, I helped secure funding, conducted field-based research, and closely worked with smallholder farmers to assess needs and implement climate-resilient interventions.
+![Fieldwork in Kilosa District, Tanzania (2017)](images/tanzania.png)
+
+My field experience as a community development practitioner has been a vital complement to my academic training. Before starting my doctoral studies, I worked for three years on an agricultural development project in Tanzania, where I led fieldwork and provided technical support. Working with a Korean NGO, I helped secure funding, conducted field-based research, and worked closely with smallholder farmers to assess needs and implement climate-resilient interventions.
+
 
 
