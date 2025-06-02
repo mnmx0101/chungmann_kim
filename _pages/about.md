@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-**Hi, I’m a Ph.D. candidate in Applied Economics at the University of Illinois Urbana‑Champaign.**  
+**Hi, I’m a Ph.D. candidate in Ag \& Applied Economics at the University of Illinois Urbana‑Champaign.**  
 As an applied economist and data scientist, I work at the nexus of food systems, crisis response, and predictive analytics in low‑ and middle‑income countries. Drawing on household surveys, satellite imagery, and unstructured text, I apply natural‑language processing, causal‑inference techniques, and machine‑learning models to build novel datasets, uncover the drivers of food insecurity, and assess policy impacts.
 
 ### Research Focus
 
-- **Agricultural Systems & Nutrition** — Studying how agricultural production, environmental change, political instability, and market dynamics affect food security and nutritional outcomes.  
-- **Predictive Analytics for Early Warning** — Leveraging machine learning models to improve the timeliness and accuracy of food crisis early warning systems and to inform targeted interventions.  
-- **Humanitarian Aid & Crisis Response** — Analyzing the allocation and responsiveness of humanitarian assistance in the face of economic, environmental, and conflict-related shocks.    
+- **Agricultural Systems & Nutrition:** Studying how agricultural production, environmental change, political instability, and market dynamics affect food security and nutritional outcomes.  
+- **Predictive Analytics for Early Warning:** Leveraging machine learning models to improve the timeliness and accuracy of food crisis early warning systems and to inform targeted interventions.  
+- **Humanitarian Aid & Crisis Response:** Analyzing the allocation and responsiveness of humanitarian assistance in the face of economic, environmental, and conflict-related shocks.    
 
 ## Professional Engagements
 
