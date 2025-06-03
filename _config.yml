@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Manny's Homepage"
+title                    : "Chungmann's Homepage"
 title_separator          : "-"
 name                     : &name "Chungmann Kim"
 description              : &description "personal description"
@@ -25,7 +25,7 @@ author:
   name             : "Chungmann (Manny) Kim"
   pronouns         : # example: "she/her"
   bio              : |
-    Development & Environment Economics<br>
+    Development Economics<br>
     Food Systems & Global Food Security<br>
     Food Crisis & Humanitarian Response<br>
   location         : "Champaign, Illinois"

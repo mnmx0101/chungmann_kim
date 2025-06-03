@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-**Hi 🌍, and thanks for visiting my website!**  
+**Hi 🌍, thanks for visiting my website!**  
 I'm an applied development economist and data scientist specializing in food and environmental systems, global food security, humanitarian response, and development challenges in low- and middle-income countries. My research brings together diverse data sources—including household surveys, satellite imagery, and unstructured text—and applies methods such as natural language processing, causal inference, and machine learning to construct novel datasets, analyze the dynamics of food insecurity, anticipate emerging risks, and evaluate the effectiveness of policy and humanitarian interventions.
 
 ### Research Focus
