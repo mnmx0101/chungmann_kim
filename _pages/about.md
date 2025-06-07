@@ -12,9 +12,9 @@ I'm an applied development economist and data scientist with a focus on food and
 
 ## Research Interests
 
-- **Drivers of Food Security and Nutrition Outcomes:** I study how agricultural production, environmental change, political instability, and market dynamics influence food security and nutrition outcomes
-- **Humanitarian Aid and Crisis Response:** I study how humanitarian aid is allocated and how effectively it responds to economic, environmental, and conflict-related shocks
-- **Predictive Analytics (using ML) for Early Warning:** I develop tools to improve the accuracy and timeliness of food crisis early warning systems and guide targeted interventions
+- **Drivers of Food Security and Nutrition Outcomes:** I study how agricultural production, environmental change, political instability, and market dynamics influence food security and nutrition outcomes.
+- **Humanitarian Aid and Crisis Response:** I study how humanitarian aid is allocated and how effectively it responds to economic, environmental, and conflict-related shocks.
+- **Predictive Analytics (using ML) for Early Warning:** I develop tools to improve the accuracy and timeliness of food crisis early warning systems and guide targeted interventions.
 
 ## Professional Engagements
 
