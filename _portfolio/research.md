@@ -22,7 +22,7 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 
 ### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan (Job Market Paper)**  
 ![Aid Flow Analysis](../images/aid_main_fig (1).png)  
-[*Link to draft*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t) | [*Link to slides*](https://github.com/mnmx0101/chungmann_kim/files/ipc_aid_slides.pdf)
+[*Link to draft*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t) | [*Link to slides*](../files/ipc_aid_slides.pdf)
 
 <details>
 <summary>Click to view abstract</summary>
