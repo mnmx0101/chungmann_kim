@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Applied Economist | Data Scientist | Global Food Security & Humanitarian Policy Research"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,13 +8,12 @@ redirect_from:
 ---
 
 **Hi 🌍, thanks for visiting my website!**  
-I'm an applied development economist and data scientist with a focus on food and environmental systems, global food security, humanitarian response, and development challenges in low- and middle-income countries. My research integrates diverse data sources—including household surveys, satellite imagery, and unstructured text—and applies methods such as natural language processing, causal inference, and machine learning to construct novel datasets, analyze the dynamics of food insecurity, anticipate emerging risks, and evaluate the effectiveness of policy and humanitarian interventions.
+I'm an applied development economist and data scientist with a research focus on food and environmental systems, global food security, humanitarian response, and development challenges in low- and middle-income countries. My research integrates diverse data sources—including household surveys, satellite imagery, and unstructured text—and applies methods such as natural language processing, causal inference, and machine learning to construct novel datasets, analyze the dynamics of food insecurity, anticipate emerging risks, and evaluate the effectiveness of policy and humanitarian interventions.
 
 ## Research Interests
 
-- **Drivers of Food Security and Nutrition Outcomes:** I study how agricultural production, environmental change, political instability, and market dynamics influence food security and nutrition outcomes.
-- **Humanitarian Aid and Crisis Response:** I study how humanitarian aid is allocated and how effectively it responds to economic, environmental, and conflict-related shocks.
-- **Predictive Analytics (using ML) for Early Warning:** I develop tools to improve the accuracy and timeliness of food crisis early warning systems and guide targeted interventions.
+- **Drivers of Food Security and Nutrition:** I study how agriculture, environment, governance, and markets shape food access and nutritional outcomes.
+- **Humanitarian Aid and Crisis Response:** I study how aid is allocated and how effectively it responds to shocks driven by conflict, climate, or economic disruption..
 
 ## Professional Engagements
 
