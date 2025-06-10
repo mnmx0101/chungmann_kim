@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Applied Economist | Data Scientist | Global Food Security & Humanitarian Policy Research"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,10 +10,11 @@ redirect_from:
 **Hi 🌍, thanks for visiting my website!**  
 I'm an applied development economist and data scientist with a research focus on food and environmental systems, global food security, humanitarian response, and development challenges in low- and middle-income countries. My research integrates diverse data sources—including household surveys, satellite imagery, and unstructured text—and applies methods such as natural language processing, causal inference, and machine learning to construct novel datasets, analyze the dynamics of food insecurity, anticipate emerging risks, and evaluate the effectiveness of policy and humanitarian interventions.
 
-## Research Interests
+## Research Interests:
 
-- **Drivers of Food Security and Nutrition:** I study how agriculture, environment, governance, and markets shape food access and nutritional outcomes.
-- **Humanitarian Aid and Crisis Response:** I study how aid is allocated and how effectively it responds to shocks driven by conflict, climate, or economic disruption..
+- **Drivers of Food Security and Nutrition:** I analyze how agricultural systems, environment, governance, and markets shape food access and nutritional outcomes.
+- **Humanitarian Aid and Donor Behavior:** My work explores how aid is allocated and how effectively it responds to shocks from by conflict, climate, or economic disruption.
+- **AI for Early Warning and Early Action:** I am interested in designing and evaluating AI-based tools to support more targeted and timeliness of humanitarian interventions.
 
 ## Professional Engagements
 
