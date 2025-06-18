@@ -43,7 +43,7 @@ The world relies on assessments by the United Nations-facilitated Integrated Foo
 </details>
 
 ### **Early-Year Milk Prices and Child Stunting in Zambia (Ready for Submission)** 
-**with K. Baylis** 
+*with K. Baylis*
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
 **Selected Presentation** at the American Agricultural Economics Association 2022, European Association of Agricultural Economists 2023, Tata-Cornell Institute for Agriculture and Nutrition 2023
 
