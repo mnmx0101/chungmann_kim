@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-[🧾 Working Papers](#working-papers) |  [📘 Publications](#publications-peer-reviewed) | [🔬 Work-In-Progress](#work-in-progress)
+[🧾 Working Papers](#working-papers)  &#124;  [📘 Publications](#publications-peer-reviewed)  &#124; [🔬 Work-In-Progress](#work-in-progress)
 
 <a name="working-papers"></a>
 <h2 style="text-align: center;">🧾 Working Papers</h2>
@@ -50,7 +50,7 @@ The world relies on assessments by the United Nations-facilitated Integrated Foo
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
 **Selected Presentation** at the American Agricultural Economics Association 2022, European Association of Agricultural Economists 2023, Tata-Cornell Institute for Agriculture and Nutrition 2023
 
-[*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s) | [*Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
+[*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s)  &#124; [*Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
 
 <details>
 <summary>Click to view abstract</summary>
