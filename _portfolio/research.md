@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-[🧾 Working Papers](#working-papers) | [📘 Publications](#publications-peer-reviewed) | [🔬 Work-In-Progress](#work-in-progress)
+[🧾 Working Papers](#working-papers) |  [📘 Publications](#publications-peer-reviewed) | [🔬 Work-In-Progress](#work-in-progress)
 
 <a name="working-papers"></a>
 <h2 style="text-align: center;">🧾 Working Papers</h2>
