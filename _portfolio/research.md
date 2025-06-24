@@ -10,6 +10,7 @@ author_profile: true
 - [📘 Publications](#publications-peer-reviewed)
 - [🔬 Work-In-Progress](#work-in-progress)
 
+<a name="working-papers"></a>
 <h2 style="text-align: center;">🧾 Working Papers</h2>
 
 ### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼ (Revise & Resubmit, Nature Food)**  
@@ -61,7 +62,7 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 
 </details>
 
-
+<a name="publications-peer-reviewed"></a>
 <h2 style="text-align: center;">📘 Publications (Peer-Reviewed)</h2>
 
 ### **Machine Learning for Food Security: Principles for Transparency and Usability**  
@@ -112,6 +113,7 @@ Fresh Korean ginseng needs more credibility in the Vietnam market since fresh gi
 
 </details>
 
+<a name="work-in-progress"></a>
 <h2 style="text-align: center;">🔬 Work-In-Progress</h2>
 
 ### **Multidimensional Food Security Dynamics in Sub-Saharan Africa**  
