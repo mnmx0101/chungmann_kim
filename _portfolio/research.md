@@ -5,6 +5,11 @@ layout: single
 author_profile: true
 ---
 
+## 🔗 Navigation
+- [🧾 Working Papers](#working-papers)
+- [📘 Publications](#publications-peer-reviewed)
+- [🔬 Work-In-Progress](#work-in-progress)
+
 <h2 style="text-align: center;">🧾 Working Papers</h2>
 
 ### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼ (Revise & Resubmit, Nature Food)**  
