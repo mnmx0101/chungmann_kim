@@ -34,7 +34,7 @@ This study sheds light on a critical challenge for global humanitarian efforts: 
 
 </details>
 
-### **When Is a Crisis a Crisis? Assessing Internal Consistency in IPC Classifications (Revise & Resubmit, Food Policy)**  
+### **Inside the black box: how consistent are global food security crisis assessments (Revise & Resubmit, Food Policy)**  
 *with E. Lentz, H. Michelson, K. Baylis*
 ![IPC Threshold Consistency](../images/inconsistent_ipc.png)
 
