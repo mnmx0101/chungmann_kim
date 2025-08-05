@@ -127,6 +127,27 @@ This study investigates how commonly used food security indicators—such as the
 
 </details>
 
+### **Optimizing Classification Thresholds for Food Security Indicators: A Data-Driven Evaluation Across 26 Countries** 
+*with M, Mizutani*
+![optimization](../images/hdds_fcs_selected.png)  
+
+<details>
+<summary>Click to view abstract</summary>
+
+This project presents a data-driven approach to optimize classification thresholds used in food security monitoring systems. By evaluating pairwise concordance and agreement metrics across multiple indicators, the method seeks to enhance consistency and alignment between measurement tools. The analysis leverages a harmonized dataset of over 100 household surveys, covering more than 780,000 households across the globe and spanning 26 countries. For each dataset, all valid threshold combinations are tested to identify those that maximize both Cohen’s Kappa and simple agreement scores, with additional attention to agreement by category. This approach supports the refinement of current cutoffs, aiming to improve the reliability and comparability of food security classifications for decision-makers and analysts alike.
+
+</details>
+
+### **Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises** 
+![news_analytics](../images/media_project.png)  
+
+<details>
+<summary>Click to view abstract</summary>
+
+Timely detection of food insecurity remains a critical challenge, particularly in fragile contexts where conventional data streams suffer from delays, sparsity, or limited geographic granularity. This study presents a novel media analytics system designed to extract high-frequency early warning signals of food security risks from unstructured news text. Leveraging advances in natural language processing—including transformer-based sentiment analysis and unsupervised topic modeling (BERTopic)—the system processes scraped news articles through a pipeline of geoparsing, thematic classification, and temporal aggregation. The resulting indicators are aligned with the IPC (Integrated Food Security Phase Classification) framework and integrated into the IPC’s Risk Analysis and Attribution Platform (RAAp) as complementary signals. Drawing from a corpus of over 18,000 articles (2011–2023), including over 11,000 geo-tagged at subnational level, the pipeline identifies media trends in topics such as conflict, drought, displacement, and market shocks. Preliminary validation against historical IPC outcomes demonstrates that media-derived indicators can anticipate food security phase transitions with lead times exceeding those of traditional predictors. This research contributes to the growing field of data-driven humanitarian early warning by operationalizing media text as a cost-effective, scalable proxy for latent risk dynamics. It further extends the literature on machine learning for crisis forecasting, supporting calls for integrating alternative data sources into established food security assessment systems.
+
+</details>
+
 ### **Operational and actionable Acute Food Insecurity modelling**  
 *w/* M. Ronco (JRC.E1), M. Machefer (JRC.D5), A. Matano (VU Amsterdam), D. Piovani (WFP), M. Meroni, J. M. Veiga Lopez-Pena (JRC.D5), C. Corbane (JRC.E1), F. Rembold (JRC.D5)​ 
 
