@@ -10,7 +10,7 @@ author_profile: true
 <a name="working-papers"></a>
 <h2 style="text-align: center;">🧾 Working Papers</h2>
 
-### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼ (Revise & Resubmit, Nature Food)**  
+### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼** <span style="color:blue">(Revise & Resubmit, Nature Food)</span>
 *with E. Lentz, H. Michelson, K. Baylis*
 
 ![Global IPC Gap](../images/bunching (1).png)  
@@ -23,7 +23,7 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 
 </details>
 
-### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan (Job Market Paper)**  
+### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan** <span style="color:blue">(Job Market Paper)</span>
 ![Aid Flow Analysis](../images/aid_main_fig (1).png)  
 [*Link to draft*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t) | [*Link to slides*](../files/ipc_aid_slides.pdf)
 
@@ -34,7 +34,7 @@ This study sheds light on a critical challenge for global humanitarian efforts: 
 
 </details>
 
-### **Inside the black box: how consistent are global food security crisis assessments  (Revise & Resubmit, Food Policy)**  
+### **Inside the black box: how consistent are global food security crisis assessments**  <span style="color:blue">(Revise & Resubmit, Food Policy)</span> 
 *with E. Lentz, H. Michelson, K. Baylis*
 ![IPC Threshold Consistency](../images/inconsistent_ipc.png)
 
