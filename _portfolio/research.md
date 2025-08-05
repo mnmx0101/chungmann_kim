@@ -128,7 +128,7 @@ This study investigates how commonly used food security indicators—such as the
 </details>
 
 ### **Optimizing Classification Thresholds for Food Security Indicators: A Data-Driven Evaluation Across 26 Countries** 
-*with M, Mizutani*
+*with M. Mizutani (FAO)*
 ![optimization](../images/hdds_fcs_selected.png)  
 
 <details>
@@ -139,6 +139,7 @@ This project presents a data-driven approach to optimize classification threshol
 </details>
 
 ### **Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises** 
+*with C. van Wanrooij (Kickstart AI)*
 ![news_analytics](../images/media_project.png)  
 
 <details>
