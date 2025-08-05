@@ -45,7 +45,7 @@ The world relies on assessments by the United Nations-facilitated Integrated Foo
 
 </details>
 
-### **Early-Year Milk Prices and Child Stunting in Zambia (Ready for Submission)** 
+### **Early-Year Milk Prices and Child Stunting in Zambia <span style="color:blue">(Ready for Submission)</span> ** 
 *with K. Baylis*
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
 **Selected Presentation** at the American Agricultural Economics Association 2022, European Association of Agricultural Economists 2023, Tata-Cornell Institute for Agriculture and Nutrition 2023
@@ -63,7 +63,7 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 <h2 style="text-align: center;">📘 Publications (Peer-Reviewed)</h2>
 
 ### **Machine Learning for Food Security: Principles for Transparency and Usability**  
-*Applied Economic Perspectives and Policy, 2022*  
+<span style="color:blue">*Applied Economic Perspectives and Policy, 2022*</span>
 *Authors:* Y. Zhou, E. Lentz, H. Michelson, **_C. Kim_**, K. Baylis  
 *DOI:* [https://doi.org/10.1002/aepp.13214](https://doi.org/10.1002/aepp.13214)
 
@@ -75,7 +75,7 @@ Machine learning (ML) holds potential to predict hunger crises before they occur
 </details>
 
 ### **Exploring the Association between Agricultural Production Systems and Household Diets in Viet Nam**  
-*Food Security, 2022*  
+<span style="color:blue">*Food Security, 2022*</span><br>
 *Authors:* A. Bandyopadhyay, C. Azzarri, B. Haile, **_C. Kim_**, C. Alvarez, A. Moltedo, A. Sattar, W. Bell, B. Rogers  
 *DOI:* [https://10.1007/s12571-022-01276-x](https://link.springer.com/article/10.1007/s12571-022-01276-x)
 
@@ -87,7 +87,7 @@ The government of Viet Nam promotes an integrated and diversified production sys
 </details>
 
 ### **The Economics of the Soy Kit as an Appropriate Household Technology for Food Entrepreneurs**  
-*Food and Nutrition Bulletin, 2021*  
+ <span style="color:blue">*Food and Nutrition Bulletin, 2021* </span><br>
 *Authors:* **_C. Kim_**, P. Goldsmith  
 *DOI:* [https://doi.org/10.1177/0379572120981183](https://doi.org/10.1177/0379572120981183)
 
@@ -99,7 +99,7 @@ The ability for women to operate as food entrepreneurs presents opportunities to
 </details>
 
 ### **Vietnamese Preferences for Fresh Korean Ginseng with Labels of Certification, Nationality, Private Brands, and Shopping Places** 
-*Korean Agricultural Economics Associatio, 2021* <br>
+ <span style="color:blue">*Korean Agricultural Economics Associatio, 2021*</span><br>
 *Authors:* Y. Joo, T. Kim, DK. Nguyen, **C. Kim** <br>
 *DOI:* [https://doi.org/10.24997/KJAE.2021.62.3.177](https://doi.org/10.24997/KJAE.2021.62.3.177)
 
