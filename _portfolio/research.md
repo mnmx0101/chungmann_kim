@@ -63,7 +63,7 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 <h2 style="text-align: center;">📘 Publications (Peer-Reviewed)</h2>
 
 ### **Machine Learning for Food Security: Principles for Transparency and Usability**  
-<span style="color:blue">*Applied Economic Perspectives and Policy, 2022*</span>
+<span style="color:blue">*Applied Economic Perspectives and Policy, 2022*</span><br>
 *Authors:* Y. Zhou, E. Lentz, H. Michelson, **_C. Kim_**, K. Baylis  
 *DOI:* [https://doi.org/10.1002/aepp.13214](https://doi.org/10.1002/aepp.13214)
 
