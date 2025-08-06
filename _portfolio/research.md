@@ -45,7 +45,7 @@ The world relies on assessments by the United Nations-facilitated Integrated Foo
 
 </details>
 
-### **Early-Year Milk Prices and Child Stunting in Zambia <span style="color:blue">(Ready for Submission)</span> ** 
+### **Early-Year Milk Prices and Child Stunting in Zambia** <span style="color:blue">(Ready for Submission)</span>
 *with K. Baylis*
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
 **Selected Presentation** at the American Agricultural Economics Association 2022, European Association of Agricultural Economists 2023, Tata-Cornell Institute for Agriculture and Nutrition 2023
@@ -124,28 +124,6 @@ Fresh Korean ginseng needs more credibility in the Vietnam market since fresh gi
 <summary>Click to view abstract</summary>
 
 This study investigates how commonly used food security indicators—such as the Food Consumption Score (FCS), the Reduced Coping Strategies Index (rCSI), and an asset index—diverge in identifying food-insecure households. Using household survey data, we analyze the extent of overlap and discordance across these measures and examine the demographic and economic factors associated with each classification. Our findings highlight the multidimensional nature of food insecurity and underscore the importance of indicator choice for targeting, policy design, and program effectiveness.
-
-</details>
-
-### **Optimizing Classification Thresholds for Food Security Indicators: A Data-Driven Evaluation Across 26 Countries** 
-*with M. Mizutani (FAO)*
-![optimization](../images/hdds_fcs_selected.png)  
-
-<details>
-<summary>Click to view abstract</summary>
-
-This project presents a data-driven approach to optimize classification thresholds used in food security monitoring systems. By evaluating pairwise concordance and agreement metrics across multiple indicators, the method seeks to enhance consistency and alignment between measurement tools. The analysis leverages a harmonized dataset of over 100 household surveys, covering more than 780,000 households across the globe and spanning 26 countries. For each dataset, all valid threshold combinations are tested to identify those that maximize both Cohen’s Kappa and simple agreement scores, with additional attention to agreement by category. This approach supports the refinement of current cutoffs, aiming to improve the reliability and comparability of food security classifications for decision-makers and analysts alike.
-
-</details>
-
-### **Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises** 
-*with C. van Wanrooij (Kickstart AI)*
-![news_analytics](../images/media_project.png)  
-
-<details>
-<summary>Click to view abstract</summary>
-
-Timely detection of food insecurity remains a critical challenge, particularly in fragile contexts where conventional data streams suffer from delays, sparsity, or limited geographic granularity. This study presents a novel media analytics system designed to extract high-frequency early warning signals of food security risks from unstructured news text. Leveraging advances in natural language processing—including transformer-based sentiment analysis and unsupervised topic modeling (BERTopic)—the system processes scraped news articles through a pipeline of geoparsing, thematic classification, and temporal aggregation. The resulting indicators are aligned with the IPC (Integrated Food Security Phase Classification) framework and integrated into the IPC’s Risk Analysis and Attribution Platform (RAAp) as complementary signals. Drawing from a corpus of over 18,000 articles (2011–2023), including over 11,000 geo-tagged at subnational level, the pipeline identifies media trends in topics such as conflict, drought, displacement, and market shocks. Preliminary validation against historical IPC outcomes demonstrates that media-derived indicators can anticipate food security phase transitions with lead times exceeding those of traditional predictors. This research contributes to the growing field of data-driven humanitarian early warning by operationalizing media text as a cost-effective, scalable proxy for latent risk dynamics. It further extends the literature on machine learning for crisis forecasting, supporting calls for integrating alternative data sources into established food security assessment systems.
 
 </details>
 
