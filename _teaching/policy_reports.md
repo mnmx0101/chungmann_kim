@@ -18,7 +18,8 @@ This project presents a data-driven approach to optimize classification threshol
 
 ### **Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises (2025)** 
 *with C. van Wanrooij (Kickstart AI)*
-![news_analytics](../images/media_project.png)  
+![news_analytics](../images/media_project.png)
+[*Link to draft*](../files/ipc_news_monitoring.pdf)   
 
 <details>
 <summary>Click to view abstract</summary>

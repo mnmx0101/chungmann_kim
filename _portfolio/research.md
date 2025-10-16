@@ -14,7 +14,7 @@ author_profile: true
 *with E. Lentz, H. Michelson, K. Baylis*
 
 ![Global IPC Gap](../images/bunching (1).png)  
-[*Link to draft*](https://uofi.app.box.com/file/1688331946836?s=v2tylljea7plookmep4im18tm4c77clh) | [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
+[*Link to draft*](../files/ipc_bunching_2025.pdf) | [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -23,20 +23,21 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 
 </details>
 
-### **From Food Crisis to Resource Allocation: Tracking Humanitarian Aid in Afghanistan** <span style="color:blue">(Job Market Paper)</span>
+### **Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?** <span style="color:blue">(Job Market Paper)</span>
 ![Aid Flow Analysis](../images/aid_main_fig (1).png)  
-[*Link to draft*](https://uofi.app.box.com/file/1716072760356?s=q0oxfiytwzgzziogdyc60mmc7p40co5t) | [*Link to slides*](../files/ipc_aid_slides.pdf)
+[*Link to draft*](../files/ChungmannKim_IPCAID.pdf) | [*Link to slides*](../files/ipc_aid_slides.pdf)
 
 <details>
 <summary>Click to view abstract</summary>
 
-This study sheds light on a critical challenge for global humanitarian efforts: delivering timely, targeted aid to regions facing acute food insecurity. As hunger intensifies worldwide, the Integrated Food Security Phase Classification (IPC) system plays a pivotal role, alerting the world to regions in crisis and directing billions in relief aid to those in dire need. Yet, a fundamental question remains—does the IPC mobilize aid with the speed and precision necessary to meet escalating needs? Focusing on Afghanistan, a priority IPC country, this study introduces a novel dataset that aligns humanitarian funding flows with IPC regional classifications. Utilizing a staggered Difference-in-Differences approach, I investigate how IPC phase escalations impact immediate aid responses. The findings reveal a significant but insufficient increase in funding following transitions to IPC Phase 4, underscoring the gap between current aid allocations and the critical needs of populations facing severe food insecurity. This research offers a first-of-its-kind subnational analysis of IPC-driven aid allocation, providing policymakers with essential insights to strengthen future humanitarian response efforts.
+International humanitarian aid is a critical tool for mitigating acute food security crises. However, its effectiveness in responding to institutionalized crisis alerts, such as the Integrated Food Security Phase Classification (IPC), remains empirically understudied at the subnational level. This paper addresses this gap by constructing a novel dataset of geocoded aid flows in Afghanistan and using a staggered difference-in-differences design to estimate the causal impact of an escalation to a severe food security emergency. The analysis reveals that while an alert triggers a rapid and statistically significant increase in aid, the response is both transitory, fading quickly after the initial months, and insufficient, falling substantially short of estimated basic needs. The study also uncovers heterogeneity in responsiveness across different donors. Ultimately, these findings provide the first granular evidence that while the humanitarian system reacts to formal signals, a critical gap persists between signaling an emergency and adequately addressing it.
 
 </details>
 
 ### **Inside the black box: how consistent are global food security crisis assessments**  <span style="color:blue">(Revise & Resubmit, Food Policy)</span> 
 *with E. Lentz, H. Michelson, K. Baylis*
 ![IPC Threshold Consistency](../images/inconsistent_ipc.png)
+[*Link to draft*](../files/ipc_inconsistency.pdf)
 
 <details>
 <summary>Click to view abstract</summary>
