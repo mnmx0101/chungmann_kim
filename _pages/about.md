@@ -12,11 +12,11 @@ redirect_from:
 
   My research integrates diverse data sources—including household surveys, satellite imagery, and unstructured text—and applies methods such as **natural language processing, causal inference, and machine learning** to construct novel datasets, analyze the dynamics of food insecurity, anticipate emerging risks, and evaluate the effectiveness of policy and humanitarian interventions.
 
-  **## Research Interests:**
+  **Research Interests:**
 
   My research looks at the **drivers of food security and nutrition**, especially *how agriculture, the environment, governance, and markets shape people’s access to food*. I also study **humanitarian aid**, focusing on *how resources are allocated, how well they respond to shocks like conflict, climate change, or economic crises, and the conditions under which they succeed or fall short*. In addition, I am interested in advancing **AI for early warning and early action**, particularly by *designing and evaluating AI-based tools that enhance the targeting and timeliness of humanitarian interventions*.
 
-  **## Professional Engagements**
+  **Professional Engagements**
 
   Beyond academic research, I have worked with several international organizations on both operational and research projects, including the **Food and Agriculture Organization (FAO)**, the **International Fund for Agricultural Development (IFAD)**, and the **International Food Policy Research Institute (IFPRI)**. These involve leading technical reports, conducting impact assessments, integrating diverse data sources, and developing predictive models to support real-time food security monitoring and early warning systems. These give me a valuable perspective on how policy and institutional decisions are made in practice, while also providing access to rich data and real-world challenges that push my academic research in new directions.
 
