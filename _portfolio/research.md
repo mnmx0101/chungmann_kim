@@ -13,7 +13,7 @@ author_profile: true
 ### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼** <span style="color:blue">(Accepted, Nature Food)</span>
 *with E. Lentz, H. Michelson, K. Baylis*
 
-![Global IPC Gap](../images/figure2_all_panels.jpg)  
+![Global IPC Gap](../images/figure2_all_panels.png)  
 [*Link to draft*](../files/ipc_bunching_2025.pdf) | [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
 
 <details>
