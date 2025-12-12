@@ -10,7 +10,7 @@ author_profile: true
 <a name="working-papers"></a>
 <h2 style="text-align: center;">🧾 Working Papers</h2>
 
-### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼** <span style="color:blue">(Accepted, Nature Food)</span>
+### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼** <span style="color:blue">(Forthcoming at Nature Food, 2025)</span>
 *with E. Lentz, H. Michelson, K. Baylis*
 
 ![Global IPC Gap](../images/figure2_all_panels.png)  
@@ -34,7 +34,7 @@ International humanitarian aid is a critical tool for mitigating acute food secu
 
 </details>
 
-### **Inside the black box: how consistent are global food security crisis assessments**  <span style="color:blue">(Revise & Resubmit, Food Policy)</span> 
+### **Inside the black box: how consistent are global food security crisis assessments**  <span style="color:blue">(Accepted, Food Policy)</span> 
 *with E. Lentz, H. Michelson, K. Baylis*
 ![IPC Threshold Consistency](../images/inconsistent_ipc.png)
 [*Link to draft*](../files/ipc_inconsistency.pdf)
