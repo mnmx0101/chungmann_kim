@@ -1,0 +1,443 @@
+---
+permalink: /
+title: "About Me"
+author_profile: true
+redirect_from:
+- /about/
+- /about.html
+---
+
+<style>
+    /* ── Base Tokens ── */
+    :root {
+        --clr-primary: #1a5276;
+        --clr-accent: #2e86c1;
+        --clr-accent-light: #ebf5fb;
+        --clr-warm: #e67e22;
+        --clr-warm-light: #fef5e7;
+        --clr-green: #1e8449;
+        --clr-green-light: #eafaf1;
+        --clr-purple: #6c3483;
+        --clr-purple-light: #f4ecf7;
+        --clr-health: #c0392b;
+        --clr-health-light: #fdedec;
+        --clr-text: #2c3e50;
+        --clr-muted: #5d6d7e;
+        --clr-border: #d5dbdb;
+        --radius: 12px;
+        --shadow: 0 4px 20px rgba(0, 0, 0, .06);
+        --transition: .25s ease;
+    }
+
+    /* ── Section Utility ── */
+    .about-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .about-section h2 {
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: var(--clr-primary);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: .55rem;
+        letter-spacing: -.02em;
+    }
+
+    .about-section h2 .icon {
+        font-size: 1.3rem;
+    }
+
+    /* ── Hero ── */
+    .hero-intro {
+        background: linear-gradient(135deg, var(--clr-accent-light) 0%, #f8f9fa 100%);
+        border-left: 4px solid var(--clr-accent);
+        border-radius: var(--radius);
+        padding: 1.5rem 1.8rem;
+        margin-bottom: 2.5rem;
+        line-height: 1.75;
+        color: var(--clr-text);
+        font-size: .97rem;
+    }
+
+    .hero-intro strong {
+        color: var(--clr-primary);
+    }
+
+    .hero-intro .greeting {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--clr-primary);
+        margin-bottom: .6rem;
+        display: block;
+    }
+
+    /* ── Methods Chips ── */
+    .method-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+        margin-top: .75rem;
+    }
+
+    .method-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: .35rem;
+        background: #fff;
+        border: 1px solid var(--clr-border);
+        border-radius: 999px;
+        padding: .35rem .85rem;
+        font-size: .82rem;
+        font-weight: 500;
+        color: var(--clr-text);
+        transition: var(--transition);
+    }
+
+    .method-chip:hover {
+        border-color: var(--clr-accent);
+        background: var(--clr-accent-light);
+        transform: translateY(-1px);
+    }
+
+    .method-chip .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--clr-accent);
+        flex-shrink: 0;
+    }
+
+    /* ── Research Cards ── */
+    .research-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1rem;
+    }
+
+    .research-card {
+        border: 1px solid var(--clr-border);
+        border-radius: var(--radius);
+        padding: 1.25rem 1.3rem;
+        transition: var(--transition);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .research-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+    }
+
+    .research-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow);
+    }
+
+    .research-card h3 {
+        font-size: .95rem;
+        font-weight: 700;
+        margin: 0 0 .45rem;
+        display: flex;
+        align-items: center;
+        gap: .4rem;
+    }
+
+    .research-card p {
+        font-size: .84rem;
+        color: var(--clr-muted);
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    /* Card accent colors */
+    .card-food {
+        background: var(--clr-green-light);
+    }
+
+    .card-food::before {
+        background: var(--clr-green);
+    }
+
+    .card-food h3 {
+        color: var(--clr-green);
+    }
+
+    .card-aid {
+        background: var(--clr-warm-light);
+    }
+
+    .card-aid::before {
+        background: var(--clr-warm);
+    }
+
+    .card-aid h3 {
+        color: var(--clr-warm);
+    }
+
+    .card-ai {
+        background: var(--clr-purple-light);
+    }
+
+    .card-ai::before {
+        background: var(--clr-purple);
+    }
+
+    .card-ai h3 {
+        color: var(--clr-purple);
+    }
+
+    .card-health {
+        background: var(--clr-health-light);
+    }
+
+    .card-health::before {
+        background: var(--clr-health);
+    }
+
+    .card-health h3 {
+        color: var(--clr-health);
+    }
+
+    /* ── Professional Timeline ── */
+    .pro-card {
+        border: 1px solid var(--clr-border);
+        border-radius: var(--radius);
+        padding: 1.3rem 1.4rem;
+        margin-bottom: 1rem;
+        background: #fff;
+        transition: var(--transition);
+    }
+
+    .pro-card:hover {
+        box-shadow: var(--shadow);
+    }
+
+    .pro-card .role {
+        font-weight: 700;
+        font-size: .95rem;
+        color: var(--clr-primary);
+        margin-bottom: .15rem;
+    }
+
+    .pro-card .org {
+        font-size: .88rem;
+        color: var(--clr-accent);
+        font-weight: 600;
+        margin-bottom: .55rem;
+    }
+
+    .pro-card .org a {
+        color: var(--clr-accent);
+        text-decoration: none;
+        border-bottom: 1px dashed var(--clr-accent);
+    }
+
+    .pro-card .org a:hover {
+        color: var(--clr-primary);
+        border-bottom-color: var(--clr-primary);
+    }
+
+    .pro-card p {
+        font-size: .84rem;
+        color: var(--clr-muted);
+        line-height: 1.65;
+        margin: 0;
+    }
+
+    .pro-card .task-list {
+        list-style: none;
+        padding: 0;
+        margin: .5rem 0 0;
+    }
+
+    .pro-card .task-list li {
+        font-size: .84rem;
+        color: var(--clr-muted);
+        padding: .25rem 0;
+        padding-left: 1.2rem;
+        position: relative;
+        line-height: 1.55;
+    }
+
+    .pro-card .task-list li::before {
+        content: '▸';
+        position: absolute;
+        left: 0;
+        color: var(--clr-accent);
+        font-weight: 700;
+    }
+
+    /* Past collaborators badges */
+    .collab-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .45rem;
+        margin-top: .85rem;
+    }
+
+    .collab-badge {
+        display: inline-block;
+        background: var(--clr-accent-light);
+        color: var(--clr-primary);
+        font-size: .78rem;
+        font-weight: 600;
+        padding: .3rem .7rem;
+        border-radius: 999px;
+        border: 1px solid #c5ddf0;
+    }
+
+    /* ── Field Experience Image Block ── */
+    .field-block {
+        border-radius: var(--radius);
+        overflow: hidden;
+        border: 1px solid var(--clr-border);
+        background: var(--clr-green-light);
+    }
+
+    .field-block img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        max-height: 300px;
+    }
+
+    .field-block .field-caption {
+        padding: 1.2rem 1.4rem;
+    }
+
+    .field-block .field-caption p {
+        font-size: .88rem;
+        color: var(--clr-text);
+        line-height: 1.7;
+        margin: 0;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+        .research-cards {
+            grid-template-columns: 1fr;
+        }
+
+        .hero-intro {
+            padding: 1.2rem;
+        }
+    }
+</style>
+
+<!-- ════════════════════════  HERO  ════════════════════════ -->
+<div class="hero-intro">
+    <span class="greeting">Hi 🌍, thanks for visiting my website!</span>
+    I am an applied development economist and data scientist focusing on <strong>food and environmental systems, global
+        food security, humanitarian health, humanitarian response, and development challenges in low‑ and middle‑income
+        countries</strong>. I am particularly motivated by the question of how humanitarian and development efforts can
+    be both <em>effective</em> in reaching vulnerable populations and <em>efficient</em> in using scarce resources—a
+    challenge that is becoming increasingly urgent as global crises multiply and resources are stretched.
+
+    <div class="method-chips">
+        <span class="method-chip"><span class="dot"></span>Natural Language Processing</span>
+        <span class="method-chip"><span class="dot"></span>Causal Inference</span>
+        <span class="method-chip"><span class="dot"></span>Machine Learning</span>
+        <span class="method-chip"><span class="dot"></span>Household Surveys</span>
+        <span class="method-chip"><span class="dot"></span>Satellite Imagery</span>
+        <span class="method-chip"><span class="dot"></span>Unstructured Text</span>
+    </div>
+</div>
+
+<!-- ════════════════════  RESEARCH INTERESTS  ════════════════════ -->
+<div class="about-section">
+    <h2><span class="icon">🔬</span> Research Interests</h2>
+
+    <div class="research-cards">
+        <!-- Food Security & Nutrition -->
+        <div class="research-card card-food">
+            <h3>🌾 Food Security &amp; Nutrition</h3>
+            <p>Drivers of food security and nutrition—how <strong>agriculture, the environment, governance, and
+                    markets</strong> shape people's access to food—and the dynamics of food insecurity across contexts.
+            </p>
+        </div>
+
+        <!-- Humanitarian Aid -->
+        <div class="research-card card-aid">
+            <h3>🤝 Humanitarian Aid</h3>
+            <p>How resources are allocated, how well they respond to shocks like <strong>conflict, climate change, or
+                    economic crises</strong>, and the conditions under which humanitarian interventions succeed or fall
+                short.</p>
+        </div>
+
+        <!-- AI for Early Warning -->
+        <div class="research-card card-ai">
+            <h3>🤖 AI for Early Warning &amp; Early Action</h3>
+            <p>Designing and evaluating <strong>AI‑based tools</strong> that enhance the targeting and timeliness of
+                humanitarian interventions—turning data into actionable early warnings.</p>
+        </div>
+
+        <!-- Humanitarian Health -->
+        <div class="research-card card-health">
+            <h3>🏥 Humanitarian Health</h3>
+            <p>Understanding how <strong>health systems, disease outbreaks, and nutritional crises</strong> intersect
+                with displacement, conflict, and environmental shocks in fragile settings—and how interventions can
+                better address health needs of vulnerable populations.</p>
+        </div>
+    </div>
+</div>
+
+<!-- ════════════════  PROFESSIONAL ENGAGEMENTS  ════════════════ -->
+<div class="about-section">
+    <h2><span class="icon">💼</span> Professional Engagements</h2>
+
+    <!-- Current Role -->
+    <div class="pro-card">
+        <div class="role">Data Scientist &amp; Modeling Specialist (Consultant)</div>
+        <div class="org"><a href="https://www.ipcinfo.org/" target="_blank">Integrated Food Security Phase
+                Classification (IPC)</a> · FAO</div>
+        <p>Contributing to a real‑time risk monitoring system for early detection of food crises and more timely
+            humanitarian responses.</p>
+        <ul class="task-list">
+            <li>Developing an evaluation framework to assess the reliability and operational readiness of AI and
+                statistical models</li>
+            <li>Applying data‑driven methods to detect and prioritize relevant risk indicators for food crisis alerts
+            </li>
+            <li>Building a pipeline that scrapes, geo‑tags, and applies topic modeling to news articles for real‑time
+                contextual insights</li>
+        </ul>
+    </div>
+
+    <!-- Past Collaborations -->
+    <div style="margin-top:.5rem;">
+        <p style="font-size:.88rem; color:var(--clr-muted); margin-bottom:.6rem;">
+            I have also collaborated with several international organizations on operational and research
+            projects—leading technical reports, conducting impact assessments, integrating diverse data sources, and
+            developing predictive models for food security monitoring.
+        </p>
+        <div class="collab-badges">
+            <span class="collab-badge">🏛 FAO</span>
+            <span class="collab-badge">🏛 IFAD</span>
+            <span class="collab-badge">🏛 IFPRI</span>
+        </div>
+    </div>
+</div>
+
+<!-- ════════════════════  FIELD EXPERIENCE  ════════════════════ -->
+<div class="about-section">
+    <h2><span class="icon">🌱</span> Field Experience</h2>
+
+    <div class="field-block">
+        <img src="images/tanzania.png" alt="Fieldwork in Kilosa District, Tanzania (2017)">
+        <div class="field-caption">
+            <p>
+                <strong>Kilosa District, Tanzania (2017)</strong> — Before starting my doctoral studies, I worked for
+                three years on an agricultural development project in Tanzania, where I led fieldwork and provided
+                technical support. Working with a Korean NGO, I helped secure funding, conducted field‑based research,
+                and worked closely with smallholder farmers to assess needs and implement climate‑resilient
+                interventions. This field experience as a community development practitioner has been a vital complement
+                to my academic training.
+            </p>
+        </div>
+    </div>
+</div>
