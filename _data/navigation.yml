@@ -9,10 +9,10 @@ main:
     url: /cv/
   
   - title: "Research"
-    url: /portfolio/
+    url: /research/
 
   - title: "Policy Work"
-    url: /teaching/
+    url: /policy-work/
   
   - title: "Publications"
     url: https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en

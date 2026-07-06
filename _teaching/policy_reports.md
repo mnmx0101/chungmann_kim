@@ -1,5 +1,5 @@
 ---
-permalink: /teaching/
+permalink: /policy-work/
 title: Policy Work & Technical Project
 layout: single
 author_profile: true
