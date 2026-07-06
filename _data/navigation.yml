@@ -6,7 +6,7 @@
 
 main:
   - title: "CV"
-    url: /files/Academic_CV_Kim (2).pdf
+    url: /cv/
   
   - title: "Research"
     url: /portfolio/
