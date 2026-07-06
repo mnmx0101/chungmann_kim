@@ -8,7 +8,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-You can also download my CV as a PDF [here](/files/kim_cv.pdf).
+You can also download my CV as a PDF [here]({{ base_path }}/files/kim_cv.pdf).
 
 Current Academic Position
 =========================
