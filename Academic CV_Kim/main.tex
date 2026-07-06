@@ -1,0 +1,507 @@
+%
+%Academic CV LaTeX Template
+% Author: Dubasi Pavan Kumar
+% LinkedIn: https://www.linkedin.com/in/im-pavankumar/
+% License: MIT
+%
+% For errors, suggestions, or improvements, please contact:
+% Email: pavankumard.pg19.ma@nitp.ac.in
+%
+
+
+
+\documentclass[a4paper,11pt]{article}
+
+% Package imports
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+
+% Page layout
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\footskip}{5pt} % Addressing fancyhdr warning
+
+% Hyperlink setup (moved after fancyhdr to address warning)
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% Custom box settings
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+% URL style
+\urlstyle{same}
+
+% Text alignment
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\circ$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.5mm]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% Commands for icon sizing and positioning
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{1em}{#1}}}
+\newcommand{\ieeeicon}[1]{\raisebox{-0.3em}{\resizebox{!}{1.3em}{#1}}}
+
+% Font options
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont} % Helvetica-like (similar to Arial/Calibri)
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont} % Times-like (similar to Times New Roman)
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont} % Palatino (elegant serif)
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont} % Bookman (readable serif)
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont} % Avant Garde-like (similar to Trebuchet MS)
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont} % Computer Modern Sans Serif
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont} % Quasi-Helvetica (another Arial/Calibri alternative)
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont} % Quasi-Palatino (another elegant serif option)
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont} % Quasi-Times (another Times New Roman alternative)
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont} % Charter (clean serif font)
+
+\begin{document}
+\headerfontiii
+
+% Header
+\begin{center}
+    {\Huge\textbf{CHUNGMANN KIM}}
+\end{center}
+\vspace{-6mm}
+
+\begin{center}
+    \small{
+    +1-217-819-1844 | \href{mailto:ckim183@jh.edu}{ckim183@jh.edu}
+    }
+\end{center}
+\vspace{-6mm}
+
+\begin{center}
+    \small{
+    \socialicon{\faLinkedin} \href{https://www.linkedin.com/in/chungmann-kim-a2979318b/}{linkedin} \,|\, 
+    \socialicon{\faGithub} \href{https://github.com/mnmx0101}{github} \,|\, 
+    \socialicon{\faGlobe} \href{https://mnmx0101.github.io/chungmann_kim/}{Personal Website} \,|\, 
+    \socialicon{\faGraduationCap} \href{https://scholar.google.com/citations?user=lWfMqkoAAAAJ&hl=en}{Google Scholar}
+    }
+\end{center}
+\vspace{-6mm}
+\begin{center}
+    \small{Ellicott City, MD, USA}
+\end{center}
+
+
+\vspace{-4mm}
+
+% ---------- RESEARCH INTERESTS ----------
+\section{\textbf{Research Interests}}
+\small{
+Global Food Security · Health \& Nutrition · AI for Humanitarian · Climate Change · International Development · 
+Poverty \& Food Security Measurement
+}
+% ---------- CURRENT ACADEMIC POSITION ----------
+\section{\textbf{Current Academic Position}}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Bloomberg School of Public Health, Johns Hopkins University}{United States}
+    {Postdoctoral Research Fellow at the \textbf{Center for Humanitarian Health}}{2026 -- Present}
+
+\resumeSubHeadingListEnd
+
+% ---------- EDUCATION AND TRAINING ----------
+\section{\textbf{Education}}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {University of Illinois at Urbana–Champaign}{United States}
+    {Ph.D. in Applied Economics}{2025}
+
+  \resumeSubheading
+    {Seoul National University}{Republic of Korea}
+    {M.Sc. in Agricultural Technology}{2019}
+
+  \resumeSubheading
+    {Handong Global University}{Republic of Korea}
+    {B.Sc. in Environmental Studies (Cum Laude Graduate)}{2015}
+
+\resumeSubHeadingListEnd
+% ---------- WORKING PAPERS ----------
+\section{\textbf{Working Papers}}
+\small{
+
+“\textbf{Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?}” Job Market Paper. 
+[{\href{https://mnmx0101.github.io/chungmann_kim/files/ChungmannKim_IPCAID.pdf}{Draft}}] \\
+\textit{Selected presentation at UNU-WIDER Development Conference (awarded full travel support) · European Association of Agricultural Economists (EAAE) 2025 Congress · Agricultural and Applied Economics Association (AAEA) 2025 Annual Meeting (Poster) · American Public Health Association (APHA) 2026 Annual Meeting and Expo (Oral Presentation)} \\[6pt]
+
+
+“\textbf{Early-Year Milk Price and Child Stunting in Zambia}.” 
+[{\href{https://mnmx0101.github.io/chungmann_kim/files/milk_zambia_paper.pdf}{Draft}} | {\href{https://mnmx0101.github.io/chungmann_kim/files/milk_zambia_slides.pdf}{Slides}}] \\
+\textit{Presented at AAEA 2022, EAAE 2023, Tata-Cornell 2023 $\cdot$ American Public Health Association (APHA) 2026 Annual Meeting and Expo (Poster).} \\[6pt]
+
+“\textbf{H-Aid Tracker AI-Powered Subnational Humanitarian Aid Mapping}.” \\
+\textit{Presented at Food Assistance Strategic Dialogue, Johns Hopkins Bloomberg School of Public Health (Washington D.C., 2026) $\cdot$ AI + Health Care Idea Tank Pitch Finalist, Hopkins Business of Health Initiative, Data Science and AI Institute, \& Innovation Translation Council (2026)} \\[6pt]
+
+}
+
+% ---------- PUBLICATIONS ----------
+\section{\textbf{Publications (Peer-Reviewed)}}
+\small{
+
+“\textbf{Hidden Hunger: Global Estimates Systematically Undercount Acute Hunger}.” Lentz, E., Michelson, H., Baylis, K., \& \textbf{Kim, C.} (2025). \colorbox{gray!10}{\textit{Nature Food}}. [\href{https://doi.org/10.1038/s43016-025-01267-z}{DOI}] | [{\href{https://github.com/mnmx0101/IPC_Paper}{Replication Code}}] \\[6pt]
+
+“\textbf{Inside the Black Box: How Consistent Are Global Food Security Crisis Assessments}.” Lentz, E., Michelson, H., Baylis, K., \& \textbf{Kim, C.} (2025). \colorbox{gray!10}{\textit{Food Policy}}. [\href{https://doi.org/10.1016/j.foodpol.2025.103028}{DOI}] | [{\href{https://github.com/mnmx0101/ipc_consistency_paper}{Replication Code}}] \\[6pt]
+
+“\textbf{Machine Learning for Food Security: Principles for Transparency and Usability}.” Zhou, Y., Lentz, E., Michelson, H., \textbf{Kim, C.}, \& Baylis, K. (2022). \colorbox{gray!10}{\textit{Applied Economic Perspectives and Policy}}. [\href{https://doi.org/10.1002/aepp.13281}{DOI}] \\[6pt]
+
+“\textbf{Exploring the Association between Agricultural Production Systems and Household Diets in Viet Nam}.” Bandyopadhyay, A., Azzarri, C., Haile, B., \textbf{Kim, C.}, et al. (2022). \colorbox{gray!10}{\textit{Food Security}}. [\href{https://doi.org/10.1007/s12571-022-01283-7}{DOI}] \\[6pt]
+
+“\textbf{The Economics of the Soy Kit for Food Entrepreneurs}.” \textbf{Kim, C.} \& Goldsmith, P. (2021). \colorbox{gray!10}{\textit{Food and Nutrition Bulletin}}. [\href{https://doi.org/10.1177/03795721211023391}{DOI}] \\[6pt]
+
+“\textbf{Vietnamese Preferences for Fresh Korean Ginseng}.” Joo, Y., Kim, T., Nguyen, D.K., \& \textbf{Kim, C.} (2021). \colorbox{gray!10}{\textit{Korean Journal of Agricultural Economics}}. [\href{https://doi.org/10.24102/kjae.2021.62.3.1}{DOI}]
+
+}
+
+% ---------- WORK IN PROGRESS ----------
+\section{\textbf{Work in Progress}}
+\small{
+
+“\textbf{Climate Change, Conflict, Displacement and Health in Mali and Iraq}.” With Center for Humanitarian Health. Modeling displacement using AI and estimating climate-driven health needs. [\href{https://hopkinshumanitarianhealth.org/research/ongoing-projects}{Project Link}] \\[6pt]
+
+“\textbf{Developing a Review and Evaluation Framework for AI Models (LACI Project)}.” With Melissande, M. (EuropeanCommission – Joint Research Centre, EC–JRC) and IPC-GSU. \\[6pt]
+
+“\textbf{Acute Food Insecurity Data and Modelling}.” With Ronco, M. et al. (collaboration with EC–JRC). \\[6pt]
+
+“\textbf{Multidimensional Food Security Indicators: Evidence from Sub-Saharan Africa}.” With Baylis, K., Lentz, E., Michelson, H. Presented at AAEA 2022 Track Session.
+
+}
+
+
+
+% ---------- Professional Experience ----------
+\section{\textbf{Professional Experience}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Food and Agriculture Organization (FAO), IPC Global Support Unit}{Rome, Italy / Remote}
+  {Data Scientist \& Modelling Specialist}{Feb 2024 -- Present}
+  \resumeItemListStart
+    \item Predictive modelling · Multi-Source Data Integration · AI Model Evaluation
+    \item Prototype development: News Media Analytics for Risk Monitoring [\href{https://huggingface.co/spaces/Chungmann/ssd_monitoring_version4}{Live Tool}]
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Food and Agriculture Organization (FAO), IPC Global Support Unit}{Rome, Italy / Remote}
+  {Food Security Analyst}{Oct 2022 -- Aug 2023}
+  \resumeItemListStart
+    \item IPC Accuracy Study · Descriptive and inferential analytics
+  \resumeItemListEnd
+
+\resumeSubheading
+  {International Fund for Agricultural Development (IFAD)}{Rome, Italy / Remote}
+  {Impact Assessment Specialist}{Sep 2023 -- Jan 2024}
+  \resumeItemListStart
+    \item IFAD11/12 dataset harmonization · 10+ countries · Geospatial and socio-economic indicators
+    \item Create automated data pipelines · climate adaptation program evaluation (Nepal)
+  \resumeItemListEnd
+
+\resumeSubheading
+  {International Food Policy Research Institute (IFPRI)}{Washington, DC}
+  {Research Intern}{Oct 2018 -- Jan 2019}
+  \resumeItemListStart
+    \item International Dietary Data Expansion (INDDEX) project, Vietnam
+    \item Co-authored research on integrated farming systems and household diets
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Canaan Farmer School}{Korea \& Tanzania}
+  {Project and Training Officer}{Jan 2015 -- Dec 2017}
+  \resumeItemListStart
+    \item Capacity building · Agriculture · Resilience · Microfinance
+    \item Grant management · Cooperative development · Community development projects
+  \resumeItemListEnd
+
+
+
+\resumeSubHeadingListEnd
+
+% ---------- POLICY WORK & TECHNICAL PROJECTS ----------
+\section{\textbf{Policy Work \& Technical Projects}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {LACI Framework: Evaluating AI Models for IPC Use}{FAO–IPC GSU}
+  {Policy Tool \& Framework}{2025}
+  \resumeItemListStart
+    \item Developed the Learning, Assessing, Calibrating, and Integrating (LACI) framework to evaluate AI, ML, and statistical model outputs for IPC integration
+    \item Designed operational tools (Learn and Assess Cards) to conduct technical screening, define context-specific limitations, and map outputs to IPC workflows
+    \item Applied the framework to validate early warning predictive models (e.g., World Bank's Yemen Data-Driven Model)
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Optimizing Classification Thresholds for Food Security Indicators}{FAO–IPC GSU}
+  {Technical Project}{2025}
+  \resumeItemListStart
+    \item Threshold optimization · Household survey harmonization · Cross-country concordance
+  \resumeItemListEnd
+
+\resumeSubheading
+  {News Media Analytics for Risk Monitoring}{FAO–IPC GSU \& Kickstart AI (Netherland)}
+  {Policy Tool}{2025}
+  \resumeItemListStart
+    \item News Monitoring using NLP / LLM · Sentiment analysis · Topic modelling · IPC risk integration [\href{https://mnmx0101.github.io/chungmann_kim/files/ipc_news_monitoring.pdf}{View Slides}]
+  \resumeItemListEnd
+
+\resumeSubheading
+  {IPC Accuracy Study: Internal Consistency of AFI \& AMN Analyses}{FAO–IPC GSU}
+  {Technical Report}{2024}
+  \resumeItemListStart
+    \item Food Security Measurement Study [\href{https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Accuracy_Study.pdf}{View Report}]
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Production, Consumption, and Food Security in Viet Nam}{IFPRI, FAO, Tufts Univ.}
+  {Diagnostic Report}{2021}
+  \resumeItemListStart
+    \item Agricultural production · Diets · Food security linkages [\href{https://inddex.nutrition.tufts.edu/sites/default/files/Vietnam%20Diagnostic%20Overview%20Sept%2023%5B1%5D.pdf}{View Report}]
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Mapping of Poultry Hotspots in Tanzania}{IFPRI}
+  {Technical Note}{2018}
+  \resumeItemListStart
+    \item Geospatial analysis · Market hotspots · Poultry [\href{https://cgspace.cgiar.org/server/api/core/bitstreams/a30ccaad-7abb-4ca7-be7e-37ca9d158e82/content}{View Report}]
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% ---------- TEACHING EXPERIENCE ----------
+\section{\textbf{Teaching}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {University of Illinois at Urbana–Champaign}{Champaign, IL}
+  {Teaching Assistant, ACE 251: The World Food Economy}{Fall 2024}
+  \resumeItemListStart
+    \item Delivered weekly in-class lectures: global food production, consumption, and trade · problems of hunger and population · the role of agricultural development, trade, and aid in relieving hunger
+  \resumeItemListEnd
+
+\resumeSubheading
+  {University of Illinois at Urbana–Champaign}{Champaign, IL}
+  {Teaching Assistant, ACE 435: Global Agribusiness Management}{Fall 2022, Fall 2023}
+  \resumeItemListStart
+    \item Assisted course coordination and grading · Global agribusiness strategy and operations · covered topics (international business environment · global agriculture suppy chain)
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Teaching Material Development}{Online Repository}
+  {Data Science: Tools \& Projects}{2025}
+  \resumeItemListStart
+    \item Practical examples \& reusable code for quantitative policy analysis
+    \item Methods: Python, Machine Learning, NLP, Geospatial Analysis, Causal Inference, LLMs, Dashboard Development
+    \item Repository link: \href{https://github.com/mnmx0101/data-science-for-policy-research}{Data-Science-for-Policy-Research}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+% ---------- METHODS & TOOLS ----------
+\section{\textbf{Methods \& Tools (Applied in Research)}}
+
+\textbf{Programming/Data/GIS/Version Control}: Python · R · Stata · SQL · QGIS · Tableau · Git · GitHub
+
+
+\textbf{Applied Microeconometrics}: DiD · event study · RD · IV · matching 
+\textit{(causal identification and policy evaluation)} \\
+
+\textbf{Machine Learning}: random forest · gradient boosting · LASSO · basic deep learning 
+\textit{(risk monitoring and prediction)} \\
+
+\textbf{NLP \& LLMs}: BERTopic · named entity recognition · sentiment analysis · spaCy · Hugging Face · prompt engineering 
+\textit{(news analytics and document classification)} \\
+
+\textbf{Geospatial}: geostatistical analysis · spatial econometrics · hotspot and cluster analysis 
+\textit{(mapping and spatial analysis)}
+
+
+% ---------- CONFERENCE ----------
+\section{\textbf{Presentations \& Invited Talks}}
+\vspace{-0.4mm}
+American Public Health Association (APHA) Annual Meeting and Expo (2026) $\cdot$  
+\href{https://thoughtsummits.cornell.edu/summit/data-science-to-build-resilience-and-improve-humanitarian-response/}{Thought Summit on DataScience to Build Resilience and Improve Humanitarian Response, Cornell CIDER (2026)} $\cdot$  
+Food Assistance Strategic Dialogue, Johns Hopkins Bloomberg School of Public Health (2026) $\cdot$  
+AI + Health Care Idea Tank Pitch Competition, Hopkins Business of Health Initiative, Data Science and AI Institute, \& Innovation Translation Council (2026) $\cdot$  
+American Agricultural Economics Association (AAEA) Annual Meeting (2025) $\cdot$  
+Center on Food Security and the Environment (Stanford) Seminar (2025) $\cdot$  
+European Association of Agricultural Economists (EAAE) Conference (2023) $\cdot$  
+Tata-Cornell Institute for Agriculture and Nutrition (TCI) Conference (2023) $\cdot$  
+American Agricultural Economics Association (AAEA) Annual Meeting (2022)
+
+
+
+% ---------- OTHER ACTIVITIES ----------
+\section*{\textbf{Other Activities}}
+\vspace{-0.4mm}
+
+\textbf{Professional Activities and Affiliations:} 
+Vice President, Graduate Student Organization, Department of Agricultural and Consumer Economics, UIUC (2020--2021) $\cdot$ 
+Member, IPC Advanced Technologies and Artificial Intelligence (ATARI) Working Group (global initiative to enhance food security early warning leveraging AI tools) $\cdot$ 
+Member, American Agricultural Economics Association (AAEA) (2022, 2025) $\cdot$ 
+Member, European Association of Agricultural Economists (EAAE) (2023, 2025)
+
+\textbf{Public Engagement:}
+Community engagement and humanitarian outreach, Champaign, Illinois (2020--2025): \\ 
+Led donation drives and mobilized resources for programs such as the Shoebox Ministry, Soup Kitchen, and Ready Program $\cdot$ 
+Organized emergency fundraising activities, including humanitarian relief efforts for UNHCR, engaging and coordinating over 100 members of the Korean community; focused on social responsibility, community solidarity, and inclusive action during times of need.
+
+
+% ---------- HONORS ----------
+\section{\textbf{Honors \& Awards}}
+\vspace{-0.4mm}
+
+Finalist (Top 5 across JH schools), 2026 AI + Health Care Idea Tank Pitch Competition, Hopkins Business of Health Initiative, Data Science and AI Institute, \& Innovation Translation Council (2026) $\cdot$  
+ACE Doctoral Fellowship, University of Illinois (Spring, Fall 2025) $\cdot$  
+Full Travel Grant, UNU–WIDER Development Conference (2025) $\cdot$  
+Travel Grant, American Agricultural Economics Association (AAEA) Annual Meeting (2025) $\cdot$  
+Departmental Travel Grant, ACE, University of Illinois (2025 Spring, 2025 Fall, 2022) $\cdot$  
+Banaba House Scholarship, Korea (2022–2024) $\cdot$  
+Cum Laude Graduate, Handong Global University (2015)
+
+
+\section{\textbf{Languages}}
+Korean (Native) · English (Fluent) · Chinese (Intermediate)
+
+
+% ---------- REFERENCES ----------
+\section{\textbf{References}}
+\vspace{-0.4mm}
+\small{
+\begin{enumerate}[leftmargin=*,labelsep=2mm]
+
+\item \textbf{Prof. Kathy Baylis} \\
+Professor and Vice-Chair \\
+Department of Geography \\
+University of California, Santa Barbara \\
+Email: \href{mailto:baylis@ucsb.edu}{baylis@ucsb.edu} \\
+\href{https://www.geog.ucsb.edu/people/faculty/kathy-baylis}{Profile Page}
+
+\item \textbf{Prof. Erin Lentz} \\
+Associate Professor \\
+Lyndon B. Johnson School of Public Affairs \\
+University of Texas, Austin \\
+Email: \href{mailto:erinclentz@utexas.edu}{erinclentz@utexas.edu}\\
+\href{https://lbj.utexas.edu/lentz-erin}{Profile Page} 
+
+\item \textbf{Prof. Hope Michelson} \\
+Professor \\
+Department of Agricultural and Consumer Economics \\
+University of Illinois, Urbana–Champaign \\
+Email: \href{mailto:hopecm@illinois.edu}{hopecm@illinois.edu} \\
+\href{https://www.hopemichelson.org/}{Profile Page}
+
+
+\end{enumerate}
+}
+
+
+
+\end{document}

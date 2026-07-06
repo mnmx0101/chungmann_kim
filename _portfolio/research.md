@@ -10,18 +10,7 @@ author_profile: true
 <a name="working-papers"></a>
 <h2 style="text-align: center;">🧾 Working Papers</h2>
 
-### **Hidden Hunger: Global Population of Acutely Hungry is Underestimated by ¼** <span style="color:blue">(Forthcoming at Nature Food, 2025)</span>
-*with E. Lentz, H. Michelson, K. Baylis*
 
-![Global IPC Gap](../images/figure2_all_panels.png)  
-[*Link to draft*](../files/ipc_bunching_2025.pdf) | [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
-
-<details>
-<summary>Click to view abstract</summary>
-
-Acute hunger affects hundreds of millions of people worldwide with long-term consequences for health, development and security. The Integrated Food Security Phase Classification (IPC) system is the global method for classifying food insecurity severity and is used to allocate more than six billion dollars of humanitarian food assistance annually. Despite concerns that IPC estimates overstate globally food insecurity, our analysis of data from 2.8 billion people between 2017–2023 shows the opposite. We find that IPC assessments underestimate the number of acutely hungry people in the world, missing one in four. Using a non-parametric statistical approach, we find evidence of bunching or under-classification around the threshold that differentiates areas classified as ‘stressed’ from those ‘in crisis’—a critical threshold intended to trigger humanitarian funding. Contrary to widely held assumptions, our findings suggest that the prevalence and severity of acute hunger is significantly higher than current global estimates.
-
-</details>
 
 ### **Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?** <span style="color:blue">(Job Market Paper)</span>
 ![Aid Flow Analysis](../images/aid_main_fig (1).png)  
@@ -31,18 +20,6 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 <summary>Click to view abstract</summary>
 
 International humanitarian aid is a critical tool for mitigating acute food security crises. However, its effectiveness in responding to institutionalized crisis alerts, such as the Integrated Food Security Phase Classification (IPC), remains empirically understudied at the subnational level. This paper addresses this gap by constructing a novel dataset of geocoded aid flows in Afghanistan and using a staggered difference-in-differences design to estimate the causal impact of an escalation to a severe food security emergency. The analysis reveals that while an alert triggers a rapid and statistically significant increase in aid, the response is both transitory, fading quickly after the initial months, and insufficient, falling substantially short of estimated basic needs. The study also uncovers heterogeneity in responsiveness across different donors. Ultimately, these findings provide the first granular evidence that while the humanitarian system reacts to formal signals, a critical gap persists between signaling an emergency and adequately addressing it.
-
-</details>
-
-### **Inside the black box: how consistent are global food security crisis assessments**  <span style="color:blue">(Accepted, Food Policy)</span> 
-*with E. Lentz, H. Michelson, K. Baylis*
-![IPC Threshold Consistency](../images/inconsistent_ipc.png)
-[*Link to draft*](../files/ipc_inconsistency.pdf)
-
-<details>
-<summary>Click to view abstract</summary>
-
-The world relies on assessments by the United Nations-facilitated Integrated Food Security Phase Classification (IPC) to identify where populations are most food insecure and to quantify the severity of these situations. IPC sub-national assessments are designed to be comparable over space and time in the 30 countries in which they operate. Humanitarian agencies appear to treat these assessments as authoritative and comparable, relying on IPC classifications to allocate more than six billion dollars of aid globally and annuallyper year. In this paper, we study whether IPC food insecurity classifications are indeed consistent and comparable across time and space. Analyzing 1,881 IPC classifications from fifteen countries between 2019 and 2023, we show that the IPC technical working groups who make IPC assessments face recurring and significant challenges related to data and food security measurement, resulting from often discordant underlying food security data. These data and measurement challenges make achieving consistency challenging, underscoring both the fundamental difficulty of food security classifications and the value of the IPC process, which is based on achieving consensus among trained experts based on available data and contextual information. We find that the vast majority of classifications are consistent with IPC technical guidance, but that this guidance allows for a wide range of classifications . We also find evidence that IPC technical working groups differ in the way that they rely on available food security data, often weighing food security indicators differently in different locations. Though variation in the way in which how the food security indicators are used to make assessments can reflect different sets of evidence and contexts, we also find that working groups even weigh indicators differently across time for the same location. Further, TWGs do not treat closely correlated food security indicators as substitutes, suggesting some inconsistency in the treatment of food security indicators across assessments. We discuss implications of these findings for policy and for the use of IPC assessments in research.
 
 </details>
 
@@ -60,8 +37,37 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 
 </details>
 
+### **H-Aid Tracker AI-Powered Subnational Humanitarian Aid Mapping**
+*Presented at Food Assistance Strategic Dialogue, Johns Hopkins Bloomberg School of Public Health (Washington D.C., 2026) · AI + Health Care Idea Tank Pitch Finalist, Hopkins Business of Health Initiative, Data Science and AI Institute, & Innovation Translation Council (2026)*
+
 <a name="publications-peer-reviewed"></a>
 <h2 style="text-align: center;">📘 Publications (Peer-Reviewed)</h2>
+
+### **Hidden Hunger: Global Estimates Systematically Undercount Acute Hunger** <span style="color:blue">(*Nature Food*, 2025)</span>
+*with E. Lentz, H. Michelson, K. Baylis*
+
+![Global IPC Gap](../images/figure2_all_panels.png)  
+[*DOI*](https://doi.org/10.1038/s43016-024-00123-x) | [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
+
+<details>
+<summary>Click to view abstract</summary>
+
+Acute hunger affects hundreds of millions of people worldwide with long-term consequences for health, development and security. The Integrated Food Security Phase Classification (IPC) system is the global method for classifying food insecurity severity and is used to allocate more than six billion dollars of humanitarian food assistance annually. Despite concerns that IPC estimates overstate globally food insecurity, our analysis of data from 2.8 billion people between 2017–2023 shows the opposite. We find that IPC assessments underestimate the number of acutely hungry people in the world, missing one in four. Using a non-parametric statistical approach, we find evidence of bunching or under-classification around the threshold that differentiates areas classified as ‘stressed’ from those ‘in crisis’—a critical threshold intended to trigger humanitarian funding. Contrary to widely held assumptions, our findings suggest that the prevalence and severity of acute hunger is significantly higher than current global estimates.
+
+</details>
+
+### **Inside the Black Box: How Consistent Are Global Food Security Crisis Assessments**  <span style="color:blue">(*Food Policy*, 2025)</span> 
+*with E. Lentz, H. Michelson, K. Baylis*
+
+![IPC Threshold Consistency](../images/inconsistent_ipc.png)
+[*DOI*](https://doi.org/10.1016/j.foodpol.2024.102604) | [*Replication Code*](https://github.com/mnmx0101/IPC_Inconsistency)
+
+<details>
+<summary>Click to view abstract</summary>
+
+The world relies on assessments by the United Nations-facilitated Integrated Food Security Phase Classification (IPC) to identify where populations are most food insecure and to quantify the severity of these situations. IPC sub-national assessments are designed to be comparable over space and time in the 30 countries in which they operate. Humanitarian agencies appear to treat these assessments as authoritative and comparable, relying on IPC classifications to allocate more than six billion dollars of aid globally and annuallyper year. In this paper, we study whether IPC food insecurity classifications are indeed consistent and comparable across time and space. Analyzing 1,881 IPC classifications from fifteen countries between 2019 and 2023, we show that the IPC technical working groups who make IPC assessments face recurring and significant challenges related to data and food security measurement, resulting from often discordant underlying food security data. These data and measurement challenges make achieving consistency challenging, underscoring both the fundamental difficulty of food security classifications and the value of the IPC process, which is based on achieving consensus among trained experts based on available data and contextual information. We find that the vast majority of classifications are consistent with IPC technical guidance, but that this guidance allows for a wide range of classifications . We also find evidence that IPC technical working groups differ in the way that they rely on available food security data, often weighing food security indicators differently in different locations. Though variation in the way in which how the food security indicators are used to make assessments can reflect different sets of evidence and contexts, we also find that working groups even weigh indicators differently across time for the same location. Further, TWGs do not treat closely correlated food security indicators as substitutes, suggesting some inconsistency in the treatment of food security indicators across assessments. We discuss implications of these findings for policy and for the use of IPC assessments in research.
+
+</details>
 
 ### **Machine Learning for Food Security: Principles for Transparency and Usability**  
 <span style="color:blue">*Applied Economic Perspectives and Policy, 2022*</span><br>
@@ -113,6 +119,12 @@ Fresh Korean ginseng needs more credibility in the Vietnam market since fresh gi
 
 <a name="work-in-progress"></a>
 <h2 style="text-align: center;">🔬 Work-In-Progress</h2>
+
+### **Climate Change, Conflict, Displacement and Health in Mali and Iraq**
+*With Center for Humanitarian Health. Leading displacement modeling for Iraq.*
+
+### **Developing a Review and Evaluation Framework for AI Models (LACI Project)**
+*With Melissande, M. (EuropeanCommission – Joint Research Centre, EC–JRC) and IPC-GSU.*
 
 ### **Multidimensional Food Security Dynamics in Sub-Saharan Africa**  
 <iframe src="../images/multi_fi_malawi.html" 
