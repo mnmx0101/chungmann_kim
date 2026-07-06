@@ -14,6 +14,8 @@ author_profile: true
 
 ### **Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?** <span style="color:blue">(Job Market Paper)</span>
 ![Aid Flow Analysis](../images/aid_main_fig (1).png)  
+*Selected presentation at UNU-WIDER Development Conference (awarded full travel support) · European Association of Agricultural Economists (EAAE) 2025 Congress · Agricultural and Applied Economics Association (AAEA) 2025 Annual Meeting (Poster) · American Public Health Association (APHA) 2026 Annual Meeting and Expo (Oral Presentation)*
+
 [*Link to draft*](../files/AIDPAPER_2026_Kim.pdf) | [*Link to slides*](../files/ipc_aid_slides.pdf)
 
 <details>
@@ -26,7 +28,7 @@ International humanitarian aid is a critical tool for mitigating acute food secu
 ### **Early-Year Milk Prices and Child Stunting in Zambia** <span style="color:blue">(Ready for Submission)</span>
 *with K. Baylis*
 ![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
-**Selected Presentation** at the American Agricultural Economics Association 2022, European Association of Agricultural Economists 2023, Tata-Cornell Institute for Agriculture and Nutrition 2023
+*Presented at AAEA 2022, EAAE 2023, Tata-Cornell 2023 · American Public Health Association (APHA) 2026 Annual Meeting and Expo (Poster).*
 
 [*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s)  &#124; [*Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
 
@@ -140,7 +142,7 @@ This study investigates how commonly used food security indicators—such as the
 
 </details>
 
-### **Operational and actionable Acute Food Insecurity modelling**  
+### **Acute Food Insecurity Data and Modelling**  
 *w/* M. Ronco (JRC.E1), M. Machefer (JRC.D5), A. Matano (VU Amsterdam), D. Piovani (WFP), M. Meroni, J. M. Veiga Lopez-Pena (JRC.D5), C. Corbane (JRC.E1), F. Rembold (JRC.D5)​ 
 
 <details>

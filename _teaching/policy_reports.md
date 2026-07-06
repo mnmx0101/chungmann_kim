@@ -5,6 +5,16 @@ layout: single
 author_profile: true
 ---
 
+### **LACI Framework: Evaluating AI Models for IPC Use (2025)**
+*Policy Tool & Framework, FAO–IPC GSU*
+
+<details>
+<summary>Click to view abstract</summary>
+
+Developed the Learning, Assessing, Calibrating, and Integrating (LACI) framework to evaluate AI, ML, and statistical model outputs for IPC integration. Designed operational tools (Learn and Assess Cards) to conduct technical screening, define context-specific limitations, and map outputs to IPC workflows. Applied the framework to validate early warning predictive models (e.g., World Bank’s Yemen Data-Driven Model).
+
+</details>
+
 ### **Optimizing Classification Thresholds for Food Security Indicators: A Data-Driven Evaluation Across 26 Countries (2025)** 
 *with M. Mizutani (FAO)*
 ![optimization](../images/hdds_fcs_selected.png)  
