@@ -12,7 +12,7 @@ author_profile: true
 <details>
 <summary>Click to view abstract</summary>
 
-Developed the Learning, Assessing, Calibrating, and Integrating (LACI) framework to evaluate AI, ML, and statistical model outputs for IPC integration. Designed operational tools (Learn and Assess Cards) to conduct technical screening, define context-specific limitations, and map outputs to IPC workflows. Applied the framework to validate early warning predictive models (e.g., World Bank’s Yemen Data-Driven Model).
+Developed the Learning, Assessing, Calibrating, and Integrating (LACI) framework to evaluate AI, ML, and statistical model outputs for IPC integration. Designed operational tools (Learn and Assess Cards) to conduct technical screening, define context-specific limitations, and map outputs to IPC workflows. [*LACI-Framework*](https://github.com/mnmx0101/LACI-Framework)
 
 </details>
 

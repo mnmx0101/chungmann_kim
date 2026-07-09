@@ -87,7 +87,7 @@ Machine learning (ML) holds potential to predict hunger crises before they occur
 ### **Exploring the Association between Agricultural Production Systems and Household Diets in Viet Nam**  
 <span style="color:blue">*Food Security, 2022*</span><br>
 *Authors:* A. Bandyopadhyay, C. Azzarri, B. Haile, **_C. Kim_**, C. Alvarez, A. Moltedo, A. Sattar, W. Bell, B. Rogers  
-*DOI:* [https://10.1007/s12571-022-01276-x](https://link.springer.com/article/10.1007/s12571-022-01276-x)
+*DOI:* [https://doi.org/10.1007/s12571-022-01276-x](https://doi.org/10.1007/s12571-022-01276-x)
 
 <details>
 <summary>Click to view abstract</summary>
