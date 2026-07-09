@@ -4,6 +4,7 @@ title: "Research"
 layout: single
 author_profile: true
 ---
+{% include base_path %}
 
 [🧾 Working Papers](#working-papers)  &#124;  [📘 Publications](#publications-peer-reviewed)  &#124; [🔬 Work-In-Progress](#work-in-progress)
 
@@ -13,10 +14,10 @@ author_profile: true
 
 
 ### **Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?** <span style="color:blue">(Job Market Paper)</span>
-![Aid Flow Analysis](../images/aid_main_fig (1).png)  
+![Aid Flow Analysis]({{ base_path }}/images/aid_main_fig (1).png)  
 *Selected presentation at UNU-WIDER Development Conference (awarded full travel support) · European Association of Agricultural Economists (EAAE) 2025 Congress · Agricultural and Applied Economics Association (AAEA) 2025 Annual Meeting (Poster) · American Public Health Association (APHA) 2026 Annual Meeting and Expo (Oral Presentation)*
 
-[*Link to draft*](../files/AIDPAPER_2026_Kim.pdf) | [*Link to slides*](../files/ipc_aid_slides.pdf)
+[*Link to draft*]({{ base_path }}/files/AIDPAPER_2026_Kim.pdf) | [*Link to slides*]({{ base_path }}/files/ipc_aid_slides.pdf)
 
 <details>
 <summary>Click to view abstract</summary>
@@ -27,7 +28,7 @@ International humanitarian aid is a critical tool for mitigating acute food secu
 
 ### **Early-Year Milk Prices and Child Stunting in Zambia** <span style="color:blue">(Ready for Submission)</span>
 *with K. Baylis*
-![Zambia Milk Prices](../images/milk_price_malnutrition (1).png)  
+![Zambia Milk Prices]({{ base_path }}/images/milk_price_malnutrition (1).png)  
 *Presented at AAEA 2022, EAAE 2023, Tata-Cornell 2023 · American Public Health Association (APHA) 2026 Annual Meeting and Expo (Poster).*
 
 [*Link to draft*](https://uofi.box.com/s/vgameizo3rivde5isa01kol7mhjwa59s)  &#124; [*Presentation Slides*](https://uofi.box.com/s/qiodej02vq9nx5nsvyc0jzn9qwxbyjhv)
@@ -48,7 +49,7 @@ Zambia experienced a sharp rise in food prices in late 2015. In this study, we c
 ### **Hidden Hunger: Global Estimates Systematically Undercount Acute Hunger** <span style="color:blue">(*Nature Food*, 2025)</span>
 *with E. Lentz, H. Michelson, K. Baylis*
 
-![Global IPC Gap](../images/figure2_all_panels.png)  
+![Global IPC Gap]({{ base_path }}/images/figure2_all_panels.png)  
 [*DOI*](https://doi.org/10.1038/s43016-024-00123-x) | [*Replication Code*](https://github.com/mnmx0101/IPC_Paper)
 
 <details>
@@ -61,7 +62,7 @@ Acute hunger affects hundreds of millions of people worldwide with long-term con
 ### **Inside the Black Box: How Consistent Are Global Food Security Crisis Assessments**  <span style="color:blue">(*Food Policy*, 2025)</span> 
 *with E. Lentz, H. Michelson, K. Baylis*
 
-![IPC Threshold Consistency](../images/inconsistent_ipc.png)
+![IPC Threshold Consistency]({{ base_path }}/images/inconsistent_ipc.png)
 [*DOI*](https://doi.org/10.1016/j.foodpol.2024.102604) | [*Replication Code*](https://github.com/mnmx0101/IPC_Inconsistency)
 
 <details>
@@ -129,7 +130,7 @@ Fresh Korean ginseng needs more credibility in the Vietnam market since fresh gi
 *With Melissande, M. (EuropeanCommission – Joint Research Centre, EC–JRC) and IPC-GSU.*
 
 ### **Multidimensional Food Security Dynamics in Sub-Saharan Africa**  
-<iframe src="../images/multi_fi_malawi.html" 
+<iframe src="{{ base_path }}/images/multi_fi_malawi.html" 
         width="150%" 
         height="600" 
         frameborder="0.5">

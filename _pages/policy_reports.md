@@ -4,6 +4,7 @@ title: Policy Work & Technical Project
 layout: single
 author_profile: true
 ---
+{% include base_path %}
 
 ### **LACI Framework: Evaluating AI Models for IPC Use (2025)**
 *Policy Tool & Framework, FAO–IPC GSU*
@@ -17,7 +18,7 @@ Developed the Learning, Assessing, Calibrating, and Integrating (LACI) framework
 
 ### **Optimizing Classification Thresholds for Food Security Indicators: A Data-Driven Evaluation Across 26 Countries (2025)** 
 *with M. Mizutani (FAO)*
-![optimization](../images/hdds_fcs_selected.png)  
+![optimization]({{ base_path }}/images/hdds_fcs_selected.png)  
 
 <details>
 <summary>Click to view abstract</summary>
@@ -28,8 +29,8 @@ This project presents a data-driven approach to optimize classification threshol
 
 ### **Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises (2025)** 
 *with C. van Wanrooij (Kickstart AI)*
-![news_analytics](../images/media_project.png)
-[*Link to draft*](../files/ipc_news_monitoring.pdf)   
+![news_analytics]({{ base_path }}/images/media_project.png)
+[*Link to draft*]({{ base_path }}/files/ipc_news_monitoring.pdf)   
 
 <details>
 <summary>Click to view abstract</summary>
