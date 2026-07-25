@@ -641,7 +641,6 @@ author_profile: false
         <li><a href="#experience" class="ed-nav-link">Experience</a></li>
         <li><a href="#gallery" class="ed-nav-link">Gallery &amp; Fieldwork</a></li>
         <li><a href="#teaching" class="ed-nav-link">Teaching</a></li>
-        <li><a href="{{ base_path }}/classic/" class="ed-nav-link" style="color: var(--ed-accent2);">← Classic Home</a></li>
       </ul>
     </div>
   </nav>
@@ -658,21 +657,22 @@ author_profile: false
             Chungmann (Manny) Kim
           </h1>
           <div class="ed-hero-subtitle">
-            GLOBAL FOOD SECURITY * HEALTH * HUMANITARIAN POLICY
+            GLOBAL FOOD SECURITY · HEALTH · HUMANITARIAN POLICY
           </div>
           <div class="ed-affiliation">
-            BLOOMBERG SCHOOL OF PUBLIC HEALTH · JOHNS HOPKINS UNIVERSITY
+            POSTDOCTORAL FELLOW · BLOOMBERG SCHOOL OF PUBLIC HEALTH · JOHNS HOPKINS UNIVERSITY
           </div>
           <p class="ed-hero-bio">
             My research spans <strong>food and environmental systems, food security, health, humanitarian response, and development challenges</strong> in low‑ and middle‑income countries. I am particularly motivated by the question of how humanitarian and development efforts can be both <em>effective</em> in reaching vulnerable populations and <em>efficient</em> in using scarce resources—a challenge that is becoming increasingly urgent as global crises multiply and resources are stretched.
           </p>
+          <p class="ed-hero-bio" style="margin-top: -0.8rem;">
+            I completed my Ph.D. in Applied Economics at the <strong>University of Illinois Urbana‑Champaign</strong>. <a href="{{ base_path }}/cv/" class="ed-cv-link" style="color: var(--ed-accent); text-decoration: underline; font-weight: 600;">[View Full Curriculum Vitae &rarr;]</a>
+          </p>
           <div class="ed-chips">
-            <span class="ed-chip"><span class="dot"></span>Natural Language Processing</span>
+            <span class="ed-chip"><span class="dot"></span>Applied Microeconometrics</span>
             <span class="ed-chip"><span class="dot"></span>Causal Inference</span>
+            <span class="ed-chip"><span class="dot"></span>Natural Language Processing</span>
             <span class="ed-chip"><span class="dot"></span>Machine Learning</span>
-            <span class="ed-chip"><span class="dot"></span>Household Surveys</span>
-            <span class="ed-chip"><span class="dot"></span>Satellite Imagery</span>
-            <span class="ed-chip"><span class="dot"></span>Unstructured Text</span>
           </div>
         </div>
         <div>
@@ -694,19 +694,19 @@ author_profile: false
 
       <div class="ed-grid-4">
         <div class="ed-card">
-          <h3>🌾 Food Security &amp; Nutrition</h3>
+          <h3>Food Security &amp; Nutrition</h3>
           <p>Drivers of food security and nutrition—how <strong>agriculture, the environment, governance, and markets</strong> shape people's access to food—and the dynamics of food insecurity across contexts.</p>
         </div>
         <div class="ed-card">
-          <h3>🤝 Humanitarian Aid</h3>
+          <h3>Humanitarian Aid</h3>
           <p>How resources are allocated, how well they respond to shocks like <strong>conflict, climate change, or economic crises</strong>, and the conditions under which humanitarian interventions succeed or fall short.</p>
         </div>
         <div class="ed-card">
-          <h3>🤖 AI for Early Warning</h3>
+          <h3>AI for Early Warning</h3>
           <p>Designing and evaluating <strong>AI‑based tools and NLP pipelines</strong> that enhance the targeting and timeliness of humanitarian interventions—turning unstructured data into actionable early warnings.</p>
         </div>
         <div class="ed-card card-health">
-          <h3>🏥 Humanitarian Health</h3>
+          <h3>Humanitarian Health</h3>
           <p>Understanding how <strong>health systems, disease outbreaks, and nutritional crises</strong> intersect with displacement, conflict, and environmental shocks in fragile settings.</p>
         </div>
       </div>
@@ -740,8 +740,8 @@ author_profile: false
               International humanitarian aid is a critical tool for mitigating acute food security crises. However, its effectiveness in responding to institutionalized crisis alerts, such as the Integrated Food Security Phase Classification (IPC), remains empirically understudied at the subnational level. This paper constructs a novel dataset of geocoded aid flows in Afghanistan and uses a staggered difference-in-differences design to estimate the causal impact of an escalation to a severe food security emergency. The analysis reveals that while an alert triggers a rapid and statistically significant increase in aid, the response is both transitory, fading quickly after the initial months, and insufficient, falling substantially short of estimated basic needs.
             </p>
             <div class="ed-links" onclick="event.stopPropagation()">
-              <a href="{{ base_path }}/files/AIDPAPER_2026_Kim.pdf" target="_blank" class="ed-btn">📄 Download Draft PDF</a>
-              <a href="{{ base_path }}/files/ipc_aid_slides.pdf" target="_blank" class="ed-btn">📊 Presentation Slides</a>
+              <a href="{{ base_path }}/files/AIDPAPER_2026_Kim.pdf" target="_blank" class="ed-btn">Download Draft PDF</a>
+              <a href="{{ base_path }}/files/ipc_aid_slides.pdf" target="_blank" class="ed-btn">Presentation Slides</a>
             </div>
           </div>
         </div>
@@ -783,6 +783,10 @@ author_profile: false
             <p class="ed-abstract">
               An empirical investigation into global acute hunger monitoring systems, revealing systematic undercounts in acute food insecurity assessments and highlighting structural gaps in global crisis targeting.
             </p>
+            <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://doi.org/10.1038/s43016-025-01267-z" target="_blank" class="ed-btn">View Journal Article</a>
+              <a href="https://github.com/mnmx0101/IPC_Paper" target="_blank" class="ed-btn">Replication Code</a>
+            </div>
           </div>
         </div>
 
@@ -803,6 +807,10 @@ author_profile: false
             <p class="ed-abstract">
               This paper evaluates internal consistency and methodological rigor across global crisis assessment frameworks, analyzing divergence across multiple indicators and institutional analytical workflows.
             </p>
+            <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://doi.org/10.1016/j.foodpol.2025.103028" target="_blank" class="ed-btn">View Journal Article</a>
+              <a href="https://github.com/mnmx0101/ipc_consistency_paper" target="_blank" class="ed-btn">Replication Code</a>
+            </div>
           </div>
         </div>
 
@@ -823,6 +831,9 @@ author_profile: false
             <p class="ed-abstract">
               Formulates best practices and guiding principles for deploying machine learning models in humanitarian food security forecasting, emphasizing transparency, interpretability, and decision-maker trust.
             </p>
+            <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://doi.org/10.1002/aepp.13214" target="_blank" class="ed-btn">View Journal Article</a>
+            </div>
           </div>
         </div>
       </div>
@@ -856,7 +867,7 @@ author_profile: false
               Developed the Learning, Assessing, Calibrating, and Integrating (LACI) framework to evaluate AI, ML, and statistical model outputs for IPC integration. Designed operational tools (Learn and Assess Cards) to conduct technical screening, define context-specific limitations, and map outputs to IPC workflows.
             </p>
             <div class="ed-links" onclick="event.stopPropagation()">
-              <a href="https://github.com/mnmx0101/LACI-Framework" target="_blank" class="ed-btn">💻 GitHub Repository</a>
+              <a href="https://github.com/mnmx0101/LACI-Framework" target="_blank" class="ed-btn">GitHub Repository</a>
             </div>
           </div>
         </div>
@@ -899,7 +910,7 @@ author_profile: false
               Leveraging advances in natural language processing—including transformer-based sentiment analysis and unsupervised topic modeling (BERTopic)—this system processes scraped news articles through a pipeline of geoparsing, thematic classification, and temporal aggregation, aligning results with the IPC framework.
             </p>
             <div class="ed-links" onclick="event.stopPropagation()">
-              <a href="{{ base_path }}/files/ipc_news_monitoring.pdf" target="_blank" class="ed-btn">📄 Download Technical Note</a>
+              <a href="{{ base_path }}/files/ipc_news_monitoring.pdf" target="_blank" class="ed-btn">Download Technical Note</a>
             </div>
           </div>
         </div>
@@ -992,7 +1003,7 @@ author_profile: false
             <img src="{{ base_path }}/images/tanzania.png" alt="Fieldwork in Kilosa District, Tanzania">
           </div>
           <div class="ed-gallery-caption">
-            <h4>🌱 Fieldwork in Tanzania (2017)</h4>
+            <h4>Fieldwork in Tanzania (2017)</h4>
             <p>Community agricultural assessments and climate-resilient training in Kilosa District with smallholder farmer communities.</p>
           </div>
         </div>
@@ -1003,7 +1014,7 @@ author_profile: false
             <img src="{{ base_path }}/images/media_project.png" alt="NLP News Analytics Pipeline">
           </div>
           <div class="ed-gallery-caption">
-            <h4>📰 AI Media Analytics Pipeline</h4>
+            <h4>AI Media Analytics Pipeline</h4>
             <p>Geoparsing and transformer-based topic modeling (BERTopic) extracting real-time food security risk signals from 18,000+ global news articles.</p>
           </div>
         </div>
@@ -1014,7 +1025,7 @@ author_profile: false
             <img src="{{ base_path }}/images/hdds_fcs_selected.png" alt="Threshold Optimization Across 26 Countries">
           </div>
           <div class="ed-gallery-caption">
-            <h4>📊 Food Security Threshold Optimization</h4>
+            <h4>Food Security Threshold Optimization</h4>
             <p>Pairwise concordance and Cohen's Kappa agreement evaluation across 780,000+ households spanning 26 country datasets.</p>
           </div>
         </div>
@@ -1025,7 +1036,7 @@ author_profile: false
             <img src="{{ base_path }}/images/inconsistent_ipc.png" alt="IPC Internal Consistency Analysis">
           </div>
           <div class="ed-gallery-caption">
-            <h4>🗺️ Global Crisis Assessment Inconsistency</h4>
+            <h4>Global Crisis Assessment Inconsistency</h4>
             <p>Evaluating internal consistency between Acute Food Insecurity (AFI) and Acute Malnutrition (AMN) analytical classifications.</p>
           </div>
         </div>
@@ -1036,7 +1047,7 @@ author_profile: false
             <img src="{{ base_path }}/images/aepp_ml (1).png" alt="Machine Learning Usability Framework">
           </div>
           <div class="ed-gallery-caption">
-            <h4>🤖 ML Transparency &amp; Usability</h4>
+            <h4>ML Transparency &amp; Usability</h4>
             <p>Framework for ethical and interpretable machine learning deployment in humanitarian early warning systems.</p>
           </div>
         </div>
@@ -1047,7 +1058,7 @@ author_profile: false
             <img src="{{ base_path }}/images/zambia_stunting_urban.png" alt="Zambia Milk Price and Child Stunting">
           </div>
           <div class="ed-gallery-caption">
-            <h4>🥛 Early-Year Dairy Prices &amp; Nutrition</h4>
+            <h4>Early-Year Dairy Prices &amp; Nutrition</h4>
             <p>Empirical evaluation of local market dairy price shocks during infant development windows on urban and rural child stunting in Zambia.</p>
           </div>
         </div>
@@ -1065,20 +1076,20 @@ author_profile: false
 
       <div class="ed-grid-4" style="margin-bottom:3rem;">
         <div class="ed-card">
-          <h3>🎓 University of Illinois (UIUC)</h3>
+          <h3>University of Illinois (UIUC)</h3>
           <p><strong>Teaching Assistant</strong> · ACE 251: The World Food Economy (Fall 2024)<br>
           <strong>Teaching Assistant</strong> · ACE 435: Global Agribusiness Management (Fall 2022, 2023)</p>
         </div>
         <div class="ed-card">
-          <h3>💻 Programming &amp; GIS</h3>
+          <h3>Programming &amp; GIS</h3>
           <p>Python · R · Stata · SQL · QGIS · Tableau · Git · GitHub · LaTeX · Web Scraping &amp; API Data Pipelines</p>
         </div>
         <div class="ed-card">
-          <h3>📈 Applied Microeconometrics</h3>
+          <h3>Applied Microeconometrics</h3>
           <p>Difference-in-Differences (DiD) · Event Study Designs · Regression Discontinuity (RD) · Instrumental Variables (IV) · Matching</p>
         </div>
         <div class="ed-card card-health">
-          <h3>🧠 Machine Learning &amp; NLP</h3>
+          <h3>Machine Learning &amp; NLP</h3>
           <p>Random Forests · Gradient Boosting · LASSO · Transformer Models · Topic Modeling (BERTopic) · Sentiment Analysis</p>
         </div>
       </div>

@@ -8,9 +8,6 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Classic Home"
-    url: /classic/
-
   - title: "CV"
     url: /cv/
   
