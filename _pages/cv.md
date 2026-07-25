@@ -30,7 +30,7 @@ Education
 Working Papers
 ==============
 
-* "Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?" Job Market Paper.
+* "Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?"
 * "Early-Year Milk Price and Child Stunting in Zambia."
 * "H-Aid Tracker AI-Powered Subnational Humanitarian Aid Mapping."
 

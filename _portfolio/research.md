@@ -13,7 +13,7 @@ author_profile: true
 
 
 
-### **Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?** <span style="color:blue">(Job Market Paper)</span>
+### **Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?**
 ![Aid Flow Analysis]({{ base_path }}/images/aid_main_fig (1).png)  
 *Selected presentation at UNU-WIDER Development Conference (awarded full travel support) · European Association of Agricultural Economists (EAAE) 2025 Congress · Agricultural and Applied Economics Association (AAEA) 2025 Annual Meeting (Poster) · American Public Health Association (APHA) 2026 Annual Meeting and Expo (Oral Presentation)*
 
