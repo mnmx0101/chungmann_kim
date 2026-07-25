@@ -1,7 +1,7 @@
 ---
 permalink: /editorial/
 title: "Chungmann Kim — Applied Economist & Data Scientist"
-layout: splash
+layout: editorial
 author_profile: false
 ---
 {% include base_path %}
@@ -177,6 +177,15 @@ author_profile: false
     font-style: italic;
     color: var(--ed-accent2);
     font-weight: 500;
+  }
+
+  .ed-hero-subtitle {
+    font-family: var(--ed-mono);
+    font-size: clamp(0.85rem, 1.25vw, 1.05rem);
+    font-weight: 500;
+    color: var(--ed-accent2);
+    letter-spacing: 0.1em;
+    margin: -0.4rem 0 1.4rem;
   }
 
   .ed-affiliation {
@@ -632,6 +641,7 @@ author_profile: false
         <li><a href="#experience" class="ed-nav-link">Experience</a></li>
         <li><a href="#gallery" class="ed-nav-link">Gallery &amp; Fieldwork</a></li>
         <li><a href="#teaching" class="ed-nav-link">Teaching</a></li>
+        <li><a href="{{ base_path }}/" class="ed-nav-link" style="color: var(--ed-accent2);">← Original Site</a></li>
       </ul>
     </div>
   </nav>
@@ -645,9 +655,11 @@ author_profile: false
             APPLIED ECONOMIST | DATA SCIENTIST
           </div>
           <h1 class="ed-hero-title">
-            Chungmann (Manny) Kim <br>
-            <em>GLOBAL FOOD SECURITY | HEALTH | HUMANITARIAN POLICY</em>
+            Chungmann (Manny) Kim
           </h1>
+          <div class="ed-hero-subtitle">
+            GLOBAL FOOD SECURITY * HEALTH * HUMANITARIAN POLICY
+          </div>
           <div class="ed-affiliation">
             BLOOMBERG SCHOOL OF PUBLIC HEALTH · JOHNS HOPKINS UNIVERSITY
           </div>
