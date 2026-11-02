@@ -1103,6 +1103,51 @@ author_profile: false
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
   }
+
+  .ed-tag {
+    display: inline-block;
+    font-family: var(--ed-sans);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ed-accent);
+    border: 1px solid rgba(42, 74, 127, 0.35);
+    border-radius: 999px;
+    padding: 0.05rem 0.45rem;
+    margin: 0.35rem 0.3rem 0 0;
+    vertical-align: 0.1em;
+  }
+
+  @media (min-width: 901px) {
+    .ed-hero-grid {
+      grid-template-columns: minmax(0, 1fr) 360px;
+      align-items: start;
+    }
+  }
+  @media (max-width: 900px) {
+    .ed-photo-frame { max-width: 340px; }
+  }
+
+  .ed-status {
+    display: inline-block;
+    font-family: var(--ed-sans);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--ed-accent);
+    border-radius: 999px;
+    padding: 0.08rem 0.45rem;
+    margin: 0.35rem 0.3rem 0 0;
+    vertical-align: 0.1em;
+  }
+
+  .ed-research-area p em {
+    font-weight: 700;
+    color: var(--ed-ink);
+  }
 </style>
 
 <div class="editorial-wrapper">
@@ -1145,7 +1190,7 @@ author_profile: false
             <li><strong>Using AI.</strong> LLM and machine-learning methods where conventional data fall short, treated as measurement instruments.
               <ul class="ed-ai-list">
                 <li><em>Information extraction:</em> LLM georeferencing and topic extraction from unstructured aid records, validated against official project locations.</li>
-                <li><em>Early warning:</em> NLP anomaly detection on news, validated against conflict events.</li>
+                <li><em>Early warning:</em> NLP detection of crisis signals in news, classified across a taxonomy of crisis drivers.</li>
                 <li><em>Model governance:</em> LACI, a framework for deciding when AI and statistical models are fit to inform global food-crisis classification.</li>
                 <li><em>Research workflow:</em> agentic, version-controlled pipelines with human approval gates.</li>
               </ul>
@@ -1175,34 +1220,27 @@ author_profile: false
       <div class="ed-grid-4">
         <div class="ed-card ed-research-area">
           <h3>Food Security, Nutrition and Health</h3>
-          <p>How acute hunger is measured and missed, and how food and price shocks affect child nutrition.</p>
+          <p>How acute hunger is measured and missed, how food and price shocks affect child nutrition, and how climate, conflict and displacement shape health.</p>
           <p style="margin-top:0.8rem; font-size:0.9rem; color:var(--ed-ink2); line-height:1.5;">
             <strong>Related Research:</strong><br>
-            · <em>Official Estimates of Global Food Insecurity Undercount Acute Hunger</em> (Nature Food, 2025; AAEA Quality of Research Discovery Award) <a href="https://doi.org/10.1038/s43016-025-01267-z" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Inside the Black Box: How Consistent Are Global Food Security Crisis Analyses?</em> (Food Policy, 2026) <a href="https://doi.org/10.1016/j.foodpol.2025.103028" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Early-Year Milk Price and Child Stunting in Zambia</em> <a href="{{ base_path }}/files/milk_zambia_paper.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Multidimensional Food Security Indicators</em> (with Baylis, Lentz and Michelson)<br>
-            · <em>Exploring the Association between Agricultural Production Systems and Household Diets in Viet Nam</em> (Food Security, 2022) <a href="https://doi.org/10.1007/s12571-022-01276-x" target="_blank" style="color: var(--ed-accent);">[link]</a>
+            <span class="ed-tag">Hunger measurement</span> <span class="ed-status">Published</span> <em>Official Estimates of Global Food Insecurity Undercount Acute Hunger</em> (Nature Food, 2025; AAEA Quality of Research Discovery Award) <a href="https://doi.org/10.1038/s43016-025-01267-z" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            <span class="ed-tag">Crisis classification</span> <span class="ed-status">Published</span> <em>Inside the Black Box: How Consistent Are Global Food Security Crisis Analyses?</em> (Food Policy, 2026) <a href="https://doi.org/10.1016/j.foodpol.2025.103028" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            <span class="ed-tag">Child nutrition</span> <span class="ed-status">Working paper</span> <em>Early-Year Milk Price and Child Stunting in Zambia</em> <a href="{{ base_path }}/files/milk_zambia_paper.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            <span class="ed-tag">Indicators &amp; targeting</span> <span class="ed-status">Working paper</span> <em>Multidimensional Food Security Indicators</em> (with Baylis, Lentz and Michelson)<br>
+            <span class="ed-tag">Diets &amp; agriculture</span> <span class="ed-status">Published</span> <em>Exploring the Association between Agricultural Production Systems and Household Diets in Viet Nam</em> (Food Security, 2022) <a href="https://doi.org/10.1007/s12571-022-01276-x" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            <span class="ed-tag">Displacement &amp; health</span> <span class="ed-status">Ongoing</span> <em>Climate Change, Conflict, Displacement and Health in Mali and Iraq</em> (Center for Humanitarian Health) <a href="https://hopkinshumanitarianhealth.org/research/ongoing-projects" target="_blank" style="color: var(--ed-accent);">[link]</a>
           </p>
         </div>
         <div class="ed-card ed-research-area ed-research-area--ai">
-          <h3>Humanitarian Finance</h3>
-          <p>Where humanitarian aid goes relative to needs, and how quickly it responds to early-warning evidence.</p>
+          <h3>Humanitarian Finance and AI</h3>
+          <p>Where humanitarian aid goes relative to needs, and when AI and statistical models can be trusted to inform crisis and aid decisions.</p>
           <p style="margin-top:0.8rem; font-size:0.9rem; color:var(--ed-ink2); line-height:1.5;">
             <strong>Related Research:</strong><br>
-            · <em>Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?</em> <a href="{{ base_path }}/files/AIDPAPER_2026_Kim.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Subnational allocation of humanitarian aid relative to needs</em> (H-Aid Tracker; top-5 finalist, JHU AI + Health Care Idea Tank, 2026)<br>
-            · <em>Climate Change, Conflict, Displacement and Health in Mali and Iraq</em> (Center for Humanitarian Health) <a href="https://hopkinshumanitarianhealth.org/research/ongoing-projects" target="_blank" style="color: var(--ed-accent);">[link]</a>
-          </p>
-        </div>
-        <div class="ed-card ed-research-area">
-          <h3>AI for Humanitarian</h3>
-          <p>When AI and statistical models can be trusted to inform crisis classification and aid decisions, and how to check them.</p>
-          <p style="margin-top:0.8rem; font-size:0.9rem; color:var(--ed-ink2); line-height:1.5;">
-            <strong>Related Research:</strong><br>
-            · <em>LACI: a review framework for AI and statistical models in the IPC</em> (FAO IPC with EC-JRC, 2025–) <a href="https://github.com/mnmx0101/LACI-Framework" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises</em> (FAO with Kickstart AI, 2025) <a href="{{ base_path }}/files/ipc_news_monitoring.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Machine Learning for Food Security: Principles for Transparency and Usability</em> (Applied Economic Perspectives and Policy, 2022) <a href="https://doi.org/10.1002/aepp.13214" target="_blank" style="color: var(--ed-accent);">[link]</a>
+            <span class="ed-tag">Aid response</span> <span class="ed-status">Working paper</span> <em>Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?</em> <a href="{{ base_path }}/files/AIDPAPER_2026_Kim.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            <span class="ed-tag">Aid allocation</span> <span class="ed-status">Ongoing</span> <em>Subnational allocation of humanitarian aid relative to needs</em> (H-Aid Tracker; top-5 finalist, JHU AI + Health Care Idea Tank, 2026)<br>
+            <span class="ed-tag">AI evaluation</span> <span class="ed-status">Ongoing</span> <em>LACI: a review framework for AI and statistical models in the IPC</em> (FAO IPC with EC-JRC, 2025–) <a href="https://github.com/mnmx0101/LACI_agent" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            <span class="ed-tag">Early warning</span> <span class="ed-status">Prototype</span> <em>Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises</em> (FAO with Kickstart AI, 2025) <a href="{{ base_path }}/files/ipc_news_monitoring.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a> <a href="https://huggingface.co/spaces/Chungmann/ssd_monitoring_version4" target="_blank" style="color: var(--ed-accent);">[live dashboard]</a><br>
+            <span class="ed-tag">Machine learning</span> <span class="ed-status">Published</span> <em>Machine Learning for Food Security: Principles for Transparency and Usability</em> (Applied Economic Perspectives and Policy, 2022) <a href="https://doi.org/10.1002/aepp.13214" target="_blank" style="color: var(--ed-accent);">[link]</a>
           </p>
         </div>
       </div>
@@ -1415,7 +1453,7 @@ author_profile: false
               A review framework, developed with IPC and EC Joint Research Centre colleagues, for deciding when AI, machine-learning and statistical outputs are reliable enough to inform IPC classifications. It replaces numeric scores with qualitative descriptions of how models fail, and gives analysts screening cards (Learn and Assess) to work through before a model output enters an analysis.
             </p>
             <div class="ed-links" onclick="event.stopPropagation()">
-              <a href="https://github.com/mnmx0101/LACI-Framework" target="_blank" class="ed-btn">GitHub Repository</a>
+              <a href="https://github.com/mnmx0101/LACI_agent" target="_blank" class="ed-btn">GitHub Repository</a>
             </div>
           </div>
         </div>
@@ -1455,9 +1493,10 @@ author_profile: false
           </div>
           <div class="ed-row-content">
             <p class="ed-abstract">
-              Asks whether news coverage signals food-crisis escalation earlier than official assessments. In South Sudan, keyword anomalies in news and field reports were validated against conflict-event data. A validated prototype built with Kickstart AI.
+              Asks whether news coverage signals food-crisis escalation earlier than official assessments. News and field reports are classified across a taxonomy of crisis drivers, and anomalies in each driver are tracked as early-warning signals. A validated prototype built with Kickstart AI.
             </p>
             <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://huggingface.co/spaces/Chungmann/ssd_monitoring_version4" target="_blank" class="ed-btn">Live Dashboard (South Sudan)</a>
               <a href="{{ base_path }}/files/ipc_news_monitoring.pdf" target="_blank" class="ed-btn">Download Technical Note</a>
             </div>
           </div>
