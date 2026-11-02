@@ -214,6 +214,38 @@ author_profile: false
     font-weight: 600;
   }
 
+  .ed-hero-roles {
+    list-style: none;
+    margin: 0 0 1.8rem;
+    padding: 0;
+    max-width: 720px;
+  }
+
+  .ed-hero-roles li {
+    position: relative;
+    margin-bottom: 1rem;
+    padding-left: 1.25rem;
+    color: var(--ed-ink2);
+    font-size: 1.02rem;
+    line-height: 1.7;
+  }
+
+  .ed-hero-roles li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.72em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--ed-accent);
+  }
+
+  .ed-hero-roles strong {
+    color: var(--ed-ink);
+    font-weight: 650;
+  }
+
   .ed-chips {
     display: flex;
     flex-wrap: wrap;
@@ -346,6 +378,20 @@ author_profile: false
   .ed-row-list {
     display: flex;
     flex-direction: column;
+  }
+
+  .ed-publication-group + .ed-publication-group {
+    margin-top: 3rem;
+  }
+
+  .ed-group-title {
+    margin: 0 0 0.35rem;
+    padding-bottom: 0.65rem;
+    color: var(--ed-ink);
+    border-bottom: 1px solid var(--ed-border);
+    font-family: var(--ed-sans);
+    font-size: 1.25rem;
+    font-weight: 600;
   }
 
   .ed-row {
@@ -623,6 +669,440 @@ author_profile: false
     .ed-nav-list { gap: 1rem; }
     .ed-section-head { flex-direction: column; gap: 0.3rem; }
   }
+
+  :root {
+    --ed-bg: #f7f8f6;
+    --ed-bg2: #eef2ef;
+    --ed-ink: #202a28;
+    --ed-ink2: #53605c;
+    --ed-ink3: #78827e;
+    --ed-accent: #27675e;
+    --ed-accent-light: #e7f0ed;
+    --ed-accent2: #27675e;
+    --ed-accent2-light: #e7f0ed;
+    --ed-border: rgba(32, 42, 40, 0.16);
+    --ed-border-light: rgba(32, 42, 40, 0.1);
+    --ed-radius: 2px;
+    --ed-shadow: none;
+  }
+
+  .editorial-wrapper {
+    background: var(--ed-bg);
+    font-size: 1rem;
+  }
+
+  .editorial-wrapper::before {
+    display: none;
+  }
+
+  .editorial-container {
+    max-width: 1180px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .ed-nav-bar {
+    position: relative;
+    background: var(--ed-bg);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    padding: 0.9rem 0;
+  }
+
+  .ed-nav-list {
+    justify-content: flex-start;
+    gap: 1.35rem;
+  }
+
+  .ed-nav-link {
+    font-family: var(--ed-sans);
+    font-size: 0.88rem;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  .ed-hero {
+    padding: 3.5rem 0;
+  }
+
+  .ed-hero-grid {
+    grid-template-columns: minmax(0, 1fr) 250px;
+    gap: 3rem;
+  }
+
+  .ed-tagline,
+  .ed-hero-subtitle,
+  .ed-affiliation,
+  .ed-chip,
+  .ed-badge,
+  .ed-btn {
+    font-family: var(--ed-sans);
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  .ed-tagline {
+    margin-bottom: 0.8rem;
+  }
+
+  .ed-tagline::before,
+  .ed-chip .dot {
+    display: none;
+  }
+
+  .ed-hero-title {
+    font-size: 3.4rem;
+    letter-spacing: 0;
+    margin-bottom: 0.35rem;
+  }
+
+  .ed-hero-subtitle {
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .ed-affiliation {
+    padding: 0;
+    margin-bottom: 0.75rem;
+    color: var(--ed-ink2);
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .ed-hero-bio {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .ed-hero .ed-hero-bio {
+    margin: 0 0 0.85rem;
+  }
+
+  .ed-inline-link {
+    color: var(--ed-accent);
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .ed-chips {
+    gap: 0.25rem 0.8rem;
+  }
+
+  .ed-chip {
+    padding: 0;
+    color: var(--ed-ink2);
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .ed-chip:hover {
+    color: var(--ed-accent);
+    background: transparent;
+    transform: none;
+  }
+
+  .ed-photo-frame {
+    border: 0;
+    border-radius: 2px;
+    box-shadow: none;
+  }
+
+  .ed-section {
+    padding: 3rem 0;
+  }
+
+  .ed-section-head {
+    gap: 0.8rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .ed-section-title,
+  .ed-card h3,
+  .ed-row-title,
+  .ed-timeline-role,
+  .ed-gallery-caption h4 {
+    font-family: var(--ed-sans);
+  }
+
+  .ed-section-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+
+  .ed-grid-4 {
+    gap: 1.5rem 2rem;
+  }
+
+  .ed-card {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .ed-card::before {
+    display: none;
+  }
+
+  .ed-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .ed-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .ed-research-area {
+    padding: 1.5rem;
+    background: var(--ed-accent-light);
+    border: 1px solid var(--ed-border);
+    border-radius: var(--ed-radius);
+  }
+
+  .ed-research-area--ai {
+    background: var(--ed-bg2);
+  }
+
+  .ed-research-area:hover {
+    background: var(--ed-accent-light);
+  }
+
+  .ed-research-area--ai:hover {
+    background: var(--ed-bg2);
+  }
+
+  .ed-row:hover {
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    background: transparent;
+    border-radius: 0;
+  }
+
+  .ed-badge,
+  .badge-wp,
+  .badge-pub,
+  .badge-policy,
+  .badge-jhu,
+  .badge-fao {
+    padding: 0;
+    color: var(--ed-accent);
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    font-weight: 600;
+  }
+
+  .ed-row-title {
+    font-size: 1.15rem;
+  }
+
+  .ed-btn {
+    border-radius: 2px;
+  }
+
+  .ed-timeline {
+    border-left-width: 1px;
+  }
+
+  .ed-timeline-item::before {
+    width: 8px;
+    height: 8px;
+    left: -2.22rem;
+    border-width: 2px;
+  }
+
+  .ed-timeline-role {
+    font-size: 1.15rem;
+  }
+
+  .ed-timeline-org {
+    color: var(--ed-ink2);
+  }
+
+  .ed-task-list li::before {
+    content: '\2022';
+    color: var(--ed-accent);
+  }
+
+  .ed-gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .ed-gallery-card,
+  .ed-gallery-card:hover {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .ed-gallery-img-wrap {
+    height: auto;
+    aspect-ratio: 16 / 10;
+    border: 0;
+  }
+
+  .ed-gallery-img-wrap img,
+  .ed-gallery-card:hover .ed-gallery-img-wrap img {
+    transform: none;
+  }
+
+  .ed-gallery-caption {
+    padding: 0.9rem 0 0;
+  }
+
+  @media (max-width: 900px) {
+    .ed-hero-grid {
+      grid-template-columns: minmax(0, 1fr) 220px;
+      gap: 2rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .editorial-container {
+      padding-right: 1.25rem;
+      padding-left: 1.25rem;
+    }
+
+    .ed-hero-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .ed-photo-frame {
+      max-width: 220px;
+      margin: 0;
+    }
+
+    .ed-hero-title {
+      font-size: 2.5rem;
+    }
+
+    .ed-nav-list {
+      gap: 0.65rem 1rem;
+    }
+  }
+
+
+  .ed-journal {
+    font-family: var(--ed-serif);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--ed-accent);
+    letter-spacing: 0;
+    margin-right: 0.4rem;
+  }
+
+  .ed-affiliation {
+    font-family: var(--ed-serif);
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--ed-accent);
+    margin-bottom: 1.1rem;
+  }
+
+  .ed-badge,
+  .badge-wp,
+  .badge-pub,
+  .badge-policy,
+  .badge-jhu,
+  .badge-fao {
+    font-family: var(--ed-serif);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--ed-accent);
+    background: transparent;
+    border: 0;
+    padding: 0;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-right: 0.4rem;
+  }
+
+  .ed-group-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--ed-ink);
+    border-bottom: 2px solid var(--ed-ink);
+  }
+
+  .ed-ai-list {
+    list-style: none;
+    margin: 0.6rem 0 0;
+    padding: 0;
+  }
+  .ed-hero-roles .ed-ai-list li {
+    margin-bottom: 0.45rem;
+    padding-left: 1.1rem;
+    font-size: 0.97rem;
+    line-height: 1.6;
+  }
+  .ed-hero-roles .ed-ai-list li::before {
+    width: 4px;
+    height: 4px;
+    top: 0.7em;
+    background: var(--ed-ink3);
+  }
+  .ed-ai-list em {
+    font-style: normal;
+    font-weight: 650;
+    color: var(--ed-ink);
+  }
+
+  .ed-hero-lead {
+    font-family: var(--ed-serif);
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--ed-ink);
+    border-left: 3px solid var(--ed-accent);
+    padding-left: 1rem;
+    margin: 0 0 1.4rem;
+    max-width: 720px;
+  }
+
+  .ed-gallery-img-wrap {
+    height: auto;
+    aspect-ratio: auto;
+  }
+  .ed-gallery-img-wrap img {
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+  .ed-gallery-card:hover .ed-gallery-img-wrap img {
+    transform: none;
+  }
+
+  .ed-research-area h3 {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--ed-ink);
+    margin-bottom: 0.6rem;
+  }
+
+  .ed-journal,
+  .ed-badge,
+  .badge-wp,
+  .badge-pub,
+  .badge-policy,
+  .badge-jhu,
+  .badge-fao {
+    background: rgba(42, 74, 127, 0.14) !important;
+    border-radius: 3px !important;
+    padding: 0 0.25rem !important;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
 </style>
 
 <div class="editorial-wrapper">
@@ -637,7 +1117,7 @@ author_profile: false
         <li><a href="#policy" class="ed-nav-link">Policy Work</a></li>
         <li><a href="#experience" class="ed-nav-link">Experience</a></li>
         <li><a href="#gallery" class="ed-nav-link">Gallery &amp; Fieldwork</a></li>
-        <li><a href="#teaching" class="ed-nav-link">Teaching</a></li>
+        <li><a href="#methods" class="ed-nav-link">Methods</a></li>
         <li><a href="#activities" class="ed-nav-link">Other Activities</a></li>
       </ul>
     </div>
@@ -649,29 +1129,31 @@ author_profile: false
       <div class="ed-hero-grid">
         <div>
           <div class="ed-tagline">
-            APPLIED ECONOMIST | DATA SCIENTIST
+            DEVELOPMENT ECONOMIST | HUMANITARIAN RESEARCHER | DATA SCIENTIST
           </div>
           <h1 class="ed-hero-title">
             Chungmann (Manny) Kim
           </h1>
-          <div class="ed-hero-subtitle">
-            GLOBAL FOOD SECURITY · HEALTH · AI FOR HUMANITARIAN
-          </div>
           <div class="ed-affiliation">
-            POSTDOCTORAL FELLOW · CENTER FOR HUMANITARIAN HEALTH · JOHNS HOPKINS UNIVERSITY
+            Postdoctoral Research Fellow · Center for Humanitarian Health · Johns Hopkins University
           </div>
+          <p class="ed-hero-lead">
+            I study how needs are measured and how policy and aid respond in development and humanitarian contexts.
+          </p>
+          <ul class="ed-hero-roles">
+            <li><strong>Research.</strong> Food insecurity, conflict and displacement; their effects on nutrition and health; and how early-warning evidence shapes aid allocation. Quasi-experimental and spatial econometric methods.</li>
+            <li><strong>Using AI.</strong> LLM and machine-learning methods where conventional data fall short, treated as measurement instruments.
+              <ul class="ed-ai-list">
+                <li><em>Information extraction:</em> LLM georeferencing and topic extraction from unstructured aid records, validated against official project locations.</li>
+                <li><em>Early warning:</em> NLP anomaly detection on news, validated against conflict events.</li>
+                <li><em>Model governance:</em> LACI, a framework for deciding when AI and statistical models are fit to inform global food-crisis classification.</li>
+                <li><em>Research workflow:</em> agentic, version-controlled pipelines with human approval gates.</li>
+              </ul>
+            </li>
+          </ul>
           <p class="ed-hero-bio">
-            My research examines how economic, political, and environmental disturbances affect food security, nutrition, and health, and how the systems designed to measure and respond to these crises perform in practice. Using causal inference methods, I study both the direct welfare effects of shocks on vulnerable populations and the downstream effects of classification systems, such as IPC, on where aid actually flows, work that treats humanitarian data infrastructure itself as an object of empirical scrutiny. I also develop machine learning and NLP pipelines for triangulating disparate, low-quality data sources into more timely and accurate vulnerability assessments.
+            I completed my Ph.D. in Applied Economics at the <strong>University of Illinois Urbana‑Champaign</strong>. My work appears in <em><strong>Nature Food</strong></em>, <em><strong>Food Policy</strong></em>, <em><strong>Applied Economic Perspectives and Policy</strong></em>, <em><strong>Food Security</strong></em> and <em><strong>Food and Nutrition Bulletin</strong></em>. <a href="{{ base_path }}/files/CV_Kim_academic.pdf" target="_blank" class="ed-inline-link">View Full Curriculum Vitae</a> · <a href="https://scholar.google.com/citations?user=lWfMqkoAAAAJ&amp;hl=en" target="_blank" class="ed-inline-link">Google Scholar</a>
           </p>
-          <p class="ed-hero-bio" style="margin-top: -0.8rem;">
-            I completed my Ph.D. in Applied Economics at the <strong>University of Illinois Urbana‑Champaign</strong>. <a href="https://mnmx0101.github.io/chungmann_kim/files/kim_cv.pdf" target="_blank" class="ed-cv-link" style="color: var(--ed-accent); text-decoration: underline; font-weight: 600;">[View Full Curriculum Vitae &rarr;]</a>
-          </p>
-          <div class="ed-chips">
-            <span class="ed-chip"><span class="dot"></span>Applied Microeconometrics</span>
-            <span class="ed-chip"><span class="dot"></span>Causal Inference</span>
-            <span class="ed-chip"><span class="dot"></span>Natural Language Processing</span>
-            <span class="ed-chip"><span class="dot"></span>Machine Learning</span>
-          </div>
         </div>
         <div>
           <div class="ed-photo-frame">
@@ -691,45 +1173,172 @@ author_profile: false
       </div>
 
       <div class="ed-grid-4">
-        <div class="ed-card">
-          <h3>Food Security, Nutrition, and Health</h3>
-          <p>Drivers and measurement of acute hunger, dietary diversity, agricultural systems, and the intersection of conflict, environmental shocks, displacement, and health.</p>
+        <div class="ed-card ed-research-area">
+          <h3>Food Security, Nutrition and Health</h3>
+          <p>How acute hunger is measured and missed, and how food and price shocks affect child nutrition.</p>
           <p style="margin-top:0.8rem; font-size:0.9rem; color:var(--ed-ink2); line-height:1.5;">
-            <strong>Connected Research:</strong><br>
-            · <em>Hidden Hunger</em> (Nature Food, 2025) <a href="https://doi.org/10.1038/s43016-025-01267-z" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Inside the Black Box</em> (Food Policy, 2025) <a href="https://doi.org/10.1016/j.foodpol.2025.103028" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Early-Year Milk Price &amp; Child Stunting in Zambia</em> <a href="https://mnmx0101.github.io/chungmann_kim/files/milk_zambia_paper.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Agricultural Systems &amp; Diets in Viet Nam</em> (Food Security, 2022) <a href="https://doi.org/10.1007/s12571-022-01276-x" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Economics of the Soy Kit</em> (Food &amp; Nutrition Bulletin, 2021) <a href="https://doi.org/10.1177/0379572120981183" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Multidimensional Food Security Indicators</em><br>
+            <strong>Related Research:</strong><br>
+            · <em>Official Estimates of Global Food Insecurity Undercount Acute Hunger</em> (Nature Food, 2025; AAEA Quality of Research Discovery Award) <a href="https://doi.org/10.1038/s43016-025-01267-z" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            · <em>Inside the Black Box: How Consistent Are Global Food Security Crisis Analyses?</em> (Food Policy, 2026) <a href="https://doi.org/10.1016/j.foodpol.2025.103028" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            · <em>Early-Year Milk Price and Child Stunting in Zambia</em> <a href="{{ base_path }}/files/milk_zambia_paper.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            · <em>Multidimensional Food Security Indicators</em> (with Baylis, Lentz and Michelson)<br>
+            · <em>Exploring the Association between Agricultural Production Systems and Household Diets in Viet Nam</em> (Food Security, 2022) <a href="https://doi.org/10.1007/s12571-022-01276-x" target="_blank" style="color: var(--ed-accent);">[link]</a>
+          </p>
+        </div>
+        <div class="ed-card ed-research-area ed-research-area--ai">
+          <h3>Humanitarian Finance</h3>
+          <p>Where humanitarian aid goes relative to needs, and how quickly it responds to early-warning evidence.</p>
+          <p style="margin-top:0.8rem; font-size:0.9rem; color:var(--ed-ink2); line-height:1.5;">
+            <strong>Related Research:</strong><br>
+            · <em>Hearing the Alarm: Do Donors Follow Institutional Crisis Signals?</em> <a href="{{ base_path }}/files/AIDPAPER_2026_Kim.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            · <em>Subnational allocation of humanitarian aid relative to needs</em> (13 crisis countries; H-Aid Tracker, top-5 finalist, JHU AI + Health Care Idea Tank, 2026)<br>
             · <em>Climate Change, Conflict, Displacement and Health in Mali and Iraq</em> (Center for Humanitarian Health) <a href="https://hopkinshumanitarianhealth.org/research/ongoing-projects" target="_blank" style="color: var(--ed-accent);">[link]</a>
           </p>
         </div>
-        <div class="ed-card">
+        <div class="ed-card ed-research-area">
           <h3>AI for Humanitarian</h3>
-          <p>Developing AI/ML pipelines, subnational tracking tools, institutional donor analyses, and evaluation frameworks for humanitarian decision-making.</p>
+          <p>When AI and statistical models can be trusted to inform crisis classification and aid decisions, and how to check them.</p>
           <p style="margin-top:0.8rem; font-size:0.9rem; color:var(--ed-ink2); line-height:1.5;">
-            <strong>Connected Research:</strong><br>
-            · <em>Hearing the Alarm: Do Donors Follow Crisis Signals?</em> <a href="{{ base_path }}/files/AIDPAPER_2026_Kim.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>H-Aid Tracker: AI Subnational Aid Mapping</em> (Award Finalist)<br>
-            · <em>LACI Framework: Evaluating AI Models for IPC</em> (FAO, 2025) <a href="https://github.com/mnmx0101/LACI-Framework" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>News Media Analytics for Risk Monitoring</em> (FAO, 2025) <a href="{{ base_path }}/files/ipc_news_monitoring.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
-            · <em>Machine Learning for Food Security</em> (AEPP, 2022) <a href="https://doi.org/10.1002/aepp.13214" target="_blank" style="color: var(--ed-accent);">[link]</a>
+            <strong>Related Research:</strong><br>
+            · <em>LACI: a review framework for AI and statistical models in the IPC</em> (FAO IPC with EC-JRC, 2025–) <a href="https://github.com/mnmx0101/LACI-Framework" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            · <em>Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises</em> (FAO with Kickstart AI, 2025) <a href="{{ base_path }}/files/ipc_news_monitoring.pdf" target="_blank" style="color: var(--ed-accent);">[link]</a><br>
+            · <em>Machine Learning for Food Security: Principles for Transparency and Usability</em> (Applied Economic Perspectives and Policy, 2022) <a href="https://doi.org/10.1002/aepp.13214" target="_blank" style="color: var(--ed-accent);">[link]</a>
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════════  02 / WORKING PAPERS & PUBLICATIONS  ══════════════ -->
+  <!-- ══════════════  02 / RESEARCH PAPERS  ══════════════ -->
   <section id="publications" class="ed-section">
     <div class="editorial-container">
       <div class="ed-section-head">
         <span class="ed-section-num">02 /</span>
-        <h2 class="ed-section-title">Working Papers &amp; Publications</h2>
+        <h2 class="ed-section-title">Research Papers</h2>
       </div>
 
-      <div class="ed-row-list">
+      <div class="ed-publication-group">
+        <h3 class="ed-group-title">Peer-Reviewed Publications</h3>
+        <div class="ed-row-list">
+
+        <!-- Paper 3 -->
+        <div class="ed-row" onclick="this.classList.toggle('open')">
+          <div class="ed-row-header">
+            <div class="ed-row-main">
+              <div class="ed-row-meta">
+                <span class="ed-journal">Nature Food</span>
+                <span class="ed-row-sub">2025 · Lentz, E., Baylis, K., Michelson, H., &amp; Kim, C.</span>
+              </div>
+              <h3 class="ed-row-title">Official Estimates of Global Food Insecurity Undercount Acute Hunger</h3>
+              <p class="ed-row-sub"><em>Empirical investigation into global acute hunger monitoring systems and underreporting</em></p>
+            </div>
+            <span class="ed-row-toggle">+</span>
+          </div>
+          <div class="ed-row-content">
+            <p class="ed-abstract">
+              Examines more than 10,000 IPC subnational analyses covering about 1 billion people (2017–2023). Official estimates understate severity and miss about one in five acutely hungry people, largely through under-classification around the threshold meant to trigger humanitarian response. Received the AAEA Quality of Research Discovery Award.
+            </p>
+            <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://doi.org/10.1038/s43016-025-01267-z" target="_blank" class="ed-btn">View Journal Article</a>
+              <a href="https://github.com/mnmx0101/IPC_Paper" target="_blank" class="ed-btn">Replication Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 4 -->
+        <div class="ed-row" onclick="this.classList.toggle('open')">
+          <div class="ed-row-header">
+            <div class="ed-row-main">
+              <div class="ed-row-meta">
+                <span class="ed-journal">Food Policy</span>
+                <span class="ed-row-sub">2026 · Lentz, E., Baylis, K., Michelson, H., &amp; Kim, C.</span>
+              </div>
+              <h3 class="ed-row-title">Inside the Black Box: How Consistent Are Global Food Security Crisis Analyses?</h3>
+              <p class="ed-row-sub"><em>Evaluating internal consistency and methodological rigor across crisis assessment frameworks</em></p>
+            </div>
+            <span class="ed-row-toggle">+</span>
+          </div>
+          <div class="ed-row-content">
+            <p class="ed-abstract">
+              Uses 1,849 IPC subnational analyses (742 million people, 15 countries, 2019–2023) to recover how analysts weight evidence. Indicators are weighted differently across locations, so similar evidence can lead to different classifications.
+            </p>
+            <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://doi.org/10.1016/j.foodpol.2025.103028" target="_blank" class="ed-btn">View Journal Article</a>
+              <a href="https://github.com/mnmx0101/ipc_consistency_paper" target="_blank" class="ed-btn">Replication Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 5 -->
+        <div class="ed-row" onclick="this.classList.toggle('open')">
+          <div class="ed-row-header">
+            <div class="ed-row-main">
+              <div class="ed-row-meta">
+                <span class="ed-journal">Applied Economic Perspectives and Policy</span>
+                <span class="ed-row-sub">2022 · Zhou, Y., Lentz, E., Michelson, H., Kim, C., &amp; Baylis, K.</span>
+              </div>
+              <h3 class="ed-row-title">Machine Learning for Food Security: Principles for Transparency and Usability</h3>
+              <p class="ed-row-sub"><em>Guiding principles for ethical and interpretable humanitarian forecasting models</em></p>
+            </div>
+            <span class="ed-row-toggle">+</span>
+          </div>
+          <div class="ed-row-content">
+            <p class="ed-abstract">
+              Formulates best practices and guiding principles for deploying machine learning models in humanitarian food security forecasting, emphasizing transparency, interpretability, and decision-maker trust.
+            </p>
+            <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://doi.org/10.1002/aepp.13214" target="_blank" class="ed-btn">View Journal Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- Paper 6 -->
+        <div class="ed-row" onclick="this.classList.toggle('open')">
+          <div class="ed-row-header">
+            <div class="ed-row-main">
+              <div class="ed-row-meta">
+                <span class="ed-journal">Food Security</span>
+                <span class="ed-row-sub">2022 · Bandyopadhyay, A., Azzarri, C., Haile, B., Kim, C., et al.</span>
+              </div>
+              <h3 class="ed-row-title">Exploring the Association between Agricultural Production Systems and Household Diets in Viet Nam</h3>
+              <p class="ed-row-sub"><em>Integrated farming systems and diet quality</em></p>
+            </div>
+            <span class="ed-row-toggle">+</span>
+          </div>
+          <div class="ed-row-content">
+            <p class="ed-abstract">
+              Uses Viet Nam's Household Living Standards Survey to relate integrated farming (VAC) systems to household diets. Aquaculture and fruit and vegetable production are associated with better diet quality; full VAC adoption mainly increased fiber intake.
+            </p>
+            <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://doi.org/10.1007/s12571-022-01276-x" target="_blank" class="ed-btn">View Journal Article</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paper 7 -->
+        <div class="ed-row" onclick="this.classList.toggle('open')">
+          <div class="ed-row-header">
+            <div class="ed-row-main">
+              <div class="ed-row-meta">
+                <span class="ed-journal">Food and Nutrition Bulletin</span>
+                <span class="ed-row-sub">2021 · Kim, C., &amp; Goldsmith, P.</span>
+              </div>
+              <h3 class="ed-row-title">The Economics of the Soy Kit for Food Entrepreneurs</h3>
+            </div>
+            <span class="ed-row-toggle">+</span>
+          </div>
+          <div class="ed-row-content">
+            <div class="ed-links" onclick="event.stopPropagation()">
+              <a href="https://doi.org/10.1177/0379572120981183" target="_blank" class="ed-btn">View Journal Article</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="ed-publication-group">
+        <h3 class="ed-group-title">Working Papers</h3>
+        <div class="ed-row-list">
         <!-- Paper 1 -->
         <div class="ed-row" onclick="this.classList.toggle('open')">
           <div class="ed-row-header">
@@ -745,7 +1354,7 @@ author_profile: false
           </div>
           <div class="ed-row-content">
             <p class="ed-abstract">
-              International humanitarian aid is a critical tool for mitigating acute food security crises. However, its effectiveness in responding to institutionalized crisis alerts, such as the Integrated Food Security Phase Classification (IPC), remains empirically understudied at the subnational level. This paper constructs a novel dataset of geocoded aid flows in Afghanistan and uses a staggered difference-in-differences design to estimate the causal impact of an escalation to a severe food security emergency. The analysis reveals that while an alert triggers a rapid and statistically significant increase in aid, the response is both transitory, fading quickly after the initial months, and insufficient, falling substantially short of estimated basic needs.
+              Do donors respond when the IPC declares a food-security emergency? I build a geocoded, purpose-labelled dataset of humanitarian funding to Afghanistan from OCHA Financial Tracking Service records, using language models with human review to read project descriptions, and estimate the aid response to IPC Phase 4 escalations with a staggered difference-in-differences design. Food-security aid rises after an emergency designation, but with a substantial delay, and per-capita aid for people in emergency remains insufficient.
             </p>
             <div class="ed-links" onclick="event.stopPropagation()">
               <a href="{{ base_path }}/files/AIDPAPER_2026_Kim.pdf" target="_blank" class="ed-btn">Download Draft PDF</a>
@@ -769,80 +1378,11 @@ author_profile: false
           </div>
           <div class="ed-row-content">
             <p class="ed-abstract">
-              This study examines the causal linkage between local market prices of nutritional staples—specifically dairy—during critical early-life development windows and child stunting outcomes across urban and rural Zambia, utilizing comprehensive household survey and market price panel data.
+              Links Zambia's Demographic and Health Surveys to historical milk prices, with household fixed effects and weather-shock controls. Higher milk prices when children are 12–24 months old, the transition from breastfeeding, raise stunting risk, especially among children aged 24–59 months.
             </p>
           </div>
         </div>
 
-        <!-- Paper 3 -->
-        <div class="ed-row" onclick="this.classList.toggle('open')">
-          <div class="ed-row-header">
-            <div class="ed-row-main">
-              <div class="ed-row-meta">
-                <span class="ed-badge badge-pub">Nature Food</span>
-                <span class="ed-row-sub">2025 · with Lentz, E., Michelson, H., Baylis, K.</span>
-              </div>
-              <h3 class="ed-row-title">Hidden Hunger: Global Estimates Systematically Undercount Acute Hunger</h3>
-              <p class="ed-row-sub"><em>Empirical investigation into global acute hunger monitoring systems and underreporting</em></p>
-            </div>
-            <span class="ed-row-toggle">+</span>
-          </div>
-          <div class="ed-row-content">
-            <p class="ed-abstract">
-              An empirical investigation into global acute hunger monitoring systems, revealing systematic undercounts in acute food insecurity assessments and highlighting structural gaps in global crisis targeting.
-            </p>
-            <div class="ed-links" onclick="event.stopPropagation()">
-              <a href="https://doi.org/10.1038/s43016-025-01267-z" target="_blank" class="ed-btn">View Journal Article</a>
-              <a href="https://github.com/mnmx0101/IPC_Paper" target="_blank" class="ed-btn">Replication Code</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Paper 4 -->
-        <div class="ed-row" onclick="this.classList.toggle('open')">
-          <div class="ed-row-header">
-            <div class="ed-row-main">
-              <div class="ed-row-meta">
-                <span class="ed-badge badge-pub">Food Policy</span>
-                <span class="ed-row-sub">2025 · with Lentz, E., Michelson, H., Baylis, K.</span>
-              </div>
-              <h3 class="ed-row-title">Inside the Black Box: How Consistent Are Global Food Security Crisis Assessments?</h3>
-              <p class="ed-row-sub"><em>Evaluating internal consistency and methodological rigor across crisis assessment frameworks</em></p>
-            </div>
-            <span class="ed-row-toggle">+</span>
-          </div>
-          <div class="ed-row-content">
-            <p class="ed-abstract">
-              This paper evaluates internal consistency and methodological rigor across global crisis assessment frameworks, analyzing divergence across multiple indicators and institutional analytical workflows.
-            </p>
-            <div class="ed-links" onclick="event.stopPropagation()">
-              <a href="https://doi.org/10.1016/j.foodpol.2025.103028" target="_blank" class="ed-btn">View Journal Article</a>
-              <a href="https://github.com/mnmx0101/ipc_consistency_paper" target="_blank" class="ed-btn">Replication Code</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Paper 5 -->
-        <div class="ed-row" onclick="this.classList.toggle('open')">
-          <div class="ed-row-header">
-            <div class="ed-row-main">
-              <div class="ed-row-meta">
-                <span class="ed-badge badge-pub">AEPP</span>
-                <span class="ed-row-sub">2022 · with Zhou, Y., Lentz, E., Michelson, H., Baylis, K.</span>
-              </div>
-              <h3 class="ed-row-title">Machine Learning for Food Security: Principles for Transparency and Usability</h3>
-              <p class="ed-row-sub"><em>Guiding principles for ethical and interpretable humanitarian forecasting models</em></p>
-            </div>
-            <span class="ed-row-toggle">+</span>
-          </div>
-          <div class="ed-row-content">
-            <p class="ed-abstract">
-              Formulates best practices and guiding principles for deploying machine learning models in humanitarian food security forecasting, emphasizing transparency, interpretability, and decision-maker trust.
-            </p>
-            <div class="ed-links" onclick="event.stopPropagation()">
-              <a href="https://doi.org/10.1002/aepp.13214" target="_blank" class="ed-btn">View Journal Article</a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -872,7 +1412,7 @@ author_profile: false
           </div>
           <div class="ed-row-content">
             <p class="ed-abstract">
-              Developed the Learning, Assessing, Calibrating, and Integrating (LACI) framework to evaluate AI, ML, and statistical model outputs for IPC integration. Designed operational tools (Learn and Assess Cards) to conduct technical screening, define context-specific limitations, and map outputs to IPC workflows.
+              A review framework, developed with IPC and EC Joint Research Centre colleagues, for deciding when AI, machine-learning and statistical outputs are reliable enough to inform IPC classifications. It replaces numeric scores with qualitative descriptions of how models fail, and gives analysts screening cards (Learn and Assess) to work through before a model output enters an analysis.
             </p>
             <div class="ed-links" onclick="event.stopPropagation()">
               <a href="https://github.com/mnmx0101/LACI-Framework" target="_blank" class="ed-btn">GitHub Repository</a>
@@ -889,7 +1429,7 @@ author_profile: false
                 <span class="ed-row-sub">FAO–IPC GSU · 2025</span>
               </div>
               <h3 class="ed-row-title">Optimizing Classification Thresholds for Food Security Indicators</h3>
-              <p class="ed-row-sub"><em>Empirical evaluation across 26 countries and 780,000+ households</em></p>
+              <p class="ed-row-sub"><em>Household-survey harmonization and cross-country concordance</em></p>
             </div>
             <span class="ed-row-toggle">+</span>
           </div>
@@ -905,17 +1445,17 @@ author_profile: false
           <div class="ed-row-header">
             <div class="ed-row-main">
               <div class="ed-row-meta">
-                <span class="ed-badge badge-policy">Media Analytics</span>
+                <span class="ed-badge badge-policy">Early Warning</span>
                 <span class="ed-row-sub">with Kickstart AI &amp; FAO · 2025</span>
               </div>
               <h3 class="ed-row-title">Unstructured News as Structured Risk: A Media-Based Pipeline for Anticipating Crises</h3>
-              <p class="ed-row-sub"><em>Real-time NLP risk monitoring system extracting early warning signals</em></p>
+              <p class="ed-row-sub"><em>Validated prototype that extracts early-warning signals from news</em></p>
             </div>
             <span class="ed-row-toggle">+</span>
           </div>
           <div class="ed-row-content">
             <p class="ed-abstract">
-              Leveraging advances in natural language processing—including transformer-based sentiment analysis and unsupervised topic modeling (BERTopic)—this system processes scraped news articles through a pipeline of geoparsing, thematic classification, and temporal aggregation, aligning results with the IPC framework.
+              Asks whether news coverage signals food-crisis escalation earlier than official assessments. In South Sudan, keyword anomalies in news and field reports were validated against conflict-event data. A validated prototype built with Kickstart AI.
             </p>
             <div class="ed-links" onclick="event.stopPropagation()">
               <a href="{{ base_path }}/files/ipc_news_monitoring.pdf" target="_blank" class="ed-btn">Download Technical Note</a>
@@ -944,7 +1484,7 @@ author_profile: false
           <h3 class="ed-timeline-role">Postdoctoral Research Fellow</h3>
           <div class="ed-timeline-org"><a href="https://humanitarianhealth.jhu.edu/" target="_blank" style="color:inherit;">Center for Humanitarian Health · Bloomberg School of Public Health</a></div>
           <p class="ed-timeline-desc">
-            Conducting advanced research at the intersection of climate change, conflict, displacement, and health in fragile settings, developing predictive models and rigorous evaluation frameworks for humanitarian response.
+            Spatial models of climate, conflict, displacement and refugee movements in Iraq, and a geocoded dataset of humanitarian funding across 13 crisis countries that relates subnational aid allocation to needs and displacement.
           </p>
         </div>
 
@@ -952,34 +1492,34 @@ author_profile: false
         <div class="ed-timeline-item">
           <div class="ed-row-meta" style="margin-bottom:0.3rem;">
             <span class="ed-badge badge-fao">FAO · IPC GSU</span>
-            <span class="ed-row-sub">2024 – Present (Consultant Specialist) · 2022 – 2023 (Analyst)</span>
+            <span class="ed-row-sub">2024 – Present · 2022 – 2023 (part-time consultant)</span>
           </div>
           <h3 class="ed-timeline-role">Data Scientist &amp; Modelling Specialist</h3>
           <div class="ed-timeline-org">Integrated Food Security Phase Classification (IPC) · Food and Agriculture Organization</div>
           <ul class="ed-task-list">
-            <li>Developing an evaluation framework (LACI) to assess the reliability and operational readiness of AI and statistical models.</li>
-            <li>Applying data‑driven methods to detect and prioritize relevant risk indicators for food crisis alerts across global hotspots.</li>
-            <li>Building an automated NLP pipeline that scrapes, geo‑tags, and applies topic modeling to unstructured news articles for real‑time crisis anticipation.</li>
+            <li>Lead development of the LACI framework (Learning, Assessing, Calibrating, Integrating) with IPC and EC-JRC colleagues, to check AI, ML and statistical outputs before they inform IPC analysis.</li>
+            <li>Optimized classification thresholds for food-security indicators through household-survey harmonization and cross-country concordance.</li>
+            <li>Developed and validated a prototype that reads news and field reports for early signs of crisis in South Sudan, with Kickstart AI.</li>
           </ul>
         </div>
 
         <!-- Role 3 -->
         <div class="ed-timeline-item">
           <div class="ed-row-meta" style="margin-bottom:0.3rem;">
-            <span class="ed-badge badge-wp" style="background:#fef9e7; color:#b7950b; border-color:#f9e79f;">IFAD</span>
+            <span class="ed-badge badge-wp">IFAD</span>
             <span class="ed-row-sub">2023 – 2024</span>
           </div>
           <h3 class="ed-timeline-role">Impact Assessment Specialist</h3>
           <div class="ed-timeline-org">International Fund for Agricultural Development (IFAD)</div>
           <p class="ed-timeline-desc">
-            Designed and executed econometric impact evaluations for rural development projects, analyzing household microdata to measure agricultural productivity and income gains.
+            Harmonized IFAD11/IFAD12 impact-assessment data across more than ten countries and automated the data pipelines.
           </p>
         </div>
 
         <!-- Role 4 -->
         <div class="ed-timeline-item">
           <div class="ed-row-meta" style="margin-bottom:0.3rem;">
-            <span class="ed-badge badge-wp" style="background:#eaf2f8; color:#2471a3; border-color:#a9cce3;">IFPRI</span>
+            <span class="ed-badge badge-wp">IFPRI</span>
             <span class="ed-row-sub">2018 – 2019</span>
           </div>
           <h3 class="ed-timeline-role">Research Intern</h3>
@@ -1001,7 +1541,7 @@ author_profile: false
       </div>
 
       <p class="ed-hero-bio" style="max-width:900px;">
-        Before starting my doctoral studies, I worked for three years as a Project &amp; Training Officer on an agricultural development project in <strong>Kilosa District, Tanzania (2015–2017)</strong>. Working closely with smallholder farmers, I conducted field-based assessments and implemented climate-resilient agricultural practices—an operational foundation that deeply informs my empirical research today. Below is a visual gallery of my fieldwork and analytical research pipelines.
+        Before starting my doctoral studies, I worked on an agricultural development project in <strong>Kilosa District, Tanzania (2015–2017)</strong>. Working closely with smallholder farmers, I conducted field-based assessments and implemented climate-resilient agricultural practices—an operational foundation that deeply informs my empirical research today.
       </p>
 
       <div class="ed-gallery-grid">
@@ -1016,89 +1556,30 @@ author_profile: false
           </div>
         </div>
 
-        <!-- Gallery Card 2 -->
-        <div class="ed-gallery-card">
-          <div class="ed-gallery-img-wrap">
-            <img src="{{ base_path }}/images/media_project.png" alt="NLP News Analytics Pipeline">
-          </div>
-          <div class="ed-gallery-caption">
-            <h4>AI Media Analytics Pipeline</h4>
-            <p>Geoparsing and transformer-based topic modeling (BERTopic) extracting real-time food security risk signals from 18,000+ global news articles.</p>
-          </div>
-        </div>
-
-        <!-- Gallery Card 3 -->
-        <div class="ed-gallery-card">
-          <div class="ed-gallery-img-wrap">
-            <img src="{{ base_path }}/images/hdds_fcs_selected.png" alt="Threshold Optimization Across 26 Countries">
-          </div>
-          <div class="ed-gallery-caption">
-            <h4>Food Security Threshold Optimization</h4>
-            <p>Pairwise concordance and Cohen's Kappa agreement evaluation across 780,000+ households spanning 26 country datasets.</p>
-          </div>
-        </div>
-
-        <!-- Gallery Card 4 -->
-        <div class="ed-gallery-card">
-          <div class="ed-gallery-img-wrap">
-            <img src="{{ base_path }}/images/inconsistent_ipc.png" alt="IPC Internal Consistency Analysis">
-          </div>
-          <div class="ed-gallery-caption">
-            <h4>Global Crisis Assessment Inconsistency</h4>
-            <p>Evaluating internal consistency between Acute Food Insecurity (AFI) and Acute Malnutrition (AMN) analytical classifications.</p>
-          </div>
-        </div>
-
-        <!-- Gallery Card 5 -->
-        <div class="ed-gallery-card">
-          <div class="ed-gallery-img-wrap">
-            <img src="{{ base_path }}/images/aepp_ml (1).png" alt="Machine Learning Usability Framework">
-          </div>
-          <div class="ed-gallery-caption">
-            <h4>ML Transparency &amp; Usability</h4>
-            <p>Framework for ethical and interpretable machine learning deployment in humanitarian early warning systems.</p>
-          </div>
-        </div>
-
-        <!-- Gallery Card 6 -->
-        <div class="ed-gallery-card">
-          <div class="ed-gallery-img-wrap">
-            <img src="{{ base_path }}/images/zambia_stunting_urban.png" alt="Zambia Milk Price and Child Stunting">
-          </div>
-          <div class="ed-gallery-caption">
-            <h4>Early-Year Dairy Prices &amp; Nutrition</h4>
-            <p>Empirical evaluation of local market dairy price shocks during infant development windows on urban and rural child stunting in Zambia.</p>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- ════════════════  06 / TEACHING & METHODS  ════════════════ -->
-  <section id="teaching" class="ed-section">
+  <!-- ════════════════  06 / METHODS & TOOLS  ════════════════ -->
+  <section id="methods" class="ed-section">
     <div class="editorial-container">
       <div class="ed-section-head">
         <span class="ed-section-num">06 /</span>
-        <h2 class="ed-section-title">Teaching &amp; Technical Methods</h2>
+        <h2 class="ed-section-title">Methods &amp; Tools</h2>
       </div>
 
       <div class="ed-grid-4" style="margin-bottom:3rem;">
         <div class="ed-card">
-          <h3>University of Illinois (UIUC)</h3>
-          <p><strong>Teaching Assistant</strong> · ACE 251: The World Food Economy (Fall 2024)<br>
-          <strong>Teaching Assistant</strong> · ACE 435: Global Agribusiness Management (Fall 2022, 2023)</p>
-        </div>
-        <div class="ed-card">
-          <h3>Programming &amp; GIS</h3>
-          <p>Python · R · Stata · SQL · QGIS · Tableau · Git · GitHub · LaTeX · Web Scraping &amp; API Data Pipelines</p>
-        </div>
-        <div class="ed-card">
-          <h3>Applied Microeconometrics</h3>
-          <p>Difference-in-Differences (DiD) · Event Study Designs · Regression Discontinuity (RD) · Instrumental Variables (IV) · Matching</p>
+          <h3>Econometrics</h3>
+          <p>Staggered difference-in-differences · Event studies · Panel fixed effects · Spatial econometrics · IV · RD · Matching · Bootstrap and Monte Carlo robustness</p>
         </div>
         <div class="ed-card card-health">
-          <h3>Machine Learning &amp; NLP</h3>
-          <p>Random Forests · Gradient Boosting · LASSO · Transformer Models · Topic Modeling (BERTopic) · Sentiment Analysis</p>
+          <h3>AI in Research</h3>
+          <p>Language models for extraction and classification, with human review · Validation against official records · Failure-mode review of models before use (LACI) · Machine learning for prediction (random forests, gradient boosting, LASSO)</p>
+        </div>
+        <div class="ed-card">
+          <h3>Data &amp; Tools</h3>
+          <p>Household surveys (LSMS-ISA, DHS) · Humanitarian funding records (OCHA FTS, CBPF, CERF) · IPC analyses · Stata · R · Python · SQL · Google Cloud · Earth Engine · QGIS</p>
         </div>
       </div>
     </div>
@@ -1122,8 +1603,8 @@ author_profile: false
           <h3 class="ed-timeline-role">Agricultural Assessments, Microfinance &amp; Community Outreach</h3>
           <div class="ed-timeline-org">Tanzania · Viet Nam · Republic of Korea · United States</div>
           <ul class="ed-task-list">
-            <li><strong>Canaan Farmer School (Tanzania &amp; Korea, 2015–2017):</strong> Served as Project and Training Officer conducting agricultural assessments, microfinance initiatives, cooperative development, and climate-resilient capacity building with smallholder farmer communities.</li>
-            <li><strong>IFPRI &amp; Tufts INDDEX Project (Viet Nam, 2018–2019):</strong> Conducted field-level diagnostics and data expansion on integrated farming systems and household dietary diversity.</li>
+            <li><strong>Canaan Farmer School (Tanzania &amp; Korea, 2015–2017):</strong> Intern (2015), then Project and Training Officer (2016–2017), conducting agricultural assessments, microfinance initiatives, cooperative development, and climate-resilient capacity building with smallholder farmer communities.</li>
+            <li><strong>IFPRI &amp; Tufts INDDEX Project (Viet Nam, 2018–2019):</strong> Analyzed Viet Nam's household living standards survey on farming systems and dietary diversity; co-authored a diagnostic report and a <em>Food Security</em> article.</li>
             <li><strong>Humanitarian &amp; Community Outreach (Champaign, IL, 2020–2025):</strong> Led emergency relief fundraising for UNHCR and organized community food assistance programs.</li>
           </ul>
         </div>
@@ -1138,20 +1619,20 @@ author_profile: false
           <div class="ed-timeline-org">Global Conferences &amp; Academic Institutions</div>
           <ul class="ed-task-list">
             <li><strong>Invited Talks &amp; Presentations:</strong> Cornell University CIDER Thought Summit on Data Science for Humanitarian Response (2026); Johns Hopkins Food Assistance Strategic Dialogue (2026); UNU-WIDER Development Conference (2025); Stanford University FSE Seminar (2025); AAEA Annual Meetings (2022, 2025); EAAE Congress (2023, 2025).</li>
-            <li><strong>Honors &amp; Awards:</strong> Top 5 Finalist across JHU schools at AI + Health Care Idea Tank Pitch Competition (2026); ACE Doctoral Fellowship, University of Illinois (2025); Full Travel Grant, UNU-WIDER (2025); Banaba House Scholarship (2022–2024); Cum Laude Graduate, Handong Global University (2015).</li>
+            <li><strong>Honors &amp; Awards:</strong> AAEA Quality of Research Discovery Award (2025, for the <em>Nature Food</em> paper); Top 5 Finalist across JHU schools at AI + Health Care Idea Tank Pitch Competition (2026); ACE Doctoral Fellowship, University of Illinois (2025); Full Travel Grant, UNU-WIDER (2025); Banaba House Scholarship (2022–2024); Cum Laude Graduate, Handong Global University (2015).</li>
           </ul>
         </div>
 
         <!-- Item 3 -->
         <div class="ed-timeline-item">
           <div class="ed-row-meta" style="margin-bottom:0.3rem;">
-            <span class="ed-badge badge-wp" style="background:#fef9e7; color:#b7950b; border-color:#f9e79f;">Service</span>
+            <span class="ed-badge badge-wp">Service</span>
             <span class="ed-row-sub">Academic &amp; Institutional Service</span>
           </div>
           <h3 class="ed-timeline-role">Referee Service &amp; Working Groups</h3>
           <div class="ed-timeline-org">Peer Review &amp; Professional Leadership</div>
           <ul class="ed-task-list">
-            <li><strong>Referee Service:</strong> Active peer reviewer for <em>Nature Food</em> and <em>BMC Global Health</em>.</li>
+            <li><strong>Referee Experience:</strong> Manuscript referee for <em>Nature Food</em> and <em>BMC Global Health</em>.</li>
             <li><strong>Working Group Membership:</strong> Member of the IPC Advanced Technologies and Artificial Intelligence (ATARI) Working Group, global initiative enhancing food security early warning via AI tools.</li>
             <li><strong>Leadership &amp; Affiliations:</strong> Vice President, ACE Graduate Student Organization, University of Illinois (2020–2021); Member of AAEA and EAAE.</li>
           </ul>
